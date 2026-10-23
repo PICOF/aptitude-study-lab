@@ -1,0 +1,13 @@
+{
+  "name": "aptitude-study-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/validate.mjs",
+    "dev": "node scripts/serve.mjs"
+  },
+  "devDependencies": { "markdown-it": "14.1.0" },
+  "engines": { "node": ">=20" }
+}

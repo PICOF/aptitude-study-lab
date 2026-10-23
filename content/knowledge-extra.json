@@ -1,0 +1,1313 @@
+{
+  "cards": [
+    {
+      "id": "kx-001",
+      "category": "物理常识",
+      "front": "声音能在真空中传播吗？光呢？",
+      "back": "声音是机械波，传播需要介质；空气、液体、固体都可传声。理想真空中没有传递声振动的介质。光是电磁波，可以在真空中传播。",
+      "mnemonic": "声音要借介质，光可穿真空。",
+      "trap": "“听不到”不等于没有振动；频率超出人耳范围也可能听不到。宇航员靠无线电通信，不是声音直接穿过太空。",
+      "example": "太空画面中的爆炸声可能是后期音效。／隔着玻璃仍看得见物体，不能据此推断玻璃也让所有声波同样通过。",
+      "sourceIds": [
+        "kx-src-sound",
+        "kx-src-refraction"
+      ]
+    },
+    {
+      "id": "kx-002",
+      "category": "物理常识",
+      "front": "音调、响度与音色，分别在问什么？",
+      "back": "音调主要与频率有关，频率越高通常听起来越尖。响度是听觉对强弱的感受，与到耳处声强及听觉对频率的敏感度等有关。同等条件下振幅越大声强越大。音色与声音包含的频率成分及其相对强度等有关，可帮助区分声源。",
+      "mnemonic": "调看高低，响看强弱，色辨特色。",
+      "trap": "“女声比男声响”不能只凭音调高推断；声速也不是音调越高就一定越快。",
+      "example": "同一音符轻弹和重弹，主要改变强弱。／笛子和小号演奏相同音高，仍可由音色辨认。",
+      "sourceIds": [
+        "kx-src-pitch",
+        "kx-src-intensity",
+        "kx-src-hearing"
+      ]
+    },
+    {
+      "id": "kx-003",
+      "category": "物理常识",
+      "front": "反射角等于入射角，角度从哪里量？",
+      "back": "入射角、反射角都从法线量起；法线是在入射点垂直于反射面的线。镜面反射与漫反射都遵守反射定律，漫反射是微小表面朝向不同，使反射光分散到不同方向。",
+      "mnemonic": "量角找法线，粗糙仍守法。",
+      "trap": "从镜面本身量出的夹角不是入射角；漫反射并不意味着反射无规律或不守定律。",
+      "example": "光线与镜面夹角30°，入射角是60°。／从不同角度都能看见纸张，主要因为纸面漫反射。",
+      "sourceIds": [
+        "kx-src-reflection"
+      ]
+    },
+    {
+      "id": "kx-004",
+      "category": "物理常识",
+      "front": "水中筷子看似折断，主要是反射还是折射？",
+      "back": "这是折射现象：光跨越不同介质时传播速度发生改变，斜入射时通常改变方向。观察者沿入眼光线反向判断位置，因此水中部分出现视位置偏移。反射是光返回原介质。",
+      "mnemonic": "返回叫反射，过界看折射。",
+      "trap": "折射不等于方向必然改变：垂直入射时方向可不变。水中物体看起来变浅是特定观察条件下的视深度现象。",
+      "example": "平静水面映出岸边树影，主要涉及反射。／斜看水中硬币觉得位置偏了，主要涉及折射。",
+      "sourceIds": [
+        "kx-src-reflection",
+        "kx-src-refraction"
+      ]
+    },
+    {
+      "id": "kx-005",
+      "category": "物理常识",
+      "front": "近视和远视的透镜矫正，怎样从光路理解？",
+      "back": "在基本光学模型中，近视眼看远处物体时成像倾向落在视网膜前，可用发散透镜（通常为凹透镜）矫正；远视眼会聚不足，像倾向落在视网膜后，可用会聚透镜（通常为凸透镜）矫正。",
+      "mnemonic": "近视前聚用发散；远视后聚用会聚。",
+      "trap": "不能把近视理解为近处成像在后；老视主要涉及调节能力下降，不能与远视概念完全画等号。",
+      "example": "判断“近视用凸透镜”，可从需要削弱过强会聚来排错。／判断远视矫正，可从需要增强会聚来理解。",
+      "sourceIds": [
+        "kx-src-vision",
+        "kx-src-accommodation"
+      ]
+    },
+    {
+      "id": "kx-006",
+      "category": "物理常识",
+      "front": "惯性大，是因为速度快还是质量大？",
+      "back": "在经典力学中，惯性是物体保持原有运动状态的性质，质量是惯性大小的量度。静止和运动的物体都有惯性。合外力改变速度；没有合外力时，物体保持静止或匀速直线运动。",
+      "mnemonic": "惯性看质量，变速看合力。",
+      "trap": "惯性不是推动物体的“惯性力”；同一辆车开快后动能增大，不等于其质量不变时惯性变大。",
+      "example": "空车与满载车比较，满载车质量更大、惯性更大。／刹车时乘客前倾，体现身体保持原运动状态的趋势。",
+      "sourceIds": [
+        "kx-src-inertia"
+      ]
+    },
+    {
+      "id": "kx-007",
+      "category": "物理常识",
+      "front": "作用力与反作用力，会彼此抵消吗？",
+      "back": "一对相互作用力大小相等、方向相反，分别作用在两个物体上，因此不能作为同一个物体受力的两项相互抵消。平衡力则作用在同一个研究对象上，其合力为零。",
+      "mnemonic": "相互作用分两物，平衡力归一物。",
+      "trap": "书静放水平桌面、仅受重力和支持力时，这两个力是一对平衡力；支持力的反作用力是书对桌面的压力。",
+      "example": "人推墙，墙也推人，两个力作用对象不同。／静放桌上的书受重力和支持力，可以处于平衡。",
+      "sourceIds": [
+        "kx-src-thirdlaw"
+      ]
+    },
+    {
+      "id": "kx-008",
+      "category": "物理常识",
+      "front": "浮力等于物体重力，还是排开液体重力？",
+      "back": "阿基米德原理：通常静止流体条件下，浮力等于物体排开的流体重力，即F浮=ρ流体gV排。仅受重力和浮力的物体自由静止漂浮或悬浮时，浮力与自身重力平衡。忽略阻力等其他力，浮力小于重力时，物体有向下加速的趋势。",
+      "mnemonic": "先记排液重，再按受力判断平衡。",
+      "trap": "V排不是一律等于物体总体积。向下运动不等于向下加速。物体与容器底部密合、下表面没有液体时，不能不加条件套通常浮力模型。",
+      "example": "同一物体完全浸没后缓慢下移，排液体积、流体密度不变时，静水浮力通常不变。／空心船靠增大排水体积而获得足够浮力。",
+      "sourceIds": [
+        "kx-src-buoyancy"
+      ]
+    },
+    {
+      "id": "kx-009",
+      "category": "物理常识",
+      "front": "传导、对流、辐射怎样用生活现象区分？",
+      "back": "传导主要通过物质内部相互作用传热，不需要宏观整体搬运；对流依靠液体或气体的宏观流动；辐射依靠电磁波传递能量，可跨越真空。实际过程往往同时存在几种方式。",
+      "mnemonic": "接触传导，流动对流，隔空辐射。",
+      "trap": "“不用接触”不代表一定只有辐射，热空气流动也是对流；保温杯减少传热，并不制造热量。",
+      "example": "金属勺柄逐渐变热主要体现传导。／太阳能把能量传到地球，说明辐射无需空气介质。",
+      "sourceIds": [
+        "kx-src-heat"
+      ]
+    },
+    {
+      "id": "kx-010",
+      "category": "物理常识",
+      "front": "冰融化、汗蒸发、露形成，分别吸热还是放热？",
+      "back": "熔化和汽化需要吸热；凝固和液化向外放热。蒸发是汽化的一种形式，可在液体表面发生，不必等到沸点。纯物质在一定压强下发生某些相变时，即使吸热温度也可保持不变。",
+      "mnemonic": "固变液、液变气吸热；反过来放热。",
+      "trap": "吸热不一定升温；“水蒸气看得见”也常误指细小液滴形成的白雾，真正水蒸气是气体。",
+      "example": "汗液蒸发带走热量。／水蒸气凝结成露珠时释放热量。",
+      "sourceIds": [
+        "kx-src-phase"
+      ]
+    },
+    {
+      "id": "kx-011",
+      "category": "物理常识",
+      "front": "千瓦与千瓦时，哪个表示“用了多少电”？",
+      "back": "瓦、千瓦是功率单位，描述能量转化快慢；千瓦时是能量单位，俗称一度电。恒定功率时E=Pt，1kWh=3.6×10⁶J。电功率在适用电路条件下可用P=UI计算。",
+      "mnemonic": "千瓦是快慢，千瓦时是总量。",
+      "trap": "不能仅凭功率大小判断总耗电，还要看运行时间和实际功率；铭牌额定功率也不等于任何时刻的功率。",
+      "example": "1kW设备按该功率运行2小时，耗电2kWh。／100W设备运行10小时，耗电1kWh。",
+      "sourceIds": [
+        "kx-src-power"
+      ]
+    },
+    {
+      "id": "kx-012",
+      "category": "物理常识",
+      "front": "串联、并联，哪一个电流相同，哪一个电压相同？",
+      "back": "理想稳态电路中，同一串联支路各元件通过的电流相同，串联电阻相加；并联各支路两端电压相同，总电流为各支路电流之和。并联等效电阻小于各个正电阻中的最小值。",
+      "mnemonic": "串联同流，并联同压。",
+      "trap": "并联支路电流并不一定相同；串联各电阻分到的电压也不一定相同。不能把电路图的位置相邻当成串联。",
+      "example": "两个不同电阻串联，电流相同而分压不同。／两个不同电阻并联，电压相同而支路电流不同。",
+      "sourceIds": [
+        "kx-src-circuits"
+      ]
+    },
+    {
+      "id": "kx-013",
+      "category": "化学生活",
+      "front": "物理变化与化学变化，最可靠的分界是什么？",
+      "back": "看是否生成化学身份不同的新物质。状态、形状发生改变而物质化学身份不变，通常是物理变化；铁生锈、燃烧等生成新物质，是化学变化。不能只凭是否发光、放热、变色或可逆判断。",
+      "mnemonic": "先问有无新物质，再看表面现象。",
+      "trap": "冰融化吸热，仍是物理变化；加热发红并不自动证明发生化学变化。",
+      "example": "蜡熔成液体是物理变化。／蜡燃烧形成新的物质，是化学变化。",
+      "sourceIds": [
+        "kx-src-changes"
+      ]
+    },
+    {
+      "id": "kx-014",
+      "category": "化学生活",
+      "front": "透明、均匀的液体，一定是纯净物吗？",
+      "back": "不一定。纯净物有确定的化学组成，可分为单质和化合物；混合物由多种物质混合，组成可变。均一混合物也叫溶液，外观均匀并不等于只有一种物质。空气也是混合物。",
+      "mnemonic": "纯看组成，不看透不透明。",
+      "trap": "蒸馏水在理想纯净情境下是化合物；盐水透明但仍是混合物。单质不等于只有一个原子。",
+      "example": "纯氧气由氧元素组成，是单质。／空气含多种气体，属于混合物。",
+      "sourceIds": [
+        "kx-src-matter"
+      ]
+    },
+    {
+      "id": "kx-015",
+      "category": "化学生活",
+      "front": "元素种类、原子和离子，分别由什么决定？",
+      "back": "元素由原子核内质子数决定。中性原子中质子数与电子数相等；原子得失电子形成离子，通常并未改变元素种类。同位素则质子数相同而中子数不同。物质不都由独立分子构成，如氯化钠晶体由离子组成。",
+      "mnemonic": "质子定元素，电子变电荷，中子辨同位素。",
+      "trap": "钠原子失去一个电子仍是钠元素，不会变成质子数少一的另一元素；不能说食盐晶体里全是独立NaCl分子。",
+      "example": "Na变成Na⁺是失去电子。／碳-12与碳-14同属碳元素。",
+      "sourceIds": [
+        "kx-src-atoms",
+        "kx-src-ions"
+      ]
+    },
+    {
+      "id": "kx-016",
+      "category": "化学生活",
+      "front": "pH小于7一定显酸性吗？要保留哪个条件？",
+      "back": "常见基础题在约25℃的水溶液中，pH<7为酸性，pH=7为中性，pH>7为碱性。更本质的判据是氢离子（水合氢离子）与氢氧根离子的相对浓度；中性pH会随温度改变。pH采用对数标度。",
+      "mnemonic": "25℃先看七，跨温度先看离子相等。",
+      "trap": "不能把“任何温度中性必为pH7”当定律；pH差1不是酸性简单多一成。",
+      "example": "在近似适用的稀水溶液中，pH从3降到2，氢离子浓度约变为10倍。／25℃的纯水理想情况下呈中性。",
+      "sourceIds": [
+        "kx-src-ph"
+      ]
+    },
+    {
+      "id": "kx-017",
+      "category": "化学生活",
+      "front": "酸与碱发生中和，最后的溶液一定中性吗？",
+      "back": "不一定。反应是否发生，与反应后是否中性是两件事。酸或碱可能过量；即使按化学计量恰好反应，生成的盐也可能发生水解，使溶液呈酸性或碱性。强酸强碱恰好反应才是常见的中性特例。",
+      "mnemonic": "中和是反应，中性是结果性质。",
+      "trap": "不要用“中和”中的“中”推出pH必等于7；等体积也不等于酸碱物质的量刚好相等。",
+      "example": "盐酸与氢氧化钠恰好反应，25℃时可得到中性溶液。／醋酸与氢氧化钠恰好反应，醋酸钠溶液可显碱性。",
+      "sourceIds": [
+        "kx-src-neutral",
+        "kx-src-redox"
+      ]
+    },
+    {
+      "id": "kx-018",
+      "category": "化学生活",
+      "front": "氧化一定要有氧气参加吗？",
+      "back": "不一定。在现代氧化还原概念中，氧化对应失去电子、氧化数升高；还原对应得到电子、氧化数降低，两者相伴。氧气是常见氧化剂，但“氧化”不只限于物质与氧气反应。",
+      "mnemonic": "失电子被氧化，得电子被还原。",
+      "trap": "氧化剂使别人被氧化，自己被还原；名称中含“氧化”不能据此认定氧化剂自身失电子。",
+      "example": "钠与氯气反应时，钠失电子被氧化，过程中不必有氧气。／铁生锈也是氧化还原过程，但速度不像燃烧那样快。",
+      "sourceIds": [
+        "kx-src-redox",
+        "kx-src-atoms"
+      ]
+    },
+    {
+      "id": "kx-019",
+      "category": "化学生活",
+      "front": "铁生锈只需要氧气吗？防锈的思路是什么？",
+      "back": "日常条件下铁锈形成与氧气、水共同作用有关。涂层可隔绝铁与水、氧接触；镀锌除起覆盖作用，还可利用锌更易被氧化提供保护。不锈钢靠合金成分形成保护性表层，但“不锈”不是任何环境永不腐蚀。",
+      "mnemonic": "锈要水氧，防锈看隔绝或保护层。",
+      "trap": "铁锈不是严密保护膜，不能以为一旦生锈就会自动阻止继续腐蚀；不同金属的氧化层保护性不同。",
+      "example": "保持普通铁器干燥有助于减缓生锈。／油漆破损处暴露于潮湿空气，仍可能开始锈蚀。",
+      "sourceIds": [
+        "kx-src-rust"
+      ]
+    },
+    {
+      "id": "kx-020",
+      "category": "化学生活",
+      "front": "灭火为何能从降温、隔绝氧气或移除燃料入手？",
+      "back": "常见可燃物燃烧需要燃料、助燃条件（通常是空气中的氧气）和足够热量，常用“燃烧三角”帮助理解。破坏其中一个条件可阻止持续燃烧。氧气在这类燃烧中通常助燃，而不是被当作燃料。",
+      "mnemonic": "有料、有氧、够热；去掉一角难持续。",
+      "trap": "这是解释常见燃烧的模型，不代表任何火都能用水或二氧化碳处理；特殊化学品可能自带氧化剂或与灭火介质反应。",
+      "example": "移走未燃可燃物是减少燃料条件的思路。／含碳燃料缺氧时可能不完全燃烧，不能把产物一概写成只有二氧化碳和水。",
+      "sourceIds": [
+        "kx-src-fire",
+        "kx-src-redox"
+      ]
+    },
+    {
+      "id": "kx-021",
+      "category": "生物基础",
+      "front": "原核细胞没有细胞核，是否就没有遗传物质？",
+      "back": "不是。原核细胞没有核膜包围的细胞核，但有DNA，通常集中在拟核区域，也有细胞膜、细胞质和核糖体。细菌属于原核生物；真核细胞的主要遗传物质位于细胞核内，但线粒体等也有DNA。",
+      "mnemonic": "无成形细胞核，不是无DNA。",
+      "trap": "原核不是“原始到没有细胞结构”；也不能把病毒列为原核细胞，病毒不具细胞结构。",
+      "example": "细菌可以复制遗传物质并繁殖。／酵母菌虽也是微生物，却属于真核生物，不能只按个体大小分类。",
+      "sourceIds": [
+        "kx-src-prokaryotes",
+        "kx-src-eukaryotes",
+        "kx-src-viruses",
+        "kx-src-fungi"
+      ]
+    },
+    {
+      "id": "kx-022",
+      "category": "生物基础",
+      "front": "植物细胞有细胞壁，动物细胞有什么共同基础？",
+      "back": "典型动植物细胞都有细胞膜、细胞质、细胞核等真核结构。植物细胞通常具有细胞壁和较大的液泡；进行光合作用的植物细胞具有叶绿体。动物细胞没有植物式细胞壁和叶绿体。",
+      "mnemonic": "共同有膜，植物多壁；叶绿体看细胞功能。",
+      "trap": "不要把一张叶肉细胞示意图推广成“植物每个细胞都有叶绿体”；也不要忘记成熟红细胞等特殊细胞可丢失某些结构。",
+      "example": "叶片中的绿色细胞可含叶绿体。／植物根部的许多细胞不承担光合作用，不能据此说它们不是植物细胞。",
+      "sourceIds": [
+        "kx-src-eukaryotes",
+        "kx-src-photosynthesis",
+        "kx-src-blood"
+      ]
+    },
+    {
+      "id": "kx-023",
+      "category": "生物基础",
+      "front": "植物只做光合作用，动物才呼吸吗？",
+      "back": "植物和动物都需要细胞呼吸提供可利用的能量。植物的光合作用将光能转化为有机物中的化学能；线粒体参与有氧呼吸，绿色植物细胞也具有线粒体。光合作用与呼吸不是白天、黑夜各独占的一项活动。",
+      "mnemonic": "植物也呼吸，见光可光合。",
+      "trap": "白天叶片释放氧气是净结果，并不表示呼吸停止；不要把叶绿体和线粒体的功能对调。",
+      "example": "绿色植物在有适宜光照时可同时进行光合作用和呼吸。／黑暗中光合作用受限制，但活细胞仍需要呼吸供能。",
+      "sourceIds": [
+        "kx-src-eukaryotes",
+        "kx-src-photosynthesis"
+      ]
+    },
+    {
+      "id": "kx-024",
+      "category": "生物基础",
+      "front": "病毒与细菌，最大的结构区别是什么？",
+      "back": "细菌有细胞结构；病毒没有完整细胞结构，典型病毒颗粒由遗传物质和蛋白质外壳等构成，有些还有包膜。病毒复制依赖宿主细胞。病毒的基因组可以是DNA或RNA，不能把所有病毒都说成RNA病毒。",
+      "mnemonic": "细菌是细胞，病毒依赖宿主复制。",
+      "trap": "“病毒更小”不是最稳妥的本质判据；也不能把噬菌体当作细菌，它是感染细菌的病毒。",
+      "example": "流感病毒是RNA病毒这一事实，不能推广到全部病毒。／噬菌体的宿主可为细菌。",
+      "sourceIds": [
+        "kx-src-viruses",
+        "kx-src-prokaryotes"
+      ]
+    },
+    {
+      "id": "kx-025",
+      "category": "生物基础",
+      "front": "所有细菌都使人生病吗？",
+      "back": "不是。细菌等原核生物参与物质循环、固氮、发酵等过程，人体也与许多微生物共存。部分细菌能够致病，但不能据此把全部细菌视为病原体。有益、有害还与种类、数量、部位和环境有关。",
+      "mnemonic": "细菌是大类，致病只是其中一部分。",
+      "trap": "“有益菌”不代表任何菌株、任何用法都安全；这张卡解释生态与生物学关系，不给个人用药或补充剂建议。",
+      "example": "根瘤中的共生细菌能帮助豆科植物利用氮。／食品生产可利用特定微生物完成发酵。",
+      "sourceIds": [
+        "kx-src-beneficial"
+      ]
+    },
+    {
+      "id": "kx-026",
+      "category": "生物基础",
+      "front": "成熟人红细胞的主要任务，为什么与血红蛋白有关？",
+      "back": "成熟人的红细胞主要运输氧，血红蛋白能够结合氧。成熟红细胞没有细胞核，也没有线粒体，可为血红蛋白留出更多空间。这个结论限定于成熟人及通常哺乳动物红细胞，不能推广到所有动物。",
+      "mnemonic": "红细胞运氧，血红蛋白作载体。",
+      "trap": "不能把“红细胞无核”扩大为所有血细胞无核；鸟类等的红细胞保留细胞核。血液也不只负责运氧。",
+      "example": "红细胞、白细胞结构和职责不同。／用“所有动物成熟红细胞都无核”作选项，范围过大。",
+      "sourceIds": [
+        "kx-src-erythrocytes",
+        "kx-src-blood"
+      ]
+    },
+    {
+      "id": "kx-027",
+      "category": "生物基础",
+      "front": "白细胞与血小板：谁偏防御，谁参与止血？",
+      "back": "白细胞参与免疫防御，包括不同功能类型。血小板参与止血与凝血，在人体中是由巨核细胞形成的细胞碎片。凝血还需要血浆中的多种因子协同，不能归因于血小板单独完成。",
+      "mnemonic": "白管防御，板助止血。",
+      "trap": "不要把白细胞主要功能写成运输氧；也不要根据单个检查指标直接自行诊断疾病。",
+      "example": "教材问对感染的防御功能，通常对应白细胞。／问损伤处形成止血塞，血小板是关键参与者。",
+      "sourceIds": [
+        "kx-src-blood"
+      ]
+    },
+    {
+      "id": "kx-028",
+      "category": "生物基础",
+      "front": "动脉血一定在动脉里，静脉一定缺氧吗？",
+      "back": "动脉、静脉按血流相对心脏的方向命名：动脉把血送离心脏，静脉把血送回心脏。正常成人肺循环中，肺动脉输送含氧较少的血去肺，肺静脉输送含氧较多的血回心脏。",
+      "mnemonic": "动离心，静回心；含氧另判断。",
+      "trap": "不能把“动脉”与“含氧多”当作定义对应，也不能仅凭解剖图的红蓝色给血管命名。",
+      "example": "肺动脉虽然叫动脉，却输送通常所称的静脉血。／肺静脉回心，却输送通常所称的动脉血。",
+      "sourceIds": [
+        "kx-src-vessels"
+      ]
+    },
+    {
+      "id": "kx-029",
+      "category": "生物基础",
+      "front": "DNA、基因、染色体，是同一种东西吗？",
+      "back": "在细胞生物中，DNA是主要遗传物质；基因是具有遗传功能的DNA片段，许多基因携带形成蛋白质或功能RNA的信息。真核细胞的染色体主要由DNA和蛋白质组成，一个染色体上可有许多基因。",
+      "mnemonic": "DNA是材料，基因是功能片段，染色体是组织形式。",
+      "trap": "基因不等于一整条染色体；并非所有基因都编码蛋白质。部分病毒以RNA为遗传物质，要保留细胞生物的限定。",
+      "example": "一条染色体可携带多个遗传功能片段。／“所有生物相关遗传系统都只用DNA”忽略RNA病毒。",
+      "sourceIds": [
+        "kx-src-dna",
+        "kx-src-viruses"
+      ]
+    },
+    {
+      "id": "kx-030",
+      "category": "生物基础",
+      "front": "食物链越往上，能量为什么通常越少？",
+      "back": "生物获得的能量只有一部分进入下一营养级，其余用于生命活动、以热等形式散失，或留在未被捕食的部分。生态系统能量单向流动并逐级递减；物质可在生态系统中循环，但能量不能照原样无限循环使用。",
+      "mnemonic": "物质可循环，能量逐级散失。",
+      "trap": "“十分之一”是常见近似或教学模型，不是每个生态系统严格相同的常数；食物链箭头通常表示食物和能量流向。",
+      "example": "草→兔→鹰，箭头从被吃者指向取食者。／高营养级获得的总能量通常少于下一级。",
+      "sourceIds": [
+        "kx-src-foodchain"
+      ]
+    },
+    {
+      "id": "kx-031",
+      "category": "自然地理",
+      "front": "今天很冷，能否据此否定长期气候变化？",
+      "back": "不能。天气描述较短时间、具体地点的大气状态；气候描述较长时段的平均情况、变率与极端特征。某一次冷暖天气与长期统计趋势属于不同尺度，不能直接互相替代。",
+      "mnemonic": "天气看这几天，气候看多年统计。",
+      "trap": "气候不是只有平均温度；降水、季节分布和极端事件等也属于研究内容。单点单日不能代表全球长期趋势。",
+      "example": "“明天下午有雨”是天气预报。／“某地多年夏季高温多雨”是气候特征描述。",
+      "sourceIds": [
+        "kx-src-weather"
+      ]
+    },
+    {
+      "id": "kx-032",
+      "category": "自然地理",
+      "front": "季风就是每年夏天的一场大雨吗？",
+      "back": "不是。季风的核心是一个地区盛行风向随季节显著改变，常伴随干湿季节转换。某些地区夏季风带来丰沛降水，但季风不是一场雨，也不能说冬季风在所有地区都必然干燥。",
+      "mnemonic": "季风先认风向换季，再看水汽来源。",
+      "trap": "“冬季风一律干燥”忽略经过海面后向迎风地区输送水汽的情形；单次暴雨不等于季风形成。",
+      "example": "夏季海洋来风可能给陆地带来水汽。／季风的干湿效果还要看路径、地形与所处地区。",
+      "sourceIds": [
+        "kx-src-monsoon"
+      ]
+    },
+    {
+      "id": "kx-033",
+      "category": "自然地理",
+      "front": "洋流为什么会影响沿岸气候？表层与深层动力一样吗？",
+      "back": "洋流能输送热量，改变海域和邻近地区的热量条件。大洋表层洋流主要受风驱动，同时受地转偏向和海陆形态等影响；深层环流与温度、盐度造成的密度差有关。洋流不是只有海面上的运动。",
+      "mnemonic": "表层看风，深层看温盐密度。",
+      "trap": "不能说所有洋流都由同一个原因产生；也不能只凭“从南往北”判断任何洋流都暖，还需结合海区和相对水温。",
+      "example": "暖水向高纬输送可影响区域热量分配。／海水冷却、盐度增加可提高密度，促使其下沉。",
+      "sourceIds": [
+        "kx-src-currents"
+      ]
+    },
+    {
+      "id": "kx-034",
+      "category": "自然地理",
+      "front": "流域是河道本身，还是向某处汇水的区域？",
+      "back": "流域是向特定河流、水体或出口汇集水的陆地区域；不仅包括河道，还包括向它供水的坡面、支流等。大流域中可包含许多小流域。降水并非全部变成地表径流，还可下渗或蒸发。",
+      "mnemonic": "河道是一条线，流域是一片汇水区。",
+      "trap": "不能把流域面积与河流长度比较大小；也不能说流域内落下的每滴雨都直接进入河道。",
+      "example": "山坡上的污染物可能随径流进入下游河流。／管理一条河，往往需要考虑整个汇水区域的土地利用。",
+      "sourceIds": [
+        "kx-src-watershed"
+      ]
+    },
+    {
+      "id": "kx-035",
+      "category": "自然地理",
+      "front": "河流为什么有的地方侵蚀，有的地方淤积？",
+      "back": "河流在重力作用下流动，并搬运泥沙等物质；流速、流量、颗粒大小和河床条件影响侵蚀与沉积。搬运能力减弱时，部分沉积物容易落下。河口三角洲可由泥沙沉积形成，但并非每条河都有明显三角洲。",
+      "mnemonic": "能搬就运，搬不动会沉。",
+      "trap": "不能把上游一概说成只有侵蚀、下游只有沉积；水动力和地形条件变化可让同一河段同时存在不同过程。",
+      "example": "河流进入较宽水域后流速减缓，可能发生沉积。／是否形成三角洲还取决于来沙与海浪、潮流搬运等作用。",
+      "sourceIds": [
+        "kx-src-river"
+      ]
+    },
+    {
+      "id": "kx-036",
+      "category": "自然地理",
+      "front": "地震只发生在板块边界吗？",
+      "back": "许多地震发生在板块边界附近，与断层上的应力积累和突然滑动有关；但板块内部也会发生地震。板块边界可以汇聚、张裂或相互错动，不是所有边界都表现为一种运动。",
+      "mnemonic": "边界多发，板内也有。",
+      "trap": "“多发生”不能偷换成“只发生”。断层存在也不等于能由此精确预测下一次地震的时间。",
+      "example": "两侧岩体突然相对错动可释放地震能量。／远离板块边界的地区并非地震风险必为零。",
+      "sourceIds": [
+        "kx-src-plates",
+        "kx-src-focus"
+      ]
+    },
+    {
+      "id": "kx-037",
+      "category": "自然地理",
+      "front": "震源与震中，到底哪个在地下、哪个在地表？",
+      "back": "震源（震源起始点）是地下断层破裂开始、地震能量释放起始的位置；震中是它在地表的垂直投影位置。震源深度是震源到地表的深度。实际大地震破裂可沿较大断层扩展，不能把全部过程缩成数学上的一个点。",
+      "mnemonic": "地下起始是震源，地表投影是震中。",
+      "trap": "震中不等于每一次地震必定损害最重的地方；场地、距离、破裂方向和建筑条件也影响灾损。",
+      "example": "新闻中的震中经纬度定位地表。／同样震级，震源深度不同，地表影响可能不同。",
+      "sourceIds": [
+        "kx-src-focus",
+        "kx-src-damage"
+      ]
+    },
+    {
+      "id": "kx-038",
+      "category": "自然地理",
+      "front": "一次地震为什么不同地方“震感不同”？震级与烈度怎么分？",
+      "back": "震级衡量地震本身的大小，与释放能量等有关；烈度描述某地点的震动影响和破坏程度。同一次地震可有不同地区的烈度。震级还存在不同标度和测算修订，因此报道数字应看标度与发布版本。",
+      "mnemonic": "震级问地震多大，烈度问这里多强。",
+      "trap": "震级没有“最高只能九级”的规定；也不能把烈度随距离通常减弱理解为每个地点都严格按距离排列。",
+      "example": "同一次地震，软弱地基和不同建筑条件可造成不同影响。／初报震级被修订，不等于地震已经发生后又自行变大。",
+      "sourceIds": [
+        "kx-src-magnitude",
+        "kx-src-magnitude-scale",
+        "kx-src-damage"
+      ]
+    },
+    {
+      "id": "kx-039",
+      "category": "古代史文化",
+      "front": "秦汉到隋唐之间有哪些时代？唐宋之间还要补什么？",
+      "back": "理解性骨架可记秦汉—魏晋南北朝—隋唐—宋元明清，唐宋之间还应补入五代十国。它是帮助定位的大框架，不能把所有政权理解为全国范围内单线前后相继；三国、南北朝本身就有并立政权。",
+      "mnemonic": "秦汉之后别漏魏晋南北朝；唐宋之间别漏五代。",
+      "trap": "简化朝代歌适合定位，不是完整政权年表。人物称号或姓氏也不能替代时代证据。",
+      "example": "祖冲之在南朝，应放在隋唐之前。／北宋沈括应放在唐之后、明之前。",
+      "sourceIds": [
+        "kx-src-timeline",
+        "kx-src-threekingdoms",
+        "kx-src-northsouth",
+        "kx-src-fivedynasties",
+        "kx-src-zu",
+        "kx-src-mengxi"
+      ]
+    },
+    {
+      "id": "kx-040",
+      "category": "古代史文化",
+      "front": "秦始皇统一六国是哪一年？“秦王”和“皇帝”何时区分？",
+      "back": "秦王嬴政于公元前221年完成统一六国，建立统一的秦帝国，自称始皇帝。此前他已是秦王，不能把即秦王位与完成统一、称皇帝当作同一年。秦推行统一文字、度量衡等措施。",
+      "mnemonic": "前221统一称帝；更早先做秦王。",
+      "trap": "公元前的年份数字越小通常越接近公元元年；秦始皇不是汉代人物；即秦王位、统一称帝是两个时间节点。",
+      "example": "把“秦始皇于前221年统一六国”配对是正确的。／把汉武帝写成统一六国者，则人物与时代均错。",
+      "sourceIds": [
+        "kx-src-qin"
+      ]
+    },
+    {
+      "id": "kx-041",
+      "category": "古代史文化",
+      "front": "西汉与东汉的主要都城，怎样配对？",
+      "back": "西汉通常以长安为主要都城，东汉以洛阳为主要都城。二者同属汉代，但有不同政权阶段；中间存在王莽的新朝等历史过程，不是简单把都城从西搬东后所有制度原样继续。",
+      "mnemonic": "西汉长安，东汉洛阳。",
+      "trap": "“东汉”不是指都城在中国最东边；都城变化与时代名称不可按现代地图随意猜。",
+      "example": "题目把班固置于东汉而《汉书》主要记西汉，需要区分作者时代和记述时代。／长安与洛阳在不同朝代还可再次成为都城。",
+      "sourceIds": [
+        "kx-src-timeline",
+        "kx-src-hanshu"
+      ]
+    },
+    {
+      "id": "kx-042",
+      "category": "古代史文化",
+      "front": "科举的起源和废止，通常抓哪两个时期？",
+      "back": "科举制度通常以隋代创始、唐代发展为基本线索，此后长期变化，至清末1905年废止。其核心是通过分科考试选拔官员，与世袭、察举、九品中正等选官方式不同。",
+      "mnemonic": "隋起唐发展，清末1905停。",
+      "trap": "不能把汉代察举直接等同成熟科举；也不能因为都考试就把古代科举与现代公务员考试制度完全等同。",
+      "example": "问“科举开始于哪一朝”，常见标准知识点是隋。／问“1905年废除什么制度”，对应科举。",
+      "sourceIds": [
+        "kx-src-exam"
+      ]
+    },
+    {
+      "id": "kx-043",
+      "category": "古代史文化",
+      "front": "孔子、儒家、仁与礼，怎样避免配错？",
+      "back": "孔子是春秋时期的重要思想家、教育家，与儒家传统密切相关。仁、礼、修身和德治等是理解其思想的重要线索。《论语》保存孔子及其弟子言行，不能当作孔子独自撰成的系统论文。",
+      "mnemonic": "孔子辨儒家，仁礼连修身。",
+      "trap": "儒学历经后世发展，不能把孟子、朱熹的全部观点都直接写成孔子原话；“儒家”也不等于任何古代思想。",
+      "example": "“孔子—儒家—仁与礼”是稳定的基础配对。／“孔子—墨家—兼爱非攻”则把学派与思想混接。",
+      "sourceIds": [
+        "kx-src-confucius"
+      ]
+    },
+    {
+      "id": "kx-044",
+      "category": "古代史文化",
+      "front": "老子与“无为”，是不是主张什么都不做？",
+      "back": "老子与道家传统、《道德经》（《老子》）相联系。自然、无为等是重要概念；“无为”不宜机械理解为懒惰或完全不行动，而涉及减少强作、顺应事物情势等思想。文本形成与作者身份在学术上存在讨论。",
+      "mnemonic": "老子道家，无为非懒为。",
+      "trap": "考试基本配对不等于已经解决古代文献的全部成书争议；也不要把哲学道家与后来的宗教道教完全混同。",
+      "example": "“老子—道德经—道家”可作为基础线索。／将“无为”解释为任何情况下都不采取行动，过于绝对。",
+      "sourceIds": [
+        "kx-src-laozi"
+      ]
+    },
+    {
+      "id": "kx-045",
+      "category": "古代史文化",
+      "front": "兼爱、非攻通常对应谁？“非攻”反对一切防卫吗？",
+      "back": "兼爱、非攻是墨家、墨子的重要思想线索。兼爱强调不因亲疏等而排斥对他人的关切；非攻主要反对侵略战争和无正当理由的伤害，不能简化成放弃一切防御。墨家也重视节用等。",
+      "mnemonic": "墨家兼爱非攻，别读成无防卫。",
+      "trap": "不要将兼爱简单替换为现代某一制度口号；也不要把墨子与儒家孟子因名字相近而混淆。",
+      "example": "“墨子—兼爱非攻”是恰当配对。／“墨家反对侵略，因此必然拒绝城防”推断过头。",
+      "sourceIds": [
+        "kx-src-mozi"
+      ]
+    },
+    {
+      "id": "kx-046",
+      "category": "古代史文化",
+      "front": "四书与五经，哪些书最容易混进去？",
+      "back": "通常所说四书是《大学》《中庸》《论语》《孟子》；五经是《诗经》《尚书》《礼记》《周易》《春秋》。《大学》《中庸》原是《礼记》中的篇章，后与另外两书合为四书体系。",
+      "mnemonic": "四书大学中庸论孟；五经诗书礼易春秋。",
+      "trap": "《史记》不是五经，《道德经》也不是四书。四书五经不是同一人同时写成的九部独立新作。",
+      "example": "选项把《大学》放入四书，正确。／把《孟子》替换成《庄子》，学派与书目都混淆。",
+      "sourceIds": [
+        "kx-src-four",
+        "kx-src-five"
+      ]
+    },
+    {
+      "id": "kx-047",
+      "category": "古代史文化",
+      "front": "《史记》与《汉书》：作者时代、体例和记述范围怎么分？",
+      "back": "《史记》由西汉司马迁撰，采用纪传体，记述跨越多个时代，是通史；《汉书》以东汉班固编撰为主，记述西汉及相关时期，是纪传体断代史。完成过程中还有班彪、班昭等人的贡献。",
+      "mnemonic": "司马迁史记通；班固汉书断代。",
+      "trap": "《汉书》的作者在东汉，不等于它主要讲东汉；“纪传体”与“通史／断代史”是不同分类维度。",
+      "example": "“史记—司马迁—纪传体通史”可成立。／“汉书—班固—东汉史”把作者时代与叙述对象弄反。",
+      "sourceIds": [
+        "kx-src-shiji",
+        "kx-src-hanshu"
+      ]
+    },
+    {
+      "id": "kx-048",
+      "category": "古代史文化",
+      "front": "毕昇发明的是一切印刷术，还是某种活字技术？",
+      "back": "北宋毕昇创造泥活字印刷技术：把可重复使用的单字组合成版，与整页雕刻的雕版印刷不同。雕版印刷在此前已经存在。后世还发展出木活字、金属活字等不同技术。",
+      "mnemonic": "毕昇泥活字，雕版在此前。",
+      "trap": "不能把“活字印刷的重要创造者”扩大为“首次发明所有印刷术”；也不能把他的材料写成金属。",
+      "example": "一整页文字刻在木板上，是雕版方式。／单字可拆换再排，体现活字方式。",
+      "sourceIds": [
+        "kx-src-printing"
+      ]
+    },
+    {
+      "id": "kx-049",
+      "category": "古代史文化",
+      "front": "祖冲之的圆周率成果，怎样区分范围和近似值？",
+      "back": "祖冲之是南朝数学家、天文学家。他将圆周率限定在3.1415926与3.1415927之间，并给出355/113等近似值。这些成果包括上下界和高精度有理近似，不能把不等式或近似关系直接改写为精确相等。",
+      "mnemonic": "记住夹逼区间，别把近似当等号。",
+      "trap": "355/113不是π本身。祖冲之属于南朝，不能与北宋沈括、明代宋应星混在同一时代。",
+      "example": "写3.1415926<π<3.1415927体现上下界。／写π严格等于355/113则不正确。",
+      "sourceIds": [
+        "kx-src-zu",
+        "kx-src-zupi"
+      ]
+    },
+    {
+      "id": "kx-050",
+      "category": "古代史文化",
+      "front": "《梦溪笔谈》《天工开物》《本草纲目》，作者和领域怎么配？",
+      "back": "《梦溪笔谈》：北宋沈括，涉及科学、历史、文艺等的笔记；《天工开物》：明代宋应星，记述农业和手工业生产技术；《本草纲目》：明代李时珍，本草药物学著作。",
+      "mnemonic": "沈括梦溪宋；宋应星天工明；李时珍本草明。",
+      "trap": "宋应星姓宋，所处时代却是明；古代药物学史知识不等于按古籍自行用药。",
+      "example": "题干谈农业、冶炼、纺织等生产技术，优先联系《天工开物》。／题干谈药物分类与本草著作，联系《本草纲目》。",
+      "sourceIds": [
+        "kx-src-mengxi",
+        "kx-src-tiangong",
+        "kx-src-bencao"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "kx-src-sound",
+      "title": "17.1 Sound - College Physics 2e | OpenStax",
+      "url": "https://openstax.org/books/college-physics-2e/pages/17-1-sound",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对声音由振动产生、通过物质扰动传播；中文自主概括，不复用原文例题。 已实际读取相应教材章节。"
+    },
+    {
+      "id": "kx-src-pitch",
+      "title": "17.2 Speed of Sound, Frequency, and Wavelength - College Physics 2e | OpenStax",
+      "url": "https://openstax.org/books/college-physics-2e/pages/17-2-speed-of-sound-frequency-and-wavelength",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对频率与音调、介质与声速关系；不把固体声速一律大于气体当作绝对定律。 已实际读取相应教材章节。"
+    },
+    {
+      "id": "kx-src-hearing",
+      "title": "17.6 Hearing - College Physics 2e | OpenStax",
+      "url": "https://openstax.org/books/college-physics-2e/pages/17-6-hearing",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对音色与多种频率及相对强度的关系；响度还与频率和听觉敏感度有关。 已实际读取相应教材章节。"
+    },
+    {
+      "id": "kx-src-intensity",
+      "title": "17.3 Sound Intensity and Sound Level - College Physics 2e | OpenStax",
+      "url": "https://openstax.org/books/college-physics-2e/pages/17-3-sound-intensity-and-sound-level",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对声强与振幅关系，以及响度与物理声强的区分。 已实际读取相应教材章节。"
+    },
+    {
+      "id": "kx-src-reflection",
+      "title": "25.2 The Law of Reflection - College Physics 2e | OpenStax",
+      "url": "https://openstax.org/books/college-physics-2e/pages/25-2-the-law-of-reflection",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对反射定律、法线角度及漫反射；中文概括。 已实际读取相应教材章节。"
+    },
+    {
+      "id": "kx-src-refraction",
+      "title": "25.3 The Law of Refraction - College Physics 2e | OpenStax",
+      "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对折射、介质光速与观察位置变化；中文概括。 已实际读取相应教材章节。"
+    },
+    {
+      "id": "kx-src-accommodation",
+      "title": "26.1 Physics of the Eye - College Physics 2e | OpenStax",
+      "url": "https://openstax.org/books/college-physics-2e/pages/26-1-physics-of-the-eye",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对眼的调节与老视，区分老视和远视；只概括光学机制。 已实际读取相应教材章节。"
+    },
+    {
+      "id": "kx-src-vision",
+      "title": "26.2 Vision Correction - College Physics 2e | OpenStax",
+      "url": "https://openstax.org/books/college-physics-2e/pages/26-2-vision-correction",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对近视、远视成像和透镜的光学原理，仅作物理常识，不提供个人验光或配镜建议。 已实际读取相应教材章节。"
+    },
+    {
+      "id": "kx-src-inertia",
+      "title": "4.2 Newton’s First Law of Motion: Inertia - College Physics 2e | OpenStax",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-2-newtons-first-law-of-motion-inertia",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对惯性、质量与合外力；只讨论经典力学通常情境。 已实际读取相应教材章节。"
+    },
+    {
+      "id": "kx-src-thirdlaw",
+      "title": "4.4 Newton’s Third Law of Motion: Symmetry in Forces - College Physics 2e | OpenStax",
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-4-newtons-third-law-of-motion-symmetry-in-forces",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对相互作用力大小相等、方向相反且作用于不同物体。 已实际读取相应教材章节。"
+    },
+    {
+      "id": "kx-src-buoyancy",
+      "title": "11.7 Archimedes’ Principle - College Physics 2e | OpenStax",
+      "url": "https://openstax.org/books/college-physics-2e/pages/11-7-archimedes-principle",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对阿基米德原理与排开流体重力；补充适用条件，避免把静止漂浮和上浮混为一谈。 已实际读取相应教材章节。"
+    },
+    {
+      "id": "kx-src-heat",
+      "title": "14.4 Heat Transfer Methods - College Physics 2e | OpenStax",
+      "url": "https://openstax.org/books/college-physics-2e/pages/14-4-heat-transfer-methods",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对传导、对流、辐射机制；中文概括。 已实际读取相应教材章节。"
+    },
+    {
+      "id": "kx-src-phase",
+      "title": "14.3 Phase Change and Latent Heat - College Physics 2e | OpenStax",
+      "url": "https://openstax.org/books/college-physics-2e/pages/14-3-phase-change-and-latent-heat",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对熔化汽化吸热、凝固液化放热；明确理想定压相变中的温度条件。 已实际读取相应教材章节。"
+    },
+    {
+      "id": "kx-src-power",
+      "title": "20.4 Electric Power and Energy - College Physics 2e | OpenStax",
+      "url": "https://openstax.org/books/college-physics-2e/pages/20-4-electric-power-and-energy",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对功率、能量、电量单位及P=UI、E=Pt；使用自主编写的数值例子。 已实际读取相应教材章节。"
+    },
+    {
+      "id": "kx-src-circuits",
+      "title": "21.1 Resistors in Series and Parallel - College Physics 2e | OpenStax",
+      "url": "https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对理想串并联电路的电流、电压与等效电阻；不扩展到实际接线操作。 已实际读取相应教材章节。"
+    },
+    {
+      "id": "kx-src-changes",
+      "title": "1.3 Physical and Chemical Properties - Chemistry 2e | OpenStax",
+      "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对物理变化与化学变化的判据是物质化学身份是否改变。 已实际读取章节，卡片为中文自主概括。"
+    },
+    {
+      "id": "kx-src-matter",
+      "title": "1.2 Phases and Classification of Matter - Chemistry 2e | OpenStax",
+      "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对纯净物、单质、化合物与混合物，包括均一混合物。 已实际读取章节，卡片为中文自主概括。"
+    },
+    {
+      "id": "kx-src-atoms",
+      "title": "2.3 Atomic Structure and Symbolism - Chemistry 2e | OpenStax",
+      "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对质子数定义元素、电子得失形成离子及同位素区别。 已实际读取章节，卡片为中文自主概括。"
+    },
+    {
+      "id": "kx-src-ions",
+      "title": "2.6 Ionic and Molecular Compounds - Chemistry 2e | OpenStax",
+      "url": "https://openstax.org/books/chemistry-2e/pages/2-6-molecular-and-ionic-compounds",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对分子化合物与离子化合物，避免把所有物质都描述为由分子构成。 已实际读取章节，卡片为中文自主概括。"
+    },
+    {
+      "id": "kx-src-ph",
+      "title": "14.2 pH and pOH - Chemistry 2e | OpenStax",
+      "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对25℃中性pH=7及pH的对数性质；保留温度和水溶液条件。 已实际读取章节，卡片为中文自主概括。"
+    },
+    {
+      "id": "kx-src-neutral",
+      "title": "14.7 Acid-Base Titrations - Chemistry 2e | OpenStax",
+      "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对强酸强碱、弱酸强碱在等当点的差异；中和反应发生不等于最终pH一定为7。 已实际读取章节，卡片为中文自主概括。"
+    },
+    {
+      "id": "kx-src-redox",
+      "title": "4.2 Classifying Chemical Reactions - Chemistry 2e | OpenStax",
+      "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对氧化还原和中和反应；不把所有氧化等同于与氧气反应。 已实际读取章节，卡片为中文自主概括。"
+    },
+    {
+      "id": "kx-src-rust",
+      "title": "17.6 Corrosion - Chemistry 2e | OpenStax",
+      "url": "https://openstax.org/books/chemistry-2e/pages/17-6-corrosion",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对通常铁生锈需要水和氧，以及涂层、镀锌、钝化等防腐原理。 已实际读取章节，卡片为中文自主概括。"
+    },
+    {
+      "id": "kx-src-fire",
+      "title": "What is fire? — Science Learning Hub",
+      "url": "https://www.sciencelearn.org.nz/resources/747-how-fire-burns",
+      "publisher": "Science Learning Hub / 怀卡托大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "已读取“What is fire?”正文，核对常见燃烧的热、燃料、氧气三条件及燃料不完全燃烧。原文个别概括适用范围过宽，本站仅用于常见含碳燃料情境，不照搬“燃烧只能发生在气体间”等表述。"
+    },
+    {
+      "id": "kx-src-prokaryotes",
+      "title": "4.2 Prokaryotic Cells - Biology 2e | OpenStax",
+      "url": "https://openstax.org/books/biology-2e/pages/4-2-prokaryotic-cells",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对原核细胞无核膜包围的细胞核，但有DNA与核糖体。 已实际读取章节，中文自主概括。"
+    },
+    {
+      "id": "kx-src-fungi",
+      "title": "24.1 Characteristics of Fungi - Biology 2e | OpenStax",
+      "url": "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对酵母所属真菌为真核生物，不按个体大小判断细胞类型。 已实际读取章节，中文自主概括。"
+    },
+    {
+      "id": "kx-src-eukaryotes",
+      "title": "4.3 Eukaryotic Cells - Biology 2e | OpenStax",
+      "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对典型动植物细胞及线粒体、叶绿体；不将示意图推广为所有特殊分化细胞的共同结构。 已实际读取章节，中文自主概括。"
+    },
+    {
+      "id": "kx-src-photosynthesis",
+      "title": "8.1 Overview of Photosynthesis - Biology 2e | OpenStax",
+      "url": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对绿色植物光合作用的能量转换、二氧化碳和水等原料；说明课内概括的适用对象。 已实际读取章节，中文自主概括。"
+    },
+    {
+      "id": "kx-src-viruses",
+      "title": "21.1 Viral Evolution, Morphology, and Classification - Biology 2e | OpenStax",
+      "url": "https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对病毒非细胞结构、基因组与宿主依赖；不讨论尚未定论的生命起源假说。 已实际读取章节，中文自主概括。"
+    },
+    {
+      "id": "kx-src-beneficial",
+      "title": "22.5 Beneficial Prokaryotes - Biology 2e | OpenStax",
+      "url": "https://openstax.org/books/biology-2e/pages/22-5-beneficial-prokaryotes",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对固氮等有益微生物作用，不把细菌全部等同于致病菌。 已实际读取章节，中文自主概括。"
+    },
+    {
+      "id": "kx-src-blood",
+      "title": "40.2 Components of the Blood - Biology 2e | OpenStax",
+      "url": "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对白细胞和血小板的基本分工、鸟类红细胞保留细胞核。该页关于骆驼成熟红细胞有核的错误表述不采用；人的红细胞结构另以解剖生理学章节核对。 已实际读取章节，中文自主概括。"
+    },
+    {
+      "id": "kx-src-dna",
+      "title": "3.5 Nucleic Acids - Biology 2e | OpenStax",
+      "url": "https://openstax.org/books/biology-2e/pages/3-5-nucleic-acids",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对DNA、基因、染色体与RNA的关系，保留细胞生物和病毒的边界。 已实际读取章节，中文自主概括。"
+    },
+    {
+      "id": "kx-src-foodchain",
+      "title": "46.2 Energy Flow through Ecosystems - Biology 2e | OpenStax",
+      "url": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对营养级间能量传递与损耗，避免声称所有生态系统都恰好传递10%。 已实际读取章节，中文自主概括。"
+    },
+    {
+      "id": "kx-src-vessels",
+      "title": "20.1 Structure and Function of Blood Vessels  - Anatomy and Physiology 2e | OpenStax",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "已实际读取章节，核对动静脉按相对心脏的血流方向命名，以及肺循环的含氧情况；中文概括。"
+    },
+    {
+      "id": "kx-src-erythrocytes",
+      "title": "18.3 Erythrocytes  - Anatomy and Physiology 2e | OpenStax",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes",
+      "publisher": "OpenStax / 莱斯大学",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "已读取Shape and Structure of Erythrocytes与Hemoglobin段，核对成熟人红细胞排出细胞核、缺乏线粒体以及运输氧的机制。"
+    },
+    {
+      "id": "kx-src-weather",
+      "title": "Weather",
+      "url": "https://education.nationalgeographic.org/resource/weather/",
+      "publisher": "National Geographic Society 国家地理学会",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对天气与气候的时间尺度和统计特征。未采用原文过度简化的“高压一定冷、低压一定暖”等说法。 已实际读取教育文章，卡片为中文概括。"
+    },
+    {
+      "id": "kx-src-monsoon",
+      "title": "Monsoon",
+      "url": "https://education.nationalgeographic.org/resource/monsoon/",
+      "publisher": "National Geographic Society 国家地理学会",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对季风风向的季节变化以及冬季风不一律干燥的反例；不把季风直接等同暴雨。 已实际读取教育文章，卡片为中文概括。"
+    },
+    {
+      "id": "kx-src-currents",
+      "title": "Ocean Currents",
+      "url": "https://education.nationalgeographic.org/resource/ocean-currents/",
+      "publisher": "National Geographic Society 国家地理学会",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对风驱动表层洋流、温盐密度差驱动深层环流，以及洋流输送热量。 已实际读取教育文章，卡片为中文概括。"
+    },
+    {
+      "id": "kx-src-watershed",
+      "title": "Watershed",
+      "url": "https://education.nationalgeographic.org/resource/watershed/",
+      "publisher": "National Geographic Society 国家地理学会",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对流域汇水概念、嵌套关系与降水下渗；不复制文中地区统计数据。 已实际读取教育文章，卡片为中文概括。"
+    },
+    {
+      "id": "kx-src-river",
+      "title": "River",
+      "url": "https://education.nationalgeographic.org/resource/river/",
+      "publisher": "National Geographic Society 国家地理学会",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对河流受重力引导、搬运沉积物及流速减缓时沉积等基础概念。不采用文中关于弯道外侧沉积的可疑概括。 已实际读取教育文章，卡片为中文概括。"
+    },
+    {
+      "id": "kx-src-plates",
+      "title": "Earthquakes",
+      "url": "https://education.nationalgeographic.org/resource/earthquakes/",
+      "publisher": "National Geographic Society 国家地理学会",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对地震多见于板块边界、板内也可能发生；不引用该页词汇表把magnitude释为intensity的简化措辞。 已实际读取教育文章，卡片为中文概括。"
+    },
+    {
+      "id": "kx-src-focus",
+      "title": "Earthquakes - British Geological Survey",
+      "url": "https://www.bgs.ac.uk/discovering-geology/earth-hazards/earthquakes/",
+      "publisher": "British Geological Survey 英国地质调查局",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "已读取What is an earthquake段，核对震源、震中、断层破裂和地震波；中文概括。"
+    },
+    {
+      "id": "kx-src-magnitude",
+      "title": "How are earthquakes detected? - British Geological Survey",
+      "url": "https://www.bgs.ac.uk/discovering-geology/earth-hazards/earthquakes/how-are-earthquakes-detected/",
+      "publisher": "British Geological Survey 英国地质调查局",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "已读取地震测量及定位章节，核对震级与烈度、不同震级标度及初值修订。未采用其他词典“震级共分九级”等错误表述。"
+    },
+    {
+      "id": "kx-src-magnitude-scale",
+      "title": "British Geological Survey Seismology Monitoring Page",
+      "url": "https://earthquakes.bgs.ac.uk/education/faqs/faq4.html",
+      "publisher": "British Geological Survey 英国地质调查局",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "已读取What is the biggest earthquake that has ever happened问答，核对震级标度开放、无最高九级规定；自然地震大小仍受岩石等物理条件约束。"
+    },
+    {
+      "id": "kx-src-damage",
+      "title": "How do earthquakes affect people? - British Geological Survey",
+      "url": "https://www.bgs.ac.uk/discovering-geology/earth-hazards/earthquakes/how-do-earthquakes-affect-people/",
+      "publisher": "British Geological Survey 英国地质调查局",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "已读取地质条件、建筑结构和共振章节，核对灾损不单由震级决定；中文概括。"
+    },
+    {
+      "id": "kx-src-timeline",
+      "title": "Timelines: CHINA | Asia for Educators | Columbia University",
+      "url": "https://afe.easia.columbia.edu/timelines/china_timeline.htm",
+      "publisher": "哥伦比亚大学 Asia for Educators",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "已读取时间表，仅支持主要时代前后顺序、两汉都城等一致信息；页面部分唐末、元初年代口径及秦都城表述与常用中国历史教材不同，本模块不采其这些具体数据，也不照搬历史评价。"
+    },
+    {
+      "id": "kx-src-qin",
+      "title": "秦始皇的意思|汉典「秦始皇」词语解释",
+      "url": "https://www.zdic.net/hans/秦始皇",
+      "publisher": "汉典",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对嬴政、前221年统一六国及秦代制度，不把皇帝身份倒推为13岁即皇帝。 已打开并读取相关词条。"
+    },
+    {
+      "id": "kx-src-threekingdoms",
+      "title": "三国的意思|汉典「三国」词语解释",
+      "url": "https://www.zdic.net/hans/三国",
+      "publisher": "汉典",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对魏蜀吴并立，不把多个政权当作全国前后相继。 已打开并读取相关词条。"
+    },
+    {
+      "id": "kx-src-northsouth",
+      "title": "南北朝的意思|汉典「南北朝」词语解释",
+      "url": "https://www.zdic.net/hans/南北朝",
+      "publisher": "汉典",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "仅核对南北政权并立和隋统一，不采用页面个别旧释义中的政权名称误植。 已打开并读取相关词条。"
+    },
+    {
+      "id": "kx-src-fivedynasties",
+      "title": "五代的意思|汉典「五代」词语解释",
+      "url": "https://www.zdic.net/hans/五代",
+      "publisher": "汉典",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对五代位于唐后宋前、主要朝代顺序；不把该时间段写成全国只有一个政权。 已打开并读取相关词条。"
+    },
+    {
+      "id": "kx-src-exam",
+      "title": "科举的意思|汉典「科举」词语解释",
+      "url": "https://www.zdic.net/hans/科举",
+      "publisher": "汉典",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对隋唐至清的考试选官方式及1905年废止；不把起源简化成现代公务员考试。 已打开并读取相关词条。"
+    },
+    {
+      "id": "kx-src-four",
+      "title": "四书的意思|汉典「四书」词语解释",
+      "url": "https://www.zdic.net/hans/四书",
+      "publisher": "汉典",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对四书书目及大学、中庸原为礼记篇章。 已打开并读取相关词条。"
+    },
+    {
+      "id": "kx-src-five",
+      "title": "五经的意思|汉典「五经」词语解释",
+      "url": "https://www.zdic.net/hans/五经",
+      "publisher": "汉典",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对儒家五经书目；不套用同词在中医、礼制等领域的其他意义。 已打开并读取相关词条。"
+    },
+    {
+      "id": "kx-src-shiji",
+      "title": "史记的意思|汉典「史记」词语解释",
+      "url": "https://www.zdic.net/hans/史记",
+      "publisher": "汉典",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对司马迁、纪传体、记述范围；由跨时代范围概括为通史。 已打开并读取相关词条。"
+    },
+    {
+      "id": "kx-src-hanshu",
+      "title": "汉书的意思|汉典「汉书」词语解释",
+      "url": "https://www.zdic.net/hans/汉书",
+      "publisher": "汉典",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对班固为主、东汉成书背景和西汉断代史性质。 已打开并读取相关词条。"
+    },
+    {
+      "id": "kx-src-zu",
+      "title": "祖冲之的意思|汉典「祖冲之」词语解释",
+      "url": "https://www.zdic.net/hans/祖冲之",
+      "publisher": "汉典",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对南朝背景和圆周率上下界；生卒年不同来源有差别，此卡不考生卒年份。 已打开并读取相关词条。"
+    },
+    {
+      "id": "kx-src-mengxi",
+      "title": "梦溪笔谈的意思|汉典「梦溪笔谈」词语解释",
+      "url": "https://www.zdic.net/hans/梦溪笔谈",
+      "publisher": "汉典",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对北宋沈括及笔记类综合知识著作。 已打开并读取相关词条。"
+    },
+    {
+      "id": "kx-src-tiangong",
+      "title": "天工开物的意思|汉典「天工开物」词语解释",
+      "url": "https://www.zdic.net/hans/天工开物",
+      "publisher": "汉典",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对明代宋应星及农业手工业生产技术；不使用来源中“第一部”等更需限定的排序判断。 已打开并读取相关词条。"
+    },
+    {
+      "id": "kx-src-bencao",
+      "title": "本草纲目的意思|汉典「本草纲目」词语解释",
+      "url": "https://www.zdic.net/hans/本草纲目",
+      "publisher": "汉典",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对明代李时珍及本草药物学著作；不将古代方药作为当代治疗建议。 已打开并读取相关词条。"
+    },
+    {
+      "id": "kx-src-confucius",
+      "title": "Confucius (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/confucius/",
+      "publisher": "Stanford Encyclopedia of Philosophy 斯坦福哲学百科",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对孔子、儒家、仁与礼等基本配对；不把后世整个儒学视作孔子亲自建立的单一体系。 已读取词条相关部分，中文概括。"
+    },
+    {
+      "id": "kx-src-laozi",
+      "title": "Laozi (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/laozi/",
+      "publisher": "Stanford Encyclopedia of Philosophy 斯坦福哲学百科",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对老子、道德经、自然与无为；保留历史人物与文本形成研究尚有争议的边界。 已读取词条相关部分，中文概括。"
+    },
+    {
+      "id": "kx-src-mozi",
+      "title": "Mohism (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/mohism/",
+      "publisher": "Stanford Encyclopedia of Philosophy 斯坦福哲学百科",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "核对墨子与墨家、兼爱非攻等思想；不把非攻曲解为一概反对防御。 已读取词条相关部分，中文概括。"
+    },
+    {
+      "id": "kx-src-printing",
+      "title": "Song Dynasty China | Asia for Educators",
+      "url": "https://afe.easia.columbia.edu/songdynasty-module/tech-printing.html",
+      "publisher": "哥伦比亚大学 Asia for Educators",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "已读取Printing/Movable Type段，核对11世纪毕昇的烧制泥活字，与雕版印刷区分；不据此宣称全部印刷技术由毕昇首次发明。"
+    },
+    {
+      "id": "kx-src-zupi",
+      "title": "Zu Chongzhi  (429 - 501) - Biography - MacTutor History of Mathematics",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Zu_Chongzhi/",
+      "publisher": "圣安德鲁斯大学 MacTutor 数学史",
+      "kind": "常识核验",
+      "verified": "2026-10-23",
+      "note": "已读取祖冲之传记中圆周率上下界及355/113近似值段，中文概括；不把有理近似值写成π的精确值，也不复原已佚著作的具体算法。"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "kx-science-method",
+      "title": "科学常识排错：先找条件，再看量与关系",
+      "summary": "用定义、单位和反例判断选项，避免仅靠生活印象。",
+      "minutes": 12,
+      "level": "入门",
+      "tags": [
+        "科学方法",
+        "限定条件",
+        "单位",
+        "反例"
+      ],
+      "body": "## 先说清题目在研究什么\n科学题最容易被熟悉的词误导。先把对象圈出来：是一整个系统，还是其中一个物体；是电功率，还是总耗电；是地震本身大小，还是某地点的影响？把对象认错，即使背过公式也会用错。随后保留条件，如静止漂浮、完全浸没、25℃、成熟人的红细胞。\n\n## 用三次核对替代猜感觉\n第一次核对定义。“动脉”按离心血流方向定义，不是按氧含量定义；“中和”描述反应，不保证结果中性。第二次核对量和单位。瓦是功率，千瓦时是能量；“功率大所以一定更耗电”漏掉运行时间。第三次核对关系。浮力与排开液体重力对应，相互作用力分别作用于两个物体，不能随手换成自身重力或同物体平衡力。\n\n## 找反例，但不要见“都”就排\n若选项说所有动物红细胞都无核，鸟类红细胞就是有效反例。若选项说所有并联支路两端电压相等，在理想电路及正确节点条件下，这正是定义关系，不能因有“所有”就排掉。反例必须真实、满足题设，不能靠想象极端场景否定基础模型。\n\n遇到专业概念，先用教材适用的基础模型判断；题目明确给出现实复杂条件时，再考虑温度、密度、材料等变化。考试中的概括有边界，边界不是让每句话都变成“说不准”，而是让你知道什么条件必须一起保留。复盘时写“漏了哪一条件”，比只记答案字母更有效。",
+      "examples": [
+        {
+          "id": "kx-science-e1",
+          "title": "耗电不能只比功率",
+          "question": "甲设备按1000W恒定功率运行30分钟，乙设备按200W恒定功率运行4小时。忽略其他因素，下列判断正确的是：\n\nA. 甲耗电一定更多，因为功率更大\n\nB. 甲耗电0.5kWh，乙耗电0.8kWh\n\nC. 甲耗电500kWh，乙耗电800kWh\n\nD. 两者耗电相同，因为都属于用电设备",
+          "answer": "B",
+          "steps": [
+            "先统一单位：甲为1kW×0.5h=0.5kWh，乙为0.2kW×4h=0.8kWh。B正确。",
+            "A漏掉时间；C未把W换成kW；D没有能量依据。功率比较不能替代耗电比较。"
+          ],
+          "pitfall": "总量=快慢×时间，先检查单位。",
+          "provenance": "原创教学例题"
+        },
+        {
+          "id": "kx-science-e2",
+          "title": "限定对象才不会过度概括",
+          "question": "下列关于人体和其他生物的说法，正确的是：\n\nA. 所有动物的成熟红细胞都没有细胞核\n\nB. 病毒没有DNA或RNA\n\nC. 正常成人肺动脉把含氧较少的血送往肺部\n\nD. 植物白天只进行光合作用，完全停止呼吸",
+          "answer": "C",
+          "steps": [
+            "动脉按血流离心方向命名，肺动脉输送含氧较少的血去肺，C正确。",
+            "A把成熟哺乳动物的情况推广到所有动物；B否定了病毒的遗传物质；D把净气体交换结果误当单项过程。"
+          ],
+          "pitfall": "每个选项检查一次范围词、定义词和“仅、都”等限制。",
+          "provenance": "原创教学例题"
+        }
+      ],
+      "sourceIds": [
+        "kx-src-power",
+        "kx-src-vessels",
+        "kx-src-erythrocytes",
+        "kx-src-blood",
+        "kx-src-viruses",
+        "kx-src-photosynthesis"
+      ]
+    },
+    {
+      "id": "kx-history-method",
+      "title": "文化常识排错：把人物、时代、作品、贡献拆开",
+      "summary": "不按名字联想朝代，不把作者时代误当记述时代。",
+      "minutes": 12,
+      "level": "入门",
+      "tags": [
+        "人物作品",
+        "历史顺序",
+        "文化常识"
+      ],
+      "body": "## 一条知识至少保存三个锚点\n背“宋应星写天工开物”还不够，应该连成“明代—宋应星—天工开物—农工技术”。题目经常只替换其中一环，读起来仍然熟悉。先判断时代，再核对人物和作品，最后核对贡献范围，比分别背一长串名字更容易发现错配。\n\n作者时代与记述对象要分开。班固生活在东汉，《汉书》主要记西汉；司马迁生活在西汉，《史记》却跨多个时代。纪传体回答按什么方式组织历史，通史或断代史回答记述跨度，两组分类并不互斥。不要把“纪传体”和“断代史”误当只能二选一的选项。\n\n## 朝代骨架只帮助定位\n先抓秦汉、魏晋南北朝、隋唐、宋元明清的相对位置，再补五代十国等中间阶段。这个框架不是完整地图：三国、南北朝等时期有政权并立。凡题目要求具体建国年份、都城或先后关系，都要回到该知识点，不能只凭朝代歌补出不存在的结论。\n\n## 检查“首创”的对象有多大\n毕昇与泥活字对应，不等于此前没有雕版印刷；祖冲之给出高精度圆周率范围，不等于355/113是π的精确值。科技史中的创造、改进、系统总结、传播应用是不同贡献。看见“最早、唯一、全部由某人发明”，先确认它到底限定了哪种技术。\n\n思想史用基本配对入门，再保留解释边界。孔子与仁礼、墨子与兼爱非攻、老子与道和无为有助记忆，但一句关键词不能穷尽整个学派。题目若用这些词推出“完全不行动”“一概不防御”，就需检查是否误读概念。",
+      "examples": [
+        {
+          "id": "kx-history-e1",
+          "title": "姓名不能代替朝代",
+          "question": "下列人物、时代与著作的对应，正确的是：\n\nA. 宋代—宋应星—《天工开物》\n\nB. 明代—沈括—《梦溪笔谈》\n\nC. 北宋—沈括—《梦溪笔谈》\n\nD. 南朝—李时珍—《本草纲目》",
+          "answer": "C",
+          "steps": [
+            "沈括是北宋人物，《梦溪笔谈》与其对应，C正确。",
+            "A被姓氏“宋”误导，宋应星为明代；B把沈括错置明代；D把明代李时珍错置南朝。"
+          ],
+          "pitfall": "以时代、人物、作品三项逐个核对。",
+          "provenance": "原创教学例题"
+        },
+        {
+          "id": "kx-history-e2",
+          "title": "史书的两个分类维度",
+          "question": "关于《史记》和《汉书》，下列说法最准确的是：\n\nA. 《汉书》作者生活在东汉，所以主要记东汉史\n\nB. 《史记》是纪传体通史，《汉书》是纪传体断代史\n\nC. 纪传体史书都不能是断代史\n\nD. 两书都由司马迁完成",
+          "answer": "B",
+          "steps": [
+            "体例与记述跨度是两个维度，B同时说明了共同体例和范围差异。",
+            "A把作者时代当成所记时代；C把可并存的分类误设成互斥；D混淆作者。"
+          ],
+          "pitfall": "问“谁写”“何时写”“写何时”时，要回答不同问题。",
+          "provenance": "原创教学例题"
+        }
+      ],
+      "sourceIds": [
+        "kx-src-tiangong",
+        "kx-src-mengxi",
+        "kx-src-bencao",
+        "kx-src-shiji",
+        "kx-src-hanshu",
+        "kx-src-printing",
+        "kx-src-zupi"
+      ]
+    }
+  ]
+}

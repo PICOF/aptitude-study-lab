@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "id": "extra-qd-video",
+      "module": "quantity",
+      "title": "数量关系不用怕，36式搞定它！(合集）",
+      "url": "https://www.bilibili.com/video/BV11T4y1Y7qH/",
+      "publisher": "公考果冻",
+      "kind": "免费视频",
+      "verified": "2026-10-23",
+      "note": "36个短课合计2小时27分30秒，适合按题型补课。公开API的付费标记为0；仅核验目录与元数据，未逐集观看，不据播放量推断教学效果。目录不是本站完整考点清单，工程、利润等请结合本站对应课。"
+    },
+    {
+      "id": "extra-mk-video",
+      "module": "knowledge",
+      "title": "《公基》&《常识》系统理论课（带智能字幕）（已是最新版本，适用2025和2026年备考学生）——马克Mark",
+      "url": "https://www.bilibili.com/video/BV1hM4m1U7rA/",
+      "publisher": "马克Mark-公基常识",
+      "kind": "免费视频",
+      "verified": "2026-10-23",
+      "note": "86个分P，合计约97小时51分钟，是按薄弱主题查阅的系统课，20天备考不建议从头全刷。标题声称适用2025和2026，不能替代近期时政与现行法条核对。公开API付费标记为0；仅核验目录与元数据，未完整观看或验证效果。"
+    }
+  ]
+}
