@@ -1,10 +1,9 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import crypto from 'node:crypto';
+import { loadModules } from './content.mjs';
 const read=f=>JSON.parse(fs.readFileSync(f,'utf8').replace(/^\uFEFF/,''));
-const data=['quantity','data','verbal','knowledge'].map(id=>read(`content/${id}.json`));
-for(const file of ['knowledge-extra.json','knowledge-policy-extra.json'])if(fs.existsSync(`content/${file}`))data.push(read(`content/${file}`));
-data.push(read('content/resources-extra.json'));
+const data=loadModules();
 const ids=new Set(),sources=new Set();let lessonCount=0,exampleCount=0,cardCount=0;
 function unique(id){assert.match(id,/^[a-z0-9-]+$/);assert(!ids.has(id),`Duplicate id: ${id}`);ids.add(id);}
 function fields(o,keys){for(const k of keys)assert(typeof o[k]==='string'&&o[k].trim(),`${o.id}: missing ${k}`);}
@@ -12,6 +11,17 @@ for(const m of data)for(const s of m.sources){unique(s.id);sources.add(s.id);fie
 const references=[];
 for(const m of data){
  for(const l of m.lessons||[]){unique(l.id);lessonCount++;fields(l,['title','summary','body','level']);assert(Number.isInteger(l.minutes)&&l.minutes>0);assert(Array.isArray(l.tags));assert(l.examples.length>=2&&l.examples.length<=3,`${l.id}: 2–3 examples expected`);assert(!/^# /m.test(l.body),`${l.id}: do not use h1 in lesson body`);assert(l.body.length>=450,`${l.id}: insufficient teaching explanation`);references.push(l);
+  if(l.material){
+   const mat=l.material;unique(mat.id);fields(mat,['title','intro']);assert(mat.notes?.length&&mat.readGuide?.length);assert(mat.charts?.length);
+   for(const c of mat.charts){
+    unique(c.id);fields(c,['type','title','unit']);assert(['bar','line','pie','stacked','combo'].includes(c.type));
+    assert(c.categories.length>=2&&c.categories.length<=8);assert(c.series?.length);
+    for(const series of c.series){assert(series.name?.trim());assert.equal(series.values.length,c.categories.length);assert(series.values.every(v=>Number.isFinite(v)&&v>=0));}
+    if(c.type==='pie'){assert.equal(c.series.length,1);assert(Math.abs(c.series[0].values.reduce((a,b)=>a+b,0)-100)<1e-7);assert(c.series[0].values.every(v=>v>0));}
+    else {assert(c.max>0&&c.tick>0);assert(c.max/c.tick<=12);for(let i=0;i<c.categories.length;i++){const values=c.series.filter(s=>s.axis!=='right').map(s=>s.values[i]);assert((c.type==='stacked'?values.reduce((a,b)=>a+b,0):Math.max(...values))<=c.max);}}
+    if(c.type==='combo'){assert(c.series[0].axis!=='right'&&c.series[1].axis==='right');assert(c.rightMax>0&&c.rightTick>0&&c.rightUnit);assert.equal(c.series.filter(s=>s.axis==='right').length,1);assert.equal(c.series.filter(s=>s.axis!=='right').length,1);assert(c.series.find(s=>s.axis==='right').values.every(v=>v<=c.rightMax));}
+   }
+  }
   for(const e of l.examples){unique(e.id);exampleCount++;fields(e,['title','question','answer','pitfall','provenance']);assert(e.steps.length>=2);assert.equal(e.provenance,'原创教学例题');assert(e.steps.every(x=>typeof x==='string'&&x.trim()));}
  }
  for(const c of m.cards||[]){unique(c.id);cardCount++;fields(c,['category','front','back','mnemonic','trap','example']);references.push(c);}

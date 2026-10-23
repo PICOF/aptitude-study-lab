@@ -7,7 +7,7 @@
 ## 内容与边界
 
 - 数量关系：建模、代入、整除奇偶、比例赋值、工程行程、利润浓度、容斥、组合概率、最值、数字推理、几何及特殊题型。
-- 资料分析：口径定位、截位估算、基期与增长、两期比重、平均数、倍数、混合增长和综合判断。
+- 资料分析：口径定位、截位估算、基期与增长、两期比重、平均数、倍数、混合增长和综合判断；另有分组柱状、累计折线、两期饼图、堆积柱状和柱线双轴五组完整图表材料题。
 - 言语理解：主旨意图、细节、标题、衔接排序、逻辑填空、词语成语辨析。
 - 常识与时政：知识卡片与复习方法。每张卡关联来源，时政明确年份与资料截止日期。
 
@@ -24,7 +24,10 @@ npm ci
 npm test
 python scripts/check-quantity.py
 python scripts/check-data.py
+python scripts/check-quantity-applied.py
+python scripts/check-data-charts.py
 npm run build
+python scripts/check-site.py
 npm run dev
 ```
 
@@ -42,8 +45,14 @@ npm run dev
 
 `content/quantity.json`、`data.json`、`verbal.json`、`knowledge.json` 是四个主体；`knowledge-extra.json` 和 `knowledge-policy-extra.json` 在构建时并入知识板块。
 
+图表实战在 `content/data-charts.json`；图表数值、系列、坐标轴和数据表使用同一份结构化数据，SVG由 `scripts/charts.mjs` 预渲染，无外部图表运行库。手机使用单独的紧凑坐标布局，较宽图在容器内横向滚动。数据表和读图提示默认收起。
+
+`quantity-applied.json`、`verbal-applied.json`、`knowledge-applied.json` 补充情境训练；数量图示绑定具体例题ID，图中只给已知条件，答案留在解析中。`scripts/content.mjs` 统一加载补充内容，导航、搜索、来源和课程统计一起更新，原有课程ID保持不变。
+
 每课包含：学习摘要、正文、建议用时、标签、2—3道题、逐步解析、陷阱和来源ID。每张卡包含：问题、答案、记忆提示、易错点、例句和来源ID。参考来源必须说明实际支持的内容及核验日期；不能只挂门户入口来代替事实核验。
 
 数值例题由 `check-quantity.py` 和 `check-data.py` 用精确分数或枚举独立复算。`reviewed-examples.json` 保存已审校例题文本摘要，防止改了题干而未同步复核答案。修改数值题后，应先重新计算和审校，再更新对应摘要；不要绕过失败检查。
+
+新增应用题另由 `check-quantity-applied.py` 和 `check-data-charts.py` 校验。`check-site.py` 检查生成页的链接、锚点与重复ID，并从SVG元素反查柱高、分类位置、堆积连续性、左右轴折线点和饼图角度，避免数据对而画错图。
 
 浏览器验证应覆盖手机与桌面、答案展开、搜索、导航焦点、收藏/进度持久化、卡片筛选翻面与计算图示。教学图示采用可访问的 SVG；动画尊重系统“减少动态效果”设置。
