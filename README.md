@@ -10,6 +10,7 @@
 
 - [企业文化](https://picof.github.io/aptitude-study-lab/culture.html)：中国国新、中远海运集团分别学习，支持按知识类型筛选。采用本轮实际读取的官网现行口径，区分旧版文化、集团与下属企业。
 - 左侧“企业文化”可展开企业列表；[中国国新](https://picof.github.io/aptitude-study-lab/culture-guoxin.html)和[中远海运](https://picof.github.io/aptitude-study-lab/culture-cosco.html)各有独立页面。选中企业后显示“知识学习”“题目训练”两个入口，训练页仅显示该企业范围，旧企业锚点链接自动跳转。
+- 每家企业与时政各采用一篇完整章节，知识点全文连续展示。“知识学习”下按知识类型展开页内目录；蓝色圆角卡是知识要点、白色正文卡是内容讲解、绿色资料卡是官方阅读材料、灰色虚线卡是引用与核验记录。旧单知识点页面及搜索结果转到章节内对应位置，检测与学习记录沿用原题库。
 - [独立时政专题](https://picof.github.io/aptitude-study-lab/current-affairs.html)：2026年两会与十五五、科技创新、国资金融、绿色发展、交通航运、开放发展等，明确目标／实绩、通过／施行的时间口径。
 - [自测与错题](https://picof.github.io/aptitude-study-lab/exam.html)：按板块、类型、知识点和题型组卷，可选10／20／30题或全部题目；每个知识点另有专属课后检测。
 - [全部原文依据](https://picof.github.io/aptitude-study-lab/exam-sources.html)：每条来源标明支持范围、发布日期和本轮核验日期。截止日后的新政策不会自动纳入。

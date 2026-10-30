@@ -6,12 +6,12 @@ const files=new Map(),options=new Map();
 const result=renderExams({page:(title,body,opts)=>{options.set(title,opts);return `<head></head><main>${body}</main>`;},write:(name,text)=>files.set(name,text),render:s=>s,esc:s=>String(s)});
 
 test('企业目录只选择企业，知识目录分到企业专属页',()=>{
-  assert(!files.get('culture.html').includes('data-catalog='));
+  assert(!files.get('culture.html').includes('data-chapter-lesson='));
   for(const id of ['guoxin','cosco']){
     const html=files.get(`culture-${id}.html`);
     assert(html,`Missing independent page ${id}`);
-    assert(html.includes(`data-catalog="${id}"`));
-    assert.equal((html.match(/data-catalog=/g)||[]).length,1);
+    assert(html.includes(`data-chapter-lesson="${id==='guoxin'?'gx':'co'}-01"`));
+    assert.equal((html.match(/data-chapter-lesson=/g)||[]).length,20);
     assert(html.includes(`exam.html?scope=${id}`));
     assert(result.routes.includes(`culture-${id}.html`));
   }
