@@ -5,9 +5,13 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test": "node scripts/validate.mjs",
+    "test": "node scripts/validate.mjs && node scripts/validate-exams.mjs && node --test tests/*.test.mjs",
     "dev": "node scripts/serve.mjs"
   },
-  "devDependencies": { "markdown-it": "14.1.0" },
-  "engines": { "node": ">=20" }
+  "devDependencies": {
+    "markdown-it": "14.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
 }
