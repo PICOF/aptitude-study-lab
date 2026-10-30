@@ -22,3 +22,18 @@
 @media(max-width:760px){.teaching-figure{padding:15px;margin:24px 0}.figure-title{font-size:12px}.teaching-figure figcaption{font-size:11px}.teaching-figure:after{content:"图示可横向滑动";font-size:10px;color:#6c87a0;display:block;margin-top:8px}}
 
 .resource-terms{grid-column:1/-1}.card-directory .directory-more{grid-column:1/-1;justify-content:center;color:var(--blue);background:#f3f8fd;border:1px solid var(--line);border-radius:9px;margin-top:14px;padding:12px}
+
+/* Touch controls stay comfortable without changing the desktop navigation. */
+@media (max-width:760px) {
+  .header-actions .search-trigger,
+  .header-actions .mobile-menu,
+  .sidebar .close-menu { width:44px; height:44px; flex-shrink:0; }
+  .search-top input { font-size:16px; min-height:44px; }
+  .search-top .icon-button { width:44px; height:44px; }
+  .sidebar { padding-bottom:calc(30px + env(safe-area-inset-bottom, 0px)); }
+}
+
+/* Let the result list shrink to the space left by the search header. */
+.search-dialog[open] { display:flex; flex-direction:column; }
+.search-top, .search-help { flex-shrink:0; }
+.search-results { min-height:0; flex:0 1 auto; }

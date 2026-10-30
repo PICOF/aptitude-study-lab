@@ -20,7 +20,7 @@
 
   // Mobile drawer keeps keyboard focus inside the open navigation.
   const sidebar=$('.sidebar'),menu=$('.mobile-menu'),backdrop=$('.nav-backdrop');let returnFocus;sidebar.inert=innerWidth<=760;
-  function setMenu(open){sidebar.inert=!open&&innerWidth<=760;if(open)returnFocus=document.activeElement;sidebar.classList.toggle('open',open);backdrop.hidden=!open;menu.setAttribute('aria-expanded',String(open));document.body.style.overflow=open?'hidden':'';$('.main').inert=open;$('.site-header').inert=open;if(open)$('.close-menu').focus();else if(returnFocus?.isConnected)returnFocus.focus();}
+  function setMenu(open){sidebar.inert=!open&&innerWidth<=760;if(open)returnFocus=document.activeElement;sidebar.classList.toggle('open',open);backdrop.hidden=!open;menu.setAttribute('aria-expanded',String(open));document.body.style.overflow=open?'hidden':'';$('.main').inert=open;$('.site-header').inert=open;if(open)$('.close-menu').focus();else if(returnFocus?.isConnected)returnFocus.focus({preventScroll:true});}
   menu.addEventListener('click',()=>setMenu(true));$('.close-menu').addEventListener('click',()=>setMenu(false));backdrop.addEventListener('click',()=>setMenu(false));
   sidebar.addEventListener('click',event=>{
     const link=event.target.closest('a[href]');if(!link||!sidebar.classList.contains('open'))return;

@@ -148,6 +148,7 @@ function showResult(attempt){
   $('#retry-wrong').onclick=()=>{if(!focusedWrongRows.length)return;const questions=focusedWrongRows.map(r=>question(r.id));run(questions,{paper:makePaper(questions,{shuffle:true}),title:`${attempt.title} · 精简错题复练`});};
   $('#new-paper').onclick=()=>{renderSetup();app.scrollIntoView({block:'start'});};
   $$('[data-result-filter]').forEach(el=>el.onclick=()=>{resultFilter=el.dataset.resultFilter;showResult(attempt);$('.exam-review').scrollIntoView({block:'start'});});
+  $('.exam-result-hero').scrollIntoView({block:'start',behavior:'instant'});
   $('#exam-result-heading').focus({preventScroll:true});
 }
 function setupBackup(){

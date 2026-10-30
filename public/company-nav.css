@@ -15,7 +15,7 @@
 .company-subnav>a{display:flex;align-items:center;gap:7px;padding:8px 5px;border-radius:6px;color:var(--muted);font-size:12px;line-height:1.65}
 .company-subnav>a>.icon{width:14px;height:14px}
 .company-subnav>a:hover,.company-subnav>a[aria-current]{color:var(--blue);font-weight:600;background:#f0f6fc}
-@media(max-width:760px){.company-link{min-height:44px;padding-block:11px}.company-subnav>a{min-height:42px;padding-block:10px}}
+@media(max-width:760px){.company-link{min-height:44px;padding-block:11px}.company-subnav>a{min-height:44px;padding-block:10px}}
 @media(prefers-reduced-motion:reduce){.company-nav-chevron{transition:none}}
 .company-curriculum{margin:3px 0 10px;min-width:0}
 .company-curriculum summary{list-style:none;cursor:pointer}
@@ -41,5 +41,5 @@
 .current-curriculum>summary>.icon:first-child{width:20px;height:20px}
 .current-curriculum[open]>summary{background:var(--sky);font-weight:600}
 .current-curriculum>.chapter-overview,.current-curriculum>.curriculum-groups{margin-left:22px;margin-right:8px}
-@media(max-width:760px){.company-curriculum>summary,.company-course-group>summary{min-height:42px}.company-course-link{min-height:44px}.current-curriculum>summary{min-height:46px}}
+@media(max-width:760px){.company-curriculum>summary,.company-course-group>summary{min-height:44px}.company-course-link{min-height:44px}.current-curriculum>summary{min-height:46px}}
 @media(prefers-reduced-motion:reduce){.curriculum-chevron{transition:none}}
