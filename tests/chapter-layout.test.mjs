@@ -1,11 +1,12 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {loadExams} from '../scripts/exams.mjs';
+import {loadStudyBanks} from '../scripts/study-focus.mjs';
 import {renderCurriculum} from '../scripts/company-curriculum.mjs';
 import {renderChapter} from '../scripts/chapter-content.mjs';
 import MarkdownIt from 'markdown-it';
 
-const banks=loadExams(),esc=s=>String(s),icon=()=>'<svg></svg>';
+const banks=loadStudyBanks(loadExams()),esc=s=>String(s),icon=()=>'<svg></svg>';
 test('中文标点相邻的加粗语法正确显示，不暴露Markdown标记',()=>{
   const md=new MarkdownIt({html:false});
   for(const bank of banks)assert(!renderChapter(bank,{render:s=>md.render(s),esc}).includes('**'));

@@ -6,8 +6,9 @@ import { loadModules } from './content.mjs';
 import { renderMaterial, chartKinds } from './charts.mjs';
 import { quantityAppliedDiagramFor } from './quantity-diagrams.mjs';
 import { renderExams, loadExams } from './exams.mjs';
+import { loadStudyBanks } from './study-focus.mjs';
 import { renderCurriculum } from './company-curriculum.mjs';
-const examBanks=loadExams();
+const examBanks=loadStudyBanks(loadExams());
 
 const md = new MarkdownIt({html:false,linkify:true,typographer:false});
 const esc = s=>String(s??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
