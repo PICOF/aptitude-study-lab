@@ -35,6 +35,7 @@ export function renderChapter(bank, { render, esc }) {
         <div class="chapter-topic-meta"><span class="chapter-topic-number">${String(index + 1).padStart(2, '0')}</span><span class="chapter-role-label">知识点</span><span class="chapter-category">${esc(lesson.category)}</span></div>
         <h2 id="${id}-heading">${esc(lesson.title)}</h2>
         <p class="chapter-summary">${esc(lesson.summary)}</p>
+        ${lesson.priority?`<p class="chapter-evidence"><span class="prep-priority ${lesson.priority.toLowerCase()}">${esc(lesson.priority)}</span> ${esc(lesson.evidence)} · 优先级为本站复习建议</p>`:''}
         <ul class="chapter-keypoint-list">${lesson.keyPoints.map(point => `<li>${esc(point)}</li>`).join('')}</ul>
       </header>
       <article class="chapter-content" aria-label="${esc(lesson.title)}：内容讲解">

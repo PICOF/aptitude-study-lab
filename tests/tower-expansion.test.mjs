@@ -14,7 +14,7 @@ const draft=(scope)=>{const qs=data.questions.filter(q=>q.scope===scope).slice(0
 test('新增内容不修改原有三库，版本迁移依据确为原发布内容',()=>{
   const original=loadExams().filter(b=>['guoxin','cosco','current'].includes(b.id));
   const hash=crypto.createHash('sha256').update(JSON.stringify(original)).digest('hex').slice(0,12);
-  assert.equal(hash,'908424273982');assert.deepEqual(data.compatibleVersions,[hash]);assert.notEqual(data.version,hash);
+  assert.equal(hash,'908424273982');assert(data.compatibleVersions.includes(hash));assert.notEqual(data.version,hash);
   const paper=draft('guoxin'),finished={...paper,id:'finished',finishedAt:2};
   const state=sanitizeState({version:hash,attempts:{guoxin:paper},history:[finished],wrong:[paper.questionIds[1]],read:['gx-core-01']},data.version,data.compatibleVersions);
   assert.equal(state.version,data.version);assert.deepEqual(state.attempts.guoxin,paper);assert.equal(state.history[0].id,'finished');

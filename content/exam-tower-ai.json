@@ -1,8 +1,8 @@
 {
   "id": "tower-ai",
   "title": "中国铁塔 · 人工智能",
-  "subtitle": "先读历年回忆，再按计算机基础与人工智能方向分组复习。",
-  "scopeNote": "计算机部分有2021、2024公开回忆线索；人工智能部分是岗位方向补充，不是已确认考纲。未取得可核验的AI方向完整历年卷。全部可评分题均为原创变式，回忆片段另列并保留缺失信息。",
+  "subtitle": "考前冲刺：AI核心 + 计算机回忆基础 + 有边界的补充；30组知识，逐组检测。",
+  "scopeNote": "面向2026-11-01考试安排复习顺序；没有官方完整AI考纲。P1/P2是本站复习优先级，不是命中概率；先做覆盖摸底，再补错题。",
   "kind": "professional",
   "updatedAt": "2026-10-31",
   "sources": [
@@ -212,131 +212,342 @@
       "verifiedAt": "2026-10-31",
       "supports": "核对目标框的交并比IoU定义。",
       "kind": "技术原文"
+    },
+    {
+      "id": "tai-src-algorithms",
+      "title": "Algorithms and Data Structures Cheatsheet",
+      "url": "https://algs4.cs.princeton.edu/cheatsheet/",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对栈队列、排序查找、图算法和复杂度；用于通用计算机补充，不证明铁塔已考。"
+    },
+    {
+      "id": "tai-src-os",
+      "title": "Operating Systems: Three Easy Pieces",
+      "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "开放教材，核对进程线程、并发同步和虚拟内存；为Linux考点的基础扩展。"
+    },
+    {
+      "id": "tai-src-python",
+      "title": "5. Data Structures — Python 3.15.2 documentation",
+      "url": "https://docs.python.org/3/tutorial/datastructures.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对Python容器、引用与可变对象基础。"
+    },
+    {
+      "id": "tai-src-numpy",
+      "title": "Broadcasting — NumPy v2.5 Manual",
+      "url": "https://numpy.org/doc/stable/user/basics.broadcasting.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对广播维度规则，支持数组形状计算。"
+    },
+    {
+      "id": "tai-src-pandas",
+      "title": "How to calculate summary statistics — pandas 3.1.0 documentation",
+      "url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/06_calculate_statistics.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对按组统计与缺失值口径。"
+    },
+    {
+      "id": "tai-src-probability",
+      "title": "2.6. Probability and Statistics — Dive into Deep Learning 1.0.3 documentation",
+      "url": "https://d2l.ai/chapter_preliminaries/probability.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对条件概率、贝叶斯、期望和方差。"
+    },
+    {
+      "id": "tai-src-algebra",
+      "title": "2.3. Linear Algebra — Dive into Deep Learning 1.0.3 documentation",
+      "url": "https://d2l.ai/chapter_preliminaries/linear-algebra.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对矩阵乘法、向量内积与范数。"
+    },
+    {
+      "id": "tai-src-calculus",
+      "title": "2.4. Calculus — Dive into Deep Learning 1.0.3 documentation",
+      "url": "https://d2l.ai/chapter_preliminaries/calculus.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对导数、梯度与链式法则。"
+    },
+    {
+      "id": "tai-src-linear",
+      "title": "1.1. Linear Models — scikit-learn 1.9.1 documentation",
+      "url": "https://scikit-learn.org/stable/modules/linear_model.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对线性/逻辑回归及L1/L2正则化。"
+    },
+    {
+      "id": "tai-src-svm",
+      "title": "1.4. Support Vector Machines — scikit-learn 1.9.1 documentation",
+      "url": "https://scikit-learn.org/stable/modules/svm.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对核函数、C参数和特征缩放。"
+    },
+    {
+      "id": "tai-src-neighbors",
+      "title": "1.6. Nearest Neighbors — scikit-learn 1.9.1 documentation",
+      "url": "https://scikit-learn.org/stable/modules/neighbors.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对K近邻分类与距离。"
+    },
+    {
+      "id": "tai-src-bayes",
+      "title": "1.9. Naive Bayes — scikit-learn 1.9.1 documentation",
+      "url": "https://scikit-learn.org/stable/modules/naive_bayes.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对朴素贝叶斯的条件独立假设和平滑。"
+    },
+    {
+      "id": "tai-src-ensemble",
+      "title": "1.11. Ensembles: Gradient boosting, random forests, bagging, voting, stacking — scikit-learn 1.9.1 documentation",
+      "url": "https://scikit-learn.org/stable/modules/ensemble.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对随机森林、Bagging和梯度提升。"
+    },
+    {
+      "id": "tai-src-cluster",
+      "title": "2.3. Clustering — scikit-learn 1.9.1 documentation",
+      "url": "https://scikit-learn.org/stable/modules/clustering.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对K-means与DBSCAN的区别。"
+    },
+    {
+      "id": "tai-src-pca",
+      "title": "2.5. Decomposing signals in components (matrix factorization problems) — scikit-learn 1.9.1 documentation",
+      "url": "https://scikit-learn.org/stable/modules/decomposition.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对PCA中心化、投影和解释方差。"
+    },
+    {
+      "id": "tai-src-optim",
+      "title": "torch.optim — PyTorch 2.15 documentation",
+      "url": "https://docs.pytorch.org/docs/2.15/optim.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对梯度清零、参数更新和优化器。"
+    },
+    {
+      "id": "tai-src-dropout",
+      "title": "Dropout — PyTorch 2.15 documentation",
+      "url": "https://docs.pytorch.org/docs/2.15/generated/torch.nn.Dropout.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对训练时随机置零与评估时恒等映射。"
+    },
+    {
+      "id": "tai-src-batchnorm",
+      "title": "BatchNorm2d — PyTorch 2.15 documentation",
+      "url": "https://docs.pytorch.org/docs/2.15/generated/torch.nn.BatchNorm2d.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对默认运行统计、训练和评估模式。"
+    },
+    {
+      "id": "tai-src-conv",
+      "title": "Conv2d — PyTorch 2.15 documentation",
+      "url": "https://docs.pytorch.org/docs/2.15/generated/torch.nn.Conv2d.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对卷积尺寸、分组和参数形状。"
+    },
+    {
+      "id": "tai-src-attention",
+      "title": "torch.nn.functional.scaled_dot_product_attention — PyTorch 2.15 documentation",
+      "url": "https://docs.pytorch.org/docs/2.15/generated/torch.nn.functional.scaled_dot_product_attention.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对缩放点积注意力、softmax和因果掩码。"
+    },
+    {
+      "id": "tai-src-transactions",
+      "title": "17.7.2 InnoDB Transaction Model",
+      "url": "https://docs.oracle.com/cd/E17952_01/mysql-8.4-en/innodb-transaction-model.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对InnoDB事务模型与ACID。"
+    },
+    {
+      "id": "tai-src-isolation",
+      "title": "17.7.2.1 Transaction Isolation Levels",
+      "url": "https://docs.oracle.com/cd/E17952_01/mysql-8.4-en/innodb-transaction-isolation-levels.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对四种隔离级别及InnoDB具体实现边界。"
+    },
+    {
+      "id": "tai-src-hashmap",
+      "title": "HashMap (Java SE 21 & JDK 21)",
+      "url": "https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/HashMap.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对HashMap的复杂度和线程安全边界。"
+    },
+    {
+      "id": "tai-src-volatile",
+      "title": "Chapter 17. Threads and Locks",
+      "url": "https://docs.oracle.com/javase/specs/jls/se21/html/jls-17.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对Java内存模型、volatile与同步关系。"
+    },
+    {
+      "id": "tai-src-hbase",
+      "title": "Apache HBase® Reference Guide",
+      "url": "https://hbase.apache.org/book.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对RowKey、列族、RegionServer和访问模式。"
+    },
+    {
+      "id": "tai-src-hdfs",
+      "title": "Apache Hadoop 3.3.5 – HDFS Architecture",
+      "url": "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对NameNode/DataNode职责和副本。"
+    },
+    {
+      "id": "tai-src-http",
+      "title": "RFC 9110: HTTP Semantics",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对HTTP方法、幂等性与状态语义。"
+    },
+    {
+      "id": "tai-src-security",
+      "title": "SQL Injection Prevention - OWASP Cheat Sheet Series",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对参数化查询、白名单和最小权限。"
+    },
+    {
+      "id": "tai-src-validation",
+      "title": "3.1. Cross-validation: evaluating estimator performance — scikit-learn 1.9.1 documentation",
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对分组验证、时间序列验证与测试集隔离。"
+    },
+    {
+      "id": "tai-src-metrics",
+      "title": "3.4. Metrics and scoring: quantifying the quality of predictions — scikit-learn 1.9.1 documentation",
+      "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "publishedAt": "动态文档未统一标发布日期；使用本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对分类/回归指标、阈值和多类别平均。"
+    },
+    {
+      "id": "tai-src-lora",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "url": "https://arxiv.org/abs/2106.09685",
+      "publishedAt": "2021-06-17；v2 2021-10-16",
+      "verifiedAt": "2026-10-31",
+      "kind": "研究论文 · 非考纲",
+      "supports": "核对冻结原权重、训练低秩分解矩阵的基本机制。"
+    },
+    {
+      "id": "tai-src-generation",
+      "title": "Transformers · Generation strategies（官方仓库文档）",
+      "url": "https://raw.githubusercontent.com/huggingface/transformers/main/docs/source/en/generation_strategies.md",
+      "publishedAt": "动态文档；本次读取main版本",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对贪心解码与采样的区别；不把采样策略当作正确性保证。"
+    },
+    {
+      "id": "tai-src-cidr",
+      "title": "RFC 4632 · CIDR",
+      "url": "https://www.rfc-editor.org/rfc/rfc4632.html",
+      "publishedAt": "2006-08",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术标准 · 非考纲",
+      "supports": "核对IPv4地址前缀和地址块；传统子网主机数练习单独注明例外。"
+    },
+    {
+      "id": "tai-src-dns",
+      "title": "RFC 1034 · Domain Names",
+      "url": "https://www.rfc-editor.org/rfc/rfc1034.html",
+      "publishedAt": "1987-11",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术标准 · 非考纲",
+      "supports": "核对域名系统、解析与缓存的基本职责。"
+    },
+    {
+      "id": "tai-src-k8s-service",
+      "title": "Kubernetes · Service",
+      "url": "https://kubernetes.io/docs/concepts/services-networking/service/",
+      "publishedAt": "动态文档；按本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对Pod变化、Service稳定访问与Deployment的关系。"
+    },
+    {
+      "id": "tai-src-k8s-probes",
+      "title": "Kubernetes · Liveness, Readiness, and Startup Probes",
+      "url": "https://kubernetes.io/docs/concepts/configuration/liveness-readiness-startup-probes/",
+      "publishedAt": "动态文档；按本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对readiness接流量与liveness失活检测的区别。"
+    },
+    {
+      "id": "tai-src-chmod",
+      "title": "man7 · chmod(1)",
+      "url": "https://man7.org/linux/man-pages/man1/chmod.1.html",
+      "publishedAt": "动态文档；按本次访问正文",
+      "verifiedAt": "2026-10-31",
+      "kind": "技术原文 · 非考纲",
+      "supports": "核对八进制读写执行权限含义。"
     }
   ],
   "lessons": [
-    {
-      "id": "tai-01",
-      "title": "Java：相等、哈希与对象契约",
-      "category": "回忆涉及 · 开发与系统",
-      "summary": "2024计算机类回忆提到Java；此处只练清晰、可核对的基础契约。",
-      "keyPoints": [
-        "引用类型的==比较是否指向同一对象；equals可按类的约定比较内容。",
-        "equals为true，hashCode必须相同；反向不成立。",
-        "重写equals时通常需要同步重写hashCode。"
-      ],
-      "body": "回忆帖只说“偏向Java”，没有提供这组原题。以下是按Java官方API整理的基础变式。\n\n引用类型的 `==` 判断两个引用是否指向同一对象；`equals` 是否按内容比较，取决于类的实现。Object默认equals与对象身份一致，String等类重写了它，不能把“所有对象的equals都比较内容”当通则。\n\n哈希容器的关键契约是：**两个对象若equals为true，hashCode必须相同；hashCode相同，equals不一定为true**，因为可能碰撞。自定义对象参与HashMap或HashSet时，重写equals而不相应重写hashCode，会破坏按逻辑相等识别键的预期。\n\n例如两个学生对象学号相同，你定义它们equals为true，那么哈希值也应按相同的逻辑字段生成。用作键之后改变这些字段，还可能让查找行为变得异常。先理解契约，再记结论。",
-      "pitfall": "“不同对象”不一定“不相等”；哈希碰撞也不等于程序出错。",
-      "sourceIds": [
-        "tai-s01",
-        "tai-s03"
-      ]
-    },
-    {
-      "id": "tai-02",
-      "title": "Spring Boot与Nacos：注解、注册与节点",
-      "category": "回忆涉及 · 开发与系统",
-      "summary": "2021与2024回忆出现Spring；2024有Nacos节点数片段，缺少版本与选项。",
-      "keyPoints": [
-        "@SpringBootApplication组合配置类、自动配置、组件扫描能力。",
-        "Nacos可用于服务发现与配置管理；具体能力按版本核对。",
-        "当前Nacos部署文档要求配置3个或3个以上节点，不把片段简化成无条件的“2/3台即集群”。"
-      ],
-      "body": "2024回忆提到Spring Boot注解多选题，以及“nacos有几个节点就算是集群”的片段。原文没有列完整题干、选项与Nacos版本，不能恢复成唯一可评分的历年题。\n\n先掌握有明确文档依据的组合：`@SpringBootApplication` 包括 `@SpringBootConfiguration`、`@EnableAutoConfiguration`、`@ComponentScan` 对应的功能，即配置类、自动配置、组件扫描。自动配置会根据类路径、配置与已有Bean等条件工作，不是把任意业务逻辑自动写出来。\n\nNacos常用于服务发现和配置管理。针对节点数，本次读取的官方集群部署文档要求在 `cluster.conf` 中配置 **3个或3个以上节点**。这句话讨论该文档的集群部署要求，不是所有分布式系统的定义。本章检测会明确限定“按当前部署文档”，避免把补全条件后的原创题冒充2024原题。",
-      "pitfall": "不要把2026所读文档的版本细节倒推成2024试卷答案；缺选项的回忆片段只保留为线索。",
-      "sourceIds": [
-        "tai-s01",
-        "tai-s04",
-        "tai-s05"
-      ]
-    },
-    {
-      "id": "tai-03",
-      "title": "Linux与Shell：管道、重定向、退出码",
-      "category": "回忆涉及 · 开发与系统",
-      "summary": "2024回忆明确提到Linux指令与Shell编程；练顺序与输出流。",
-      "keyPoints": [
-        "标准输入0、标准输出1、标准错误2。",
-        ">覆盖、>>追加；2>&1让错误输出指向当时的标准输出。",
-        "退出码0通常表示成功；&&表示前一命令成功后再执行。"
-      ],
-      "body": "Linux与Shell在2024计算机类回忆里明确出现，但没有完整原题。备考先区分数据流和控制流。\n\nShell里标准输入、标准输出、标准错误的文件描述符分别是0、1、2。`>` 通常创建或截断目标文件，`>>` 追加。`cmd >out.log 2>&1` 先把标准输出指向文件，再把标准错误复制到同一目的地；顺序换成 `cmd 2>&1 >out.log` 时，标准错误会保留在原标准输出目的地，二者不是普遍等价。\n\n`a | b` 默认把a的标准输出接到b的标准输入；不自动把标准错误也传过去。命令退出状态0通常表示成功，`a && b` 仅在a成功时执行b，`a || b` 则在a失败时执行b。读代码时按从左到右的重定向和短路规则推演，不要只凭符号相似来选。",
-      "pitfall": "重定向有先后顺序；普通管道默认处理stdout，不包含stderr。",
-      "sourceIds": [
-        "tai-s01",
-        "tai-s06"
-      ]
-    },
-    {
-      "id": "tai-04",
-      "title": "SQL与InnoDB：过滤、聚合、索引",
-      "category": "回忆涉及 · 数据与网络",
-      "summary": "回忆点名SQL、InnoDB和覆盖索引；按明确表结构分析，不背含糊的“全局索引”。",
-      "keyPoints": [
-        "WHERE过滤行；HAVING过滤分组结果。",
-        "COUNT(*)计行，COUNT(列)通常不计该列NULL。",
-        "InnoDB二级索引记录含主键值；覆盖索引取决于查询所需列。"
-      ],
-      "body": "2024回忆提到SQL语句、InnoDB细节和覆盖索引，也出现“全局索引”这个词，但没有产品版本或完整语境。本章只整理能够给出明确条件的知识，不把含糊术语直接当成MySQL固定考点。\n\nSQL聚合中，`WHERE` 在分组前筛选行，`HAVING` 用于筛选分组结果。例如查询各地区告警数且只保留数量大于10的地区，可以先按地区 `GROUP BY`，再 `HAVING COUNT(*) > 10`。`COUNT(*)` 统计行数；`COUNT(status)` 不计status为NULL的行。\n\nInnoDB通常以主键组织聚簇索引，二级索引记录还包含主键值。若表主键为id、二级索引为(city)，查询只要city与id时，索引中已含所需列，可具备覆盖条件；若再取不在索引中的description，通常需要回到聚簇索引取行。索引不是越多越好，更新成本、空间和选择性都要考虑。",
-      "pitfall": "WHERE不能直接替代HAVING COUNT(*)；“用了索引”与“覆盖索引”不同。",
-      "sourceIds": [
-        "tai-s01",
-        "tai-s07",
-        "tai-s21"
-      ]
-    },
-    {
-      "id": "tai-05",
-      "title": "Docker与Kubernetes：容器、Pod和副本",
-      "category": "回忆涉及 · 开发与系统",
-      "summary": "2024回忆提到Docker命令与K8s细节；先练常见操作与对象层级。",
-      "keyPoints": [
-        "docker ps默认列运行中容器；docker ps -a列全部状态。",
-        "镜像是创建容器的模板；容器是运行实例。",
-        "Pod是Kubernetes最小可部署单元，可有多个容器。"
-      ],
-      "body": "2024笔试回忆明确提到Docker具体指令、K8s细节。本站围绕稳定概念出题，不声称这些命令就是那次原题。\n\n镜像可以理解为创建容器所需的模板，容器则是由镜像创建的实例。`docker ps` 默认只显示运行中的容器，`docker ps -a` 包含已退出等其他状态；看不到某容器时，先检查是不是漏了 `-a`，不能立即推断容器已经被删除。\n\nKubernetes里，**Pod是最小可部署单元**，一个Pod可以包含一个或多个紧密协作的容器，这些容器共享网络等上下文。扩展一个应用的独立副本通常是增加Pod副本，而不是把所有副本塞进一个Pod。管理长期无状态服务时常用Deployment等工作负载对象管理Pod；Pod本身不等于物理机，也不等于整个集群。理解层级：集群包含节点，节点上运行Pod，Pod内运行容器。",
-      "pitfall": "一个Pod不必只有一个容器；docker ps不显示已退出容器不代表容器不存在。",
-      "sourceIds": [
-        "tai-s01",
-        "tai-s08",
-        "tai-s09"
-      ]
-    },
-    {
-      "id": "tai-06",
-      "title": "Spark：转换、行动与分布式数据",
-      "category": "回忆涉及 · 数据与网络",
-      "summary": "回忆出现Spark与HBase，先分清计算引擎和存储系统。",
-      "keyPoints": [
-        "RDD是分布式数据集合抽象；map/filter等转换通常惰性执行。",
-        "count/collect等行动操作触发计算；collect会把结果带回驱动端。",
-        "Spark计算与HBase存储不是同一层能力；不要把所有数据都collect到单机。"
-      ],
-      "body": "2024回忆提到Spark和HBase，但没有给出具体题目。复习先掌握角色与执行过程，避免把大数据术语当同义词。\n\nSpark用于分布式数据处理，RDD提供分布式集合抽象。`map`、`filter` 等转换构建新的计算关系，通常是惰性执行；`count`、`collect` 等行动操作需要产出结果，会触发相应计算。`count` 返回数量，`collect` 把所有结果取回驱动进程，因此结果过大可能使驱动端内存不足。\n\n持久化用于在多次使用中复用已计算的数据，但缓存并不意味着内存无限或所有后续操作都不再计算。HBase是分布式存储系统，Spark可以读取包括HBase等在内的外部数据源，二者可以配合，不能简单说HBase就是Spark的另一个名字。题目若给出具体数据规模，优先考虑分区、聚合位置和网络传输，而不是只背“分布式所以一定快”。",
-      "pitfall": "惰性不是永远不执行；collect也不是适合任意规模数据的默认检查方式。",
-      "sourceIds": [
-        "tai-s01",
-        "tai-s10"
-      ]
-    },
-    {
-      "id": "tai-07",
-      "title": "网络基础：TCP、分层与消息边界",
-      "category": "回忆涉及 · 数据与网络",
-      "summary": "2024回忆点名TCP/IP结构；先掌握传输语义。",
-      "keyPoints": [
-        "TCP属于传输层，提供可靠有序字节流。",
-        "IP负责网络层寻址与转发；应用协议另行定义业务含义。",
-        "TCP不保留应用消息边界，应用可用长度字段或分隔符定界。"
-      ],
-      "body": "2024回忆表示网络部分涉及TCP/IP结构，但没有公开完整选项。本章用分层和传输语义检测理解，不把它扩写成通信专业整套课程。\n\nIP位于网络层，负责网络寻址与数据包转发。TCP位于传输层，在端点之间提供可靠、有序的字节流；应用层再定义请求、响应或业务消息的具体意义。因此“TCP能保证某项业务一定成功”并不成立：传输成功与业务校验通过是不同层次。\n\nTCP是字节流，不保留应用程序每次写入的消息边界。服务端一次读取可能得到半条消息，也可能包括多条消息，需要应用协议约定长度字段、定长格式或可靠分隔方式来解析。常见三次握手通过SYN、SYN+ACK、ACK建立连接并同步序号状态。识别这些步骤时，避免混入断开连接或应用层登录的语义。",
-      "pitfall": "可靠字节流不等于自动保留消息边界，也不等于应用业务必然成功。",
-      "sourceIds": [
-        "tai-s01",
-        "tai-s11"
-      ]
-    },
     {
       "id": "tai-08",
       "title": "数据划分与泄漏：先分数据，再拟合",
@@ -347,12 +558,15 @@
         "标准化、特征选择等也只能在训练部分拟合。",
         "时间序列按时间评估；同一实体的近重复样本避免跨训练与测试。"
       ],
-      "body": "这一组属于AI方向基础补充，依据技术文档编写，不是历年回忆题。它能帮助理解模型效果为什么有时“离线很好、上线变差”。\n\n训练集用于拟合模型参数，验证集用于选择超参数、模型或决策阈值，测试集留到最终评估。若根据测试结果不断修改模型，测试集实际上已经参与调参，分数不再是独立的泛化估计。\n\n数据泄漏不仅是把标签直接放进特征。对全量数据先做标准化或特征筛选，再切训练测试，也可能让测试信息进入训练。正确做法是在训练集或交叉验证的训练折中拟合预处理，再把学到的变换应用于验证和测试。\n\n铁塔视频场景尤其要留意同一摄像头的连续近重复帧：随机拆开可能使测试集过于相似。若目标是未来时段或新站点泛化，应设计时间或站点隔离的划分，与真实使用场景一致。",
+      "body": "这一组属于AI方向基础补充，依据技术文档编写，不是历年回忆题。它能帮助理解模型效果为什么有时“离线很好、上线变差”。\n\n训练集用于拟合模型参数，验证集用于选择超参数、模型或决策阈值，测试集留到最终评估。若根据测试结果不断修改模型，测试集实际上已经参与调参，分数不再是独立的泛化估计。\n\n数据泄漏不仅是把标签直接放进特征。对全量数据先做标准化或特征筛选，再切训练测试，也可能让测试信息进入训练。正确做法是在训练集或交叉验证的训练折中拟合预处理，再把学到的变换应用于验证和测试。\n\n铁塔视频场景尤其要留意同一摄像头的连续近重复帧：随机拆开可能使测试集过于相似。若目标是未来时段或新站点泛化，应设计时间或站点隔离的划分，与真实使用场景一致。\n\n**考前补强**\n\n交叉验证同样不能绕过泄漏：每一折的填补、缩放、特征选择都只能在该折训练部分拟合，再变换验证部分，可用Pipeline约束流程。同一站点、同一患者、同一事件的多条样本，应考虑分组隔离；时间预测应保留先后顺序，不能用未来信息验证过去。测试集只用于最终评估，反复依据它调阈值或选模型就已使其承担验证集角色。",
       "pitfall": "验证集可以用于选阈值；测试集不能变成反复试错的调参集。",
       "sourceIds": [
         "tai-s12",
-        "tai-s20"
-      ]
+        "tai-s20",
+        "tai-src-validation"
+      ],
+      "priority": "P1",
+      "evidence": "AI岗位推断；未核到该细项真题"
     },
     {
       "id": "tai-09",
@@ -364,11 +578,74 @@
         "F1=2PR/(P+R)，是调和平均。",
         "正类很少时，准确率可能掩盖大量漏报。"
       ],
-      "body": "先约定正类，例如“确有火情”。TP是真火情且报了火情，FP是没火却告警，FN是有火却漏报，TN是没火且没告警。不要先套公式再猜哪个格子代表什么。\n\n**精确率Precision** 问“报出来的有多少是真的”，分母是TP+FP；**召回率Recall** 问“真实存在的找出了多少”，分母是TP+FN。F1是两者的调和平均：2PR/(P+R)。分母为0时应按评估工具的明确约定处理，不能把没有正例的情况直接视作完美模型。\n\n例如TP=30、FP=10、FN=20，精确率为30/40=75%，召回率为30/50=60%，F1约66.7%。若一万条中只有十条火情，永远预测无火也能有99.9%准确率，却完全找不到火情。阈值选择应结合误报成本、漏报损失和人工复核能力，在固定数据与评分下调低告警阈值通常提高召回，同时可能增加误报。",
+      "body": "先约定正类，例如“确有火情”。TP是真火情且报了火情，FP是没火却告警，FN是有火却漏报，TN是没火且没告警。不要先套公式再猜哪个格子代表什么。\n\n**精确率Precision** 问“报出来的有多少是真的”，分母是TP+FP；**召回率Recall** 问“真实存在的找出了多少”，分母是TP+FN。F1是两者的调和平均：2PR/(P+R)。分母为0时应按评估工具的明确约定处理，不能把没有正例的情况直接视作完美模型。\n\n例如TP=30、FP=10、FN=20，精确率为30/40=75%，召回率为30/50=60%，F1约66.7%。若一万条中只有十条火情，永远预测无火也能有99.9%准确率，却完全找不到火情。阈值选择应结合误报成本、漏报损失和人工复核能力，在固定数据与评分下调低告警阈值通常提高召回，同时可能增加误报。\n\n**考前补强**\n\n再把指标放到同一个表：准确率=(TP+TN)/总数；召回率TPR=TP/(TP+FN)；假阳性率FPR=FP/(FP+TN)。ROC描绘TPR随FPR变化，PR曲线看precision与recall；极不平衡时应关注少数类与业务成本，不能只报accuracy或一个AUC。Macro先算每类指标再等权平均，Micro先汇总计数再计算；样本多的类别在Micro中影响通常更大。检测AP/mAP还与IoU、类别和评估协议有关，不能直接等同分类准确率。",
       "pitfall": "精确率的分母是预测正类，召回率的分母是真实正类；F1不是算术平均。",
       "sourceIds": [
         "tai-s13",
-        "tai-s20"
+        "tai-s20",
+        "tai-src-metrics"
+      ],
+      "priority": "P1",
+      "evidence": "AI岗位推断；未核到该细项真题"
+    },
+    {
+      "id": "tai-15",
+      "title": "Python与NumPy：引用、切片与数组形状",
+      "category": "AI先修 · 编程与数学",
+      "priority": "P1",
+      "evidence": "AI岗位推断；不是已核真题",
+      "summary": "会读短代码，比背库名更有用。",
+      "keyPoints": [
+        "赋值不复制；浅拷贝只复制外层。",
+        "NumPy广播从末维对齐：相等或其中一个为1。",
+        "矩阵乘法看内维，逐元素乘法看广播。"
+      ],
+      "body": "Python的变量绑定对象，令b=a不会新建列表。a=[[1],[2]]，b=a.copy()只复制外层列表，b[0].append(9)仍会影响a[0]；但b.append([3])不会给a增加外层元素。列表可变，元组不可修改元素绑定，但元组内部若装着列表，该列表仍可变化。list.sort()原地排序并返回None；sorted()返回新列表。\n\n切片左闭右开。a=[0,1,2,3,4]时a[1:4:2]是[1,3]，a[-1]是4。字典按键取值，集合用于去重；不能把{}认作空集合，它是空字典。注意列表乘法生成嵌套结构时可能重复引用同一个内层对象。\n\nNumPy广播从末维向前比：维度相等，或其中一个为1，才可兼容。(3,1)+(1,4)得到(3,4)；(2,3)+(2,)末维3和2冲突。A形状(2,3)、B形状(3,4)，A@B得到(2,4)，不是(3,3)。A*B通常表示逐元素乘，不能用矩阵乘法的规则判定。\n\n二维数组X形状(样本数,特征数)，X.mean(axis=0)对样本轴求平均，得到每个特征的均值；axis=1得到每行均值。数据处理还要核对缺失值、重复样本和分组统计口径；标准化参数只能在训练集上拟合。",
+      "pitfall": "浅拷贝不等于递归复制；不要把axis编号当成“保留哪一维”。",
+      "sourceIds": [
+        "tai-src-python",
+        "tai-src-numpy",
+        "tai-src-pandas",
+        "tai-s12"
+      ]
+    },
+    {
+      "id": "tai-16",
+      "title": "概率与线性代数：贝叶斯、期望、矩阵",
+      "category": "AI先修 · 编程与数学",
+      "priority": "P1",
+      "evidence": "AI岗位推断；计算基础",
+      "summary": "先会代入小题，再考虑长推导。",
+      "keyPoints": [
+        "P(A|B)=P(B|A)P(A)/P(B)。",
+        "Var(X)=E(X²)−E(X)²；独立才可直接相乘概率。",
+        "内积、范数、矩阵形状和链式法则是模型计算基础。"
+      ],
+      "body": "条件概率必须分清方向：P(火情|告警)不等于P(告警|火情)。若真实火情率1%，火情检出率90%，非火情误报率5%，每10000个样本约有90个真实告警、495个误报告警，因此告警后确有火情的概率约90/585=15.38%。不能只看到90%检出率就认为告警九成可靠。\n\n期望是按概率加权求和。公平的0/1随机变量X，E(X)=0.5，E(X²)=0.5，Var(X)=0.25。方差非负；一般E(X²)不等于E(X)²。独立事件满足P(A∩B)=P(A)P(B)；互斥事件不能同时发生，有正概率的两个互斥事件并不独立。\n\n向量[1,2]与[3,4]的内积为11；[3,4]的L2范数为5。非零向量的余弦相似度为内积除以两者范数之积，关注方向，不等于欧氏距离。矩阵乘法通常不能交换；(AB)ᵀ=BᵀAᵀ。\n\n链式法则用于反向传播。L=(wx−y)²时dL/dw=2(wx−y)x；w=2、x=3、y=1时梯度为30。若题目损失写成二分之一平方误差，则梯度相应减半。先核对损失定义再套公式。",
+      "pitfall": "条件概率方向、分母基数和损失前的1/2是常见易错条件。",
+      "sourceIds": [
+        "tai-src-probability",
+        "tai-src-algebra",
+        "tai-src-calculus"
+      ]
+    },
+    {
+      "id": "tai-17",
+      "title": "回归、分类与损失：正则化如何选",
+      "category": "AI核心 · 常用模型",
+      "priority": "P1",
+      "evidence": "AI岗位推断；基础模型",
+      "summary": "把任务、输出、损失和指标连起来。",
+      "keyPoints": [
+        "逻辑回归用于分类；sigmoid(0)=0.5。",
+        "回归常用MSE/MAE；单标签分类常用交叉熵。",
+        "L1倾向稀疏；L2惩罚大权重；正则过强可欠拟合。"
+      ],
+      "body": "线性回归输出连续数值，常以均方误差MSE=(误差平方和)/样本数训练。MAE取绝对误差平均，MSE对大误差惩罚更重。预测[2,4]、真实[1,2]时MSE=(1+4)/2=2.5，MAE=(1+2)/2=1.5。训练损失与最终业务指标可能不同，报告时写清。\n\n逻辑回归虽然叫回归，常用于分类。二分类先算z=wᵀx+b，再用sigmoid(z)=1/(1+e^(−z))映射概率，z=0时p=0.5。单样本二元交叉熵为−[y ln p+(1−y)ln(1−p)]；y=1时即−ln p，所以给真实类更高概率会降低该项损失。多类单标签常用softmax；多标签任务可每类用独立sigmoid，不能强迫每样本只选一类。\n\n正则化在经验损失外惩罚模型复杂度。L1惩罚系数绝对值之和，倾向产生零系数；L2惩罚平方和，通常平滑缩小权重。正则太强可欠拟合，太弱可能过拟合。特征尺度影响惩罚，需结合训练集拟合的缩放处理。\n\n参数与超参数分开：w通常由训练学得，学习率、正则强度通常在验证阶段选择。scikit-learn LogisticRegression中C是正则强度的倒数；C增大意味着更弱的正则。不能把不同库同名或反向定义的参数混记。",
+      "pitfall": "逻辑回归不因名字而属于连续值预测；C增大并不表示正则更强。",
+      "sourceIds": [
+        "tai-src-linear",
+        "tai-src-metrics"
       ]
     },
     {
@@ -381,11 +658,34 @@
         "决策树既可分类也可回归，过深可能过拟合。",
         "训练误差低而验证误差高时，先考虑泛化与数据分布问题。"
       ],
-      "body": "模型名称不是任务名称。分类关注类别，例如是否存在烟火；回归预测连续量，例如设备剩余寿命；聚类从样本相似性组织群组，通常没有预先给定的类别标签。不要因为模型叫“逻辑回归”就认为它只能预测连续数值。\n\n决策树通过特征条件不断划分样本，既能做分类也能做回归。树越深、叶子越多，表达能力往往越强，但可能记住训练噪声。限制最大深度、提高叶子最少样本数或剪枝，可以控制复杂度；具体选择要通过验证数据，而不是盲目设得越小越好。\n\n过拟合的典型信号是训练误差已经很低，验证误差仍较高。除了控制模型复杂度，还要检查训练与验证分布是否一致、是否存在标签问题。相反，训练与验证都差可能说明表达能力或特征不足。正则化与更合理的数据能帮助泛化，但不存在“加了正则就一定提升所有数据集分数”的保证。",
+      "body": "模型名称不是任务名称。分类关注类别，例如是否存在烟火；回归预测连续量，例如设备剩余寿命；聚类从样本相似性组织群组，通常没有预先给定的类别标签。不要因为模型叫“逻辑回归”就认为它只能预测连续数值。\n\n决策树通过特征条件不断划分样本，既能做分类也能做回归。树越深、叶子越多，表达能力往往越强，但可能记住训练噪声。限制最大深度、提高叶子最少样本数或剪枝，可以控制复杂度；具体选择要通过验证数据，而不是盲目设得越小越好。\n\n过拟合的典型信号是训练误差已经很低，验证误差仍较高。除了控制模型复杂度，还要检查训练与验证分布是否一致、是否存在标签问题。相反，训练与验证都差可能说明表达能力或特征不足。正则化与更合理的数据能帮助泛化，但不存在“加了正则就一定提升所有数据集分数”的保证。\n\n**考前补强**\n\n欠拟合常见表现是训练与验证都较差；过拟合常见表现是训练很好、验证明显变差，但仍需排查分布变化和数据质量。学习曲线可辅助判断：增加数据、降低复杂度、正则化或早停需要针对原因选择。标准化不是每个模型都必须，也不是数据增强；扩充样本只能在训练链路中进行，不能把增强后的近重复样本散进最终测试。",
       "pitfall": "决策树不是只能分类；训练集满分不是上线效果的充分证据。",
       "sourceIds": [
         "tai-s12",
-        "tai-s14"
+        "tai-s14",
+        "tai-src-linear",
+        "tai-src-validation"
+      ],
+      "priority": "P1",
+      "evidence": "AI岗位推断；未核到该细项真题"
+    },
+    {
+      "id": "tai-19",
+      "title": "决策树与集成：熵、基尼、Bagging、Boosting",
+      "category": "AI核心 · 常用模型",
+      "priority": "P1",
+      "evidence": "AI岗位推断；扩展已有树模型",
+      "summary": "会计算纯度，也能解释为什么集成。",
+      "keyPoints": [
+        "二分类各半时以2为底的熵为1、基尼为0.5。",
+        "Bagging倾向降低方差；随机森林加入特征随机性。",
+        "Boosting顺序修正不足，不能把所有提升都说成训练同一棵树。"
+      ],
+      "body": "分类树以特征切分逐步提高子节点纯度。信息熵H=−Σp log₂p，基尼不纯度G=1−Σp²。两个类别各占一半时H=1，G=0.5；纯节点二者都为0。信息增益是父节点熵减去按样本比例加权的子节点熵，不是把子节点熵简单相加。\n\n深树可把训练数据分得很细，也容易过拟合。限制最大深度、提高叶节点最小样本数、剪枝是常见控制办法。单调缩放通常不改变基于阈值排序的树切分顺序，这与基于距离的KNN不同，但有缺失值、数值精度和实现细节时不应无限绝对化。\n\nBagging在不同重采样数据上训练多个基模型，再平均或投票，常用于降低高方差模型的不稳定性。随机森林通常还在切分时随机选特征子集，降低树之间的相关性。不是只把同一棵树复制多份。\n\nBoosting按顺序构建模型，利用前面模型的不足继续改善；梯度提升针对损失函数的负梯度拟合新模型。学习率与迭代轮数需要一起调。树越多不意味着永远不会过拟合，也不代表无需独立验证。",
+      "pitfall": "增益要加权；纯度、训练分数和泛化分数是不同概念。",
+      "sourceIds": [
+        "tai-s14",
+        "tai-src-ensemble"
       ]
     },
     {
@@ -398,9 +698,34 @@
         "PyTorch叶子张量梯度默认累积，通常需在新一步前清零。",
         "停止梯度计算与切换模型训练/评估模式不是同一操作。"
       ],
-      "body": "训练网络可以按四步理解：前向计算预测、计算损失、反向传播求导、优化器更新参数。反向传播利用链式法则计算梯度，本身不等于完成参数更新。\n\n最简单的梯度下降为 w新=w旧−学习率×梯度。例如w=2，梯度=3，学习率=0.1，更新后是1.7；别把下降方向写成加号。学习率过大可能使优化震荡，过小则可能收敛慢，但效果仍与损失曲面、优化器等有关。\n\nPyTorch的梯度会累积到叶子张量的 `.grad`，通常要在新训练步骤前通过优化器清零。若有意做多批次梯度累积，应明确缩放与更新时机。推理时关闭梯度记录可以减少开销，但这和切换Dropout、BatchNorm等模块的训练/评估行为是两件事；`no_grad` 不自动等于 `eval()`。",
+      "body": "训练网络可以按四步理解：前向计算预测、计算损失、反向传播求导、优化器更新参数。反向传播利用链式法则计算梯度，本身不等于完成参数更新。\n\n最简单的梯度下降为 w新=w旧−学习率×梯度。例如w=2，梯度=3，学习率=0.1，更新后是1.7；别把下降方向写成加号。学习率过大可能使优化震荡，过小则可能收敛慢，但效果仍与损失曲面、优化器等有关。\n\nPyTorch的梯度会累积到叶子张量的 `.grad`，通常要在新训练步骤前通过优化器清零。若有意做多批次梯度累积，应明确缩放与更新时机。推理时关闭梯度记录可以减少开销，但这和切换Dropout、BatchNorm等模块的训练/评估行为是两件事；`no_grad` 不自动等于 `eval()`。\n\n**考前补强**\n\n再记一次参数计算：全连接层输入10维、输出3维、含偏置，权重10×3加偏置3，共33参数。梯度是损失对参数的局部变化率，并非每一步实际准确率提升量。若多个样本损失求和与求平均，梯度尺度也不同；比较学习率前应核对reduction。计算图被保留、梯度累积和参数更新是不同状态。",
       "pitfall": "backward求梯度，step更新参数；不清零会累积，eval也不自动关闭全部求导。",
       "sourceIds": [
+        "tai-s15",
+        "tai-s22",
+        "tai-src-optim"
+      ],
+      "priority": "P1",
+      "evidence": "AI岗位推断；未核到该细项真题"
+    },
+    {
+      "id": "tai-21",
+      "title": "训练细节：学习率、优化器、Dropout与归一化",
+      "category": "AI核心 · 深度学习",
+      "priority": "P1",
+      "evidence": "AI岗位推断；扩展已有训练知识",
+      "summary": "能排查训练不动和推理不稳定。",
+      "keyPoints": [
+        "梯度下降沿负梯度更新；学习率过大可能振荡。",
+        "反向传播计算梯度，优化器step更新参数。",
+        "Dropout与BatchNorm要区分训练/评估；eval不等于关闭梯度。"
+      ],
+      "body": "基本梯度下降w_new=w−ηg。w=2、梯度g=6、学习率η=0.1，则新w=1.4。学习率过大可能跨过较优区域并振荡，过小可能收敛慢。Momentum累积方向信息，Adam使用梯度的一阶与二阶矩估计自适应缩放，但都不保证全局最优。\n\n常规PyTorch单步训练是清梯度、前向、算损失、backward、step。反向传播默认把梯度累积到.grad；如果没有刻意做梯度累积，多步不清零会混入旧梯度。梯度裁剪常用来限制过大的梯度；它不等价于自动解决所有训练不稳定。\n\nReLU(x)=max(0,x)，正半轴导数为1、负半轴为0（零点按实现约定）。sigmoid在极大或极小输入处饱和，梯度可能很小。深网络仅堆线性层而不加非线性，整体仍可化成线性/仿射变换，不能凭层数获得同样的非线性表达能力。\n\n标准Dropout在训练时以p概率置零并对保留元素缩放，评估时为恒等映射。BatchNorm默认训练时使用当前批次统计并更新运行统计，评估时使用运行统计；若显式关闭track_running_stats则另论。model.eval()切换这些模块行为，torch.no_grad()控制梯度记录，两者不是替代关系。",
+      "pitfall": "本组BatchNorm结论限定默认跟踪运行统计配置；不要把eval理解成所有参数都冻结。",
+      "sourceIds": [
+        "tai-src-optim",
+        "tai-src-dropout",
+        "tai-src-batchnorm",
         "tai-s15",
         "tai-s22"
       ]
@@ -415,13 +740,37 @@
         "IoU=交集面积/并集面积，不是交集除以两框面积之和。",
         "分类回答是什么，检测还需定位，分割给更细的像素归属。"
       ],
-      "body": "铁塔官方介绍了中高点位视频图像算法与森林防火等场景，因此视觉是合理的岗位方向补充，但官网业务不是考试大纲。\n\n二维普通卷积在每个空间维度分别计算输出：**floor((输入尺寸+2p−k)/s)+1**，这里假设空洞率为1，p是每侧对称填充，k是卷积核尺寸，s是步长。例如输入32、核3、填充1、步长2，输出为floor(31/2)+1=16。若输入28、核3、无填充、步长1，输出为26。\n\n目标检测除类别外还输出位置。两个框的IoU为交集面积除以并集面积；并集=框A面积+框B面积−交集。面积分别100、100，交集50时，IoU=50/150=1/3。分类、检测、分割的输出粒度不同，评价也要按任务设计。在烟火场景里，小目标、遮挡和天气变化可能影响漏检，需要分场景评估而不是只报总体准确率。",
+      "body": "铁塔官方介绍了中高点位视频图像算法与森林防火等场景，因此视觉是合理的岗位方向补充，但官网业务不是考试大纲。\n\n二维普通卷积在每个空间维度分别计算输出：**floor((输入尺寸+2p−k)/s)+1**，这里假设空洞率为1，p是每侧对称填充，k是卷积核尺寸，s是步长。例如输入32、核3、填充1、步长2，输出为floor(31/2)+1=16。若输入28、核3、无填充、步长1，输出为26。\n\n目标检测除类别外还输出位置。两个框的IoU为交集面积除以并集面积；并集=框A面积+框B面积−交集。面积分别100、100，交集50时，IoU=50/150=1/3。分类、检测、分割的输出粒度不同，评价也要按任务设计。在烟火场景里，小目标、遮挡和天气变化可能影响漏检，需要分场景评估而不是只报总体准确率。\n\n**考前补强**\n\n检测阈值与IoU阈值不是同一参数：置信度阈值决定哪些候选告警被保留，IoU阈值可能用于匹配真值或NMS，两种用途也不同。两个框面积各10、交集4，并集10+10−4=16，IoU=0.25。训练时做图像增强需同步变换框或掩码标签；只旋转图像不更新标注会引入错误监督。",
       "pitfall": "卷积公式先确认空洞率与padding定义；IoU分母要减去交集。",
       "sourceIds": [
         "tai-s16",
         "tai-s19",
         "tai-s20",
-        "tai-s23"
+        "tai-s23",
+        "tai-src-conv"
+      ],
+      "priority": "P1",
+      "evidence": "AI岗位推断；未核到该细项真题"
+    },
+    {
+      "id": "tai-22",
+      "title": "视觉计算：卷积参数、池化、检测与分割",
+      "category": "AI核心 · 深度学习",
+      "priority": "P1",
+      "evidence": "AI岗位推断；数字塔视频场景相关",
+      "summary": "尺寸、参数量、任务输出和NMS一起掌握。",
+      "keyPoints": [
+        "普通卷积参数量=Cout×(Cin×Kh×Kw+偏置项)。",
+        "池化通常没有可学习权重；参数量不由输入图像面积直接决定。",
+        "分类输出类别，检测输出框，分割输出像素级类别。"
+      ],
+      "body": "标准二维卷积，groups=1、含每个输出通道一个偏置时，参数量=Cout×(Cin×Kh×Kw+1)。输入3通道、输出16通道、3×3卷积核，共16×(3×3×3+1)=448个参数。核在空间上共享，因此输入从32×32变成64×64，不会让这层的可学习参数自动变4倍；但计算量与激活内存会增加。\n\n一般输出长度是floor((输入+2P−D(K−1)−1)/S)+1。D为空洞率；D=1时退化为常见公式。32×32输入、3×3核、P=1、S=2、D=1，输出16×16。计算后再加输出通道，不要将空间尺寸与通道混为一谈。\n\n2×2最大池化从窗口中取最大值，常用步长2缩小空间尺寸；通常没有可学习核参数。全局平均池化把每个通道的空间值平均，得到每通道一个数。增加池化不代表一定提高准确率，它可能丢失小目标细节。\n\n图像分类回答“有什么”，目标检测还回答“在哪里”，语义分割给出像素类别；实例分割还区分同类不同对象。NMS通常按置信度保留候选框并抑制高度重叠框，阈值需验证，不是消除所有重叠框。密集目标或小火点场景中，过强抑制可能漏检。",
+      "pitfall": "卷积参数需写明分组与偏置；池化尺寸变化不等于新增参数。",
+      "sourceIds": [
+        "tai-src-conv",
+        "tai-s16",
+        "tai-s23",
+        "tai-s20"
       ]
     },
     {
@@ -434,12 +783,35 @@
         "RAG通常先检索外部资料，再把相关内容交给生成模型。",
         "RAG不等于微调，也不保证检索结果或最终回答一定正确。"
       ],
-      "body": "中国铁塔与北京大学合作的官方报道提到经纬大模型、通用铁塔智能体。这能说明大模型与岗位场景的相关性，不能证明笔试一定考Transformer或RAG。\n\nTransformer的关键是注意力机制：利用查询Q与键K的匹配决定如何聚合值V。原始结构还引入位置信息，因为仅看词向量之间的相互匹配不足以表达序列顺序。注意力不是“输出必然真实”的机制，它解决的是信息交互方式。\n\nRAG把检索与生成结合，常见流程是整理资料、建立索引、检索相关片段，再给生成模型作为上下文。它可以补充外部知识，便于追溯来源，但会受检索遗漏、资料过期、上下文干扰与生成错误影响。更新检索库不必然要求重训生成模型；微调则涉及模型参数调整。铁塔运维助手若引用手册，应检查版本、权限、原文依据，并在证据不足时明确不知道。",
+      "body": "中国铁塔与北京大学合作的官方报道提到经纬大模型、通用铁塔智能体。这能说明大模型与岗位场景的相关性，不能证明笔试一定考Transformer或RAG。\n\nTransformer的关键是注意力机制：利用查询Q与键K的匹配决定如何聚合值V。原始结构还引入位置信息，因为仅看词向量之间的相互匹配不足以表达序列顺序。注意力不是“输出必然真实”的机制，它解决的是信息交互方式。\n\nRAG把检索与生成结合，常见流程是整理资料、建立索引、检索相关片段，再给生成模型作为上下文。它可以补充外部知识，便于追溯来源，但会受检索遗漏、资料过期、上下文干扰与生成错误影响。更新检索库不必然要求重训生成模型；微调则涉及模型参数调整。铁塔运维助手若引用手册，应检查版本、权限、原文依据，并在证据不足时明确不知道。\n\n**考前补强**\n\n考前重点区分三个概念：预训练学习一般模式，微调更新参数适配任务，RAG在生成时引入外部检索内容。RAG库更新可能不改变模型参数；LoRA是参数适配方式，不是数据库检索算法。对铁塔手册问答，文档版本、引用准确性和访问权限，比只背一个模型名称更能体现完整理解。",
       "pitfall": "检索到资料不等于资料正确；RAG、微调和联网搜索不是完全相同的概念。",
       "sourceIds": [
         "tai-s17",
         "tai-s18",
-        "tai-s19"
+        "tai-s19",
+        "tai-src-attention",
+        "tai-src-lora"
+      ],
+      "priority": "P1",
+      "evidence": "AI岗位推断；未核到该细项真题"
+    },
+    {
+      "id": "tai-23",
+      "title": "序列与注意力：QKV、掩码和复杂度",
+      "category": "AI核心 · 深度学习",
+      "priority": "P1",
+      "evidence": "AI岗位推断；扩展已有Transformer",
+      "summary": "把公式拆成形状、权重和信息可见性。",
+      "keyPoints": [
+        "注意力=softmax(QKᵀ/√dk)V。",
+        "自注意力Q/K/V来自同一序列；交叉注意力可来自不同序列。",
+        "因果掩码阻止看未来；padding掩码阻止关注填充。"
+      ],
+      "body": "RNN逐时间步递推隐状态，适合表达序列依赖；长序列训练可能出现梯度消失或爆炸。LSTM/GRU用门控改善信息保留，但不能保证任意长度依赖都能完美学习。Transformer用注意力进行位置之间的信息交互，仍需要位置表示来反映顺序。\n\n单头缩放点积注意力为softmax(QKᵀ/√dk)V。Q形状(n,dk)，K形状(m,dk)，则分数矩阵(n,m)；V形状(m,dv)，最终输出(n,dv)。softmax对每个query对应的key分数归一化。若一行两个分数相等，它们的权重各为0.5；V为[2,6]，则该行加权输出4。\n\n除以√dk是为了控制点积尺度，减少维度增大带来的softmax饱和倾向，不是输出必然落在0到1之间的全部机制。掩码对被禁止位置施加极小分数，使其softmax权重为0（数值实现需注意全遮罩情况）。因果掩码用于自回归时不让当前位置看到未来；padding掩码针对补齐符号，二者不同。\n\n标准密集自注意力的分数矩阵含n²项，固定隐藏维度下序列长度翻倍，其项数约四倍。高效实现可以减少显式存储开销，但不能把所有注意力模型都套用一个复杂度结论。多头注意力在不同子空间处理信息，头数增加也不保证准确率必增。",
+      "pitfall": "QKᵀ先得到位置对位置的分数，不是最后输出；复杂度结论限定标准密集注意力。",
+      "sourceIds": [
+        "tai-src-attention",
+        "tai-s17"
       ]
     },
     {
@@ -452,13 +824,340 @@
         "边缘推理可减少部分回传与响应时延，但仍受算力、功耗约束。",
         "上线后监控数据分布变化，保留人工复核与回滚能力。"
       ],
-      "body": "边缘推理把部分计算放在更靠近数据产生的位置，可以减少部分视频回传和网络依赖，但不能由此断言所有场景都会更快、更便宜。设备算力、内存、功耗、网络与模型规模共同决定可行性。\n\n选择模型时，应同时检查离线效果和上线约束：相同数据口径下的误报漏报、单次响应时延、并发吞吐、峰值内存，以及断网或设备故障时的处理方式。把模型缩小或量化后，应重新评估精度与关键场景，不能假设性能优化完全没有代价。\n\n上线不是结束。摄像头更换、季节光照变化或场景分布改变，都可能导致效果变化。应记录数据与模型版本，监控告警质量，用经过复核的新样本评估漂移；新模型先小范围验证，必要时能回滚。对于火情或设备故障处置，模型告警应连接人工复核与明确的业务流程，而不是把模型分数直接当作不可质疑的事实。",
+      "body": "边缘推理把部分计算放在更靠近数据产生的位置，可以减少部分视频回传和网络依赖，但不能由此断言所有场景都会更快、更便宜。设备算力、内存、功耗、网络与模型规模共同决定可行性。\n\n选择模型时，应同时检查离线效果和上线约束：相同数据口径下的误报漏报、单次响应时延、并发吞吐、峰值内存，以及断网或设备故障时的处理方式。把模型缩小或量化后，应重新评估精度与关键场景，不能假设性能优化完全没有代价。\n\n上线不是结束。摄像头更换、季节光照变化或场景分布改变，都可能导致效果变化。应记录数据与模型版本，监控告警质量，用经过复核的新样本评估漂移；新模型先小范围验证，必要时能回滚。对于火情或设备故障处置，模型告警应连接人工复核与明确的业务流程，而不是把模型分数直接当作不可质疑的事实。\n\n**考前补强**\n\n临考用一个检查顺序：业务指标与成本→离线无泄漏评估→设备时延/吞吐/内存→灰度发布与监控→人工复核和回滚。量化压低数值精度，剪枝删除部分连接/结构，蒸馏用教师指导学生，三者不同，效果均要验证。上线后输入分布变化不必然意味着标签关系变了；但标签稀缺时仅监控输入也不能完整知道模型准确率。",
       "pitfall": "准确率高不代表时延满足要求；收到告警也不等于真实事故已被确认。",
       "sourceIds": [
         "tai-s12",
         "tai-s13",
         "tai-s19",
-        "tai-s20"
+        "tai-s20",
+        "tai-src-validation"
+      ],
+      "priority": "P1",
+      "evidence": "AI岗位推断；未核到该细项真题"
+    },
+    {
+      "id": "tai-30",
+      "title": "工程场景与安全：告警闭环、容量与数据权限",
+      "category": "AI应用 · 补充与场景",
+      "priority": "P1",
+      "evidence": "岗位场景推断；综合运用而非原题",
+      "summary": "会解释从数据到告警处置的完整链条。",
+      "keyPoints": [
+        "评估漏报、误报、时延、资源和人工复核成本。",
+        "模型/数据/阈值有版本，发布可回滚。",
+        "参数化SQL、服务端鉴权、最小权限与数据隔离。"
+      ],
+      "body": "数字塔火情识别的合理链条是：明确告警定义与成本，采集并标注数据，按站点/时间划分训练验证测试，训练并选择阈值，再在真实设备上评估时延与资源，最后小范围发布、人工复核、监控并回滚。一个离线准确率不足以代表全流程可用。\n\n容量题先确认口径。20路视频、每路每秒取2帧，需要40帧/秒处理能力；若单实例稳定处理10帧/秒且忽略调度和网络开销，至少4实例。这是理想下界，真实上线还要留峰值和故障余量。单次时延不等于并发吞吐；高分位时延能反映尾部慢请求。\n\nSQL注入防护应把SQL结构与数据分离，优先使用参数化查询；动态表名/列名通常不能作为普通值参数绑定，需要固定映射或严格白名单。前端隐藏按钮不能代替服务端鉴权。检索系统也要在检索或返回环节执行访问控制，不能仅依靠提示词要求模型保密。\n\n数据处理遵循最小必要与明确用途，训练集、日志和告警样例要有访问权限与脱敏措施。收集线上反馈时避免把同一事件的近重复帧同时放入训练与最终测试。数据/模型/阈值版本及评估口径共同记录，方便解释效果变化和回滚。",
+      "pitfall": "本组容量计算明确忽略开销；现实配额和安全裕量须根据测量确定，不能把练习下界当上线承诺。",
+      "sourceIds": [
+        "tai-s19",
+        "tai-s20",
+        "tai-src-validation",
+        "tai-src-security",
+        "tai-s13"
+      ]
+    },
+    {
+      "id": "tai-01",
+      "title": "Java：相等、哈希与对象契约",
+      "category": "回忆涉及 · 开发与系统",
+      "summary": "2024计算机类回忆提到Java；此处只练清晰、可核对的基础契约。",
+      "keyPoints": [
+        "引用类型的==比较是否指向同一对象；equals可按类的约定比较内容。",
+        "equals为true，hashCode必须相同；反向不成立。",
+        "重写equals时通常需要同步重写hashCode。"
+      ],
+      "body": "回忆帖只说“偏向Java”，没有提供这组原题。以下是按Java官方API整理的基础变式。\n\n引用类型的 `==` 判断两个引用是否指向同一对象；`equals` 是否按内容比较，取决于类的实现。Object默认equals与对象身份一致，String等类重写了它，不能把“所有对象的equals都比较内容”当通则。\n\n哈希容器的关键契约是：**两个对象若equals为true，hashCode必须相同；hashCode相同，equals不一定为true**，因为可能碰撞。自定义对象参与HashMap或HashSet时，重写equals而不相应重写hashCode，会破坏按逻辑相等识别键的预期。\n\n例如两个学生对象学号相同，你定义它们equals为true，那么哈希值也应按相同的逻辑字段生成。用作键之后改变这些字段，还可能让查找行为变得异常。先理解契约，再记结论。\n\n**考前补强**\n\n再补集合使用边界：HashMap按键查值，Set表达不重复元素，List表达有顺序的序列。同一个可变对象作为Map键时，插入后改变参与equals/hashCode的字段，可能导致无法按预期找到它。不能以“对象引用还在”推断哈希桶位置会自动重排。String不可变并不表示所有引用它的变量都不能重新赋值。",
+      "pitfall": "“不同对象”不一定“不相等”；哈希碰撞也不等于程序出错。",
+      "sourceIds": [
+        "tai-s01",
+        "tai-s03",
+        "tai-src-hashmap"
+      ],
+      "priority": "P1",
+      "evidence": "回忆涉及主题；细项为教学展开"
+    },
+    {
+      "id": "tai-02",
+      "title": "Spring Boot与Nacos：注解、注册与节点",
+      "category": "回忆涉及 · 开发与系统",
+      "summary": "2021与2024回忆出现Spring；2024有Nacos节点数片段，缺少版本与选项。",
+      "keyPoints": [
+        "@SpringBootApplication组合配置类、自动配置、组件扫描能力。",
+        "Nacos可用于服务发现与配置管理；具体能力按版本核对。",
+        "当前Nacos部署文档要求配置3个或3个以上节点，不把片段简化成无条件的“2/3台即集群”。"
+      ],
+      "body": "2024回忆提到Spring Boot注解多选题，以及“nacos有几个节点就算是集群”的片段。原文没有列完整题干、选项与Nacos版本，不能恢复成唯一可评分的历年题。\n\n先掌握有明确文档依据的组合：`@SpringBootApplication` 包括 `@SpringBootConfiguration`、`@EnableAutoConfiguration`、`@ComponentScan` 对应的功能，即配置类、自动配置、组件扫描。自动配置会根据类路径、配置与已有Bean等条件工作，不是把任意业务逻辑自动写出来。\n\nNacos常用于服务发现和配置管理。针对节点数，本次读取的官方集群部署文档要求在 `cluster.conf` 中配置 **3个或3个以上节点**。这句话讨论该文档的集群部署要求，不是所有分布式系统的定义。本章检测会明确限定“按当前部署文档”，避免把补全条件后的原创题冒充2024原题。\n\n**考前补强**\n\n考前把核心注解分清：@SpringBootApplication组合了@SpringBootConfiguration、@EnableAutoConfiguration与@ComponentScan。自动配置根据类路径、已定义Bean与配置等条件选择行为；组件扫描范围会影响能否发现组件，并非项目任何目录中的类都会自动成为Bean。它也不等于“所有配置不用写”。Nacos节点数题应按题干指定部署文档与版本作答，不能把官方建议误写成协议数学上的唯一最小值。",
+      "pitfall": "不要把2026所读文档的版本细节倒推成2024试卷答案；缺选项的回忆片段只保留为线索。",
+      "sourceIds": [
+        "tai-s01",
+        "tai-s04",
+        "tai-s05"
+      ],
+      "priority": "P1",
+      "evidence": "回忆涉及主题；细项为教学展开"
+    },
+    {
+      "id": "tai-03",
+      "title": "Linux与Shell：管道、重定向、退出码",
+      "category": "回忆涉及 · 开发与系统",
+      "summary": "2024回忆明确提到Linux指令与Shell编程；练顺序与输出流。",
+      "keyPoints": [
+        "标准输入0、标准输出1、标准错误2。",
+        ">覆盖、>>追加；2>&1让错误输出指向当时的标准输出。",
+        "退出码0通常表示成功；&&表示前一命令成功后再执行。"
+      ],
+      "body": "Linux与Shell在2024计算机类回忆里明确出现，但没有完整原题。备考先区分数据流和控制流。\n\nShell里标准输入、标准输出、标准错误的文件描述符分别是0、1、2。`>` 通常创建或截断目标文件，`>>` 追加。`cmd >out.log 2>&1` 先把标准输出指向文件，再把标准错误复制到同一目的地；顺序换成 `cmd 2>&1 >out.log` 时，标准错误会保留在原标准输出目的地，二者不是普遍等价。\n\n`a | b` 默认把a的标准输出接到b的标准输入；不自动把标准错误也传过去。命令退出状态0通常表示成功，`a && b` 仅在a成功时执行b，`a || b` 则在a失败时执行b。读代码时按从左到右的重定向和短路规则推演，不要只凭符号相似来选。\n\n**考前补强**\n\n进一步区分命令语义：管道把前一个命令的标准输出连接到后一个命令的标准输入；2>单独重定向标准错误。>会覆盖目标文件，>>通常追加。Shell重定向从左到右处理，因此command >out 2>&1与command 2>&1 >out不等价。Bash未启用pipefail时管道退出状态通常取最后一个命令；开启后按其规则反映非零退出。权限数字r=4、w=2、x=1，754表示所有者rwx、组r-x、其他r--。",
+      "pitfall": "重定向有先后顺序；普通管道默认处理stdout，不包含stderr。",
+      "sourceIds": [
+        "tai-s01",
+        "tai-s06",
+        "tai-src-chmod"
+      ],
+      "priority": "P1",
+      "evidence": "回忆涉及主题；细项为教学展开"
+    },
+    {
+      "id": "tai-04",
+      "title": "SQL与InnoDB：过滤、聚合、索引",
+      "category": "回忆涉及 · 数据与网络",
+      "summary": "回忆点名SQL、InnoDB和覆盖索引；按明确表结构分析，不背含糊的“全局索引”。",
+      "keyPoints": [
+        "WHERE过滤行；HAVING过滤分组结果。",
+        "COUNT(*)计行，COUNT(列)通常不计该列NULL。",
+        "InnoDB二级索引记录含主键值；覆盖索引取决于查询所需列。"
+      ],
+      "body": "2024回忆提到SQL语句、InnoDB细节和覆盖索引，也出现“全局索引”这个词，但没有产品版本或完整语境。本章只整理能够给出明确条件的知识，不把含糊术语直接当成MySQL固定考点。\n\nSQL聚合中，`WHERE` 在分组前筛选行，`HAVING` 用于筛选分组结果。例如查询各地区告警数且只保留数量大于10的地区，可以先按地区 `GROUP BY`，再 `HAVING COUNT(*) > 10`。`COUNT(*)` 统计行数；`COUNT(status)` 不计status为NULL的行。\n\nInnoDB通常以主键组织聚簇索引，二级索引记录还包含主键值。若表主键为id、二级索引为(city)，查询只要city与id时，索引中已含所需列，可具备覆盖条件；若再取不在索引中的description，通常需要回到聚簇索引取行。索引不是越多越好，更新成本、空间和选择性都要考虑。\n\n**考前补强**\n\n组合索引可把多个列按顺序组织，如(a,b)通常更容易支持a的前缀条件，而只按b查是否使用某种索引优化，要看版本、统计与优化器，不能说“任何情况下绝不使用”。覆盖索引意味着查询所需列可由选中索引提供，不等于所有查询都不用回表。GROUP BY改变结果分组粒度；同一张表不加分组的总量与按站点分组后的每组量不能混用。",
+      "pitfall": "WHERE不能直接替代HAVING COUNT(*)；“用了索引”与“覆盖索引”不同。",
+      "sourceIds": [
+        "tai-s01",
+        "tai-s07",
+        "tai-s21"
+      ],
+      "priority": "P1",
+      "evidence": "回忆涉及主题；细项为教学展开"
+    },
+    {
+      "id": "tai-27",
+      "title": "SQL进阶：连接、NULL、事务与隔离",
+      "category": "回忆扩展 · 数据工程",
+      "priority": "P1",
+      "evidence": "由SQL/InnoDB回忆扩展；不代表每个细项已考",
+      "summary": "以小表推结果，区分SQL标准现象与MySQL实现。",
+      "keyPoints": [
+        "LEFT JOIN保留左表；WHERE过滤可能再删掉未匹配行。",
+        "COUNT(*)计行，COUNT(列)忽略NULL；NULL用IS NULL判断。",
+        "ACID与隔离级别分开；InnoDB默认REPEATABLE READ。"
+      ],
+      "body": "INNER JOIN保留符合连接条件的配对；LEFT JOIN保留全部左表行，没有右表匹配时右列为NULL。一对多连接会增加行数，不能误以为一条左记录永远只生成一行。若LEFT JOIN后在WHERE要求右表列等于某值，未匹配行通常会被过滤；将条件放ON或WHERE要根据业务目的选择。\n\nNULL表示缺失/未知，SQL中与NULL普通比较通常得到UNKNOWN，WHERE只保留TRUE，所以用IS NULL而非= NULL。COUNT(*)数行，COUNT(col)忽略该列NULL；SUM/AVG也要看缺失值口径。执行理解顺序可抓FROM/JOIN、WHERE、GROUP BY、HAVING、SELECT、ORDER BY；不能把聚合条件都塞进WHERE。\n\nACID为原子性、一致性、隔离性、持久性。原子性强调事务整体成败，隔离性处理并发相互影响。脏读读到未提交数据，不可重复读是重复读取同一记录值变了，幻读涉及符合条件的记录集合变化。\n\nInnoDB默认REPEATABLE READ；READ COMMITTED下一般每次一致性读创建新快照，REPEATABLE READ的同一事务普通一致性读通常复用快照。不要把“SQL标准允许某现象”机械当作InnoDB所有读法的实际表现；快照读、锁定读、索引与间隙锁会影响行为。考前掌握定义和限定条件即可。",
+      "pitfall": "COUNT、连接行数、NULL和过滤位置要用具体数据验证；隔离现象不要脱离数据库与读法。",
+      "sourceIds": [
+        "tai-s07",
+        "tai-s21",
+        "tai-src-transactions",
+        "tai-src-isolation"
+      ]
+    },
+    {
+      "id": "tai-05",
+      "title": "Docker与Kubernetes：容器、Pod和副本",
+      "category": "回忆涉及 · 开发与系统",
+      "summary": "2024回忆提到Docker命令与K8s细节；先练常见操作与对象层级。",
+      "keyPoints": [
+        "docker ps默认列运行中容器；docker ps -a列全部状态。",
+        "镜像是创建容器的模板；容器是运行实例。",
+        "Pod是Kubernetes最小可部署单元，可有多个容器。"
+      ],
+      "body": "2024笔试回忆明确提到Docker具体指令、K8s细节。本站围绕稳定概念出题，不声称这些命令就是那次原题。\n\n镜像可以理解为创建容器所需的模板，容器则是由镜像创建的实例。`docker ps` 默认只显示运行中的容器，`docker ps -a` 包含已退出等其他状态；看不到某容器时，先检查是不是漏了 `-a`，不能立即推断容器已经被删除。\n\nKubernetes里，**Pod是最小可部署单元**，一个Pod可以包含一个或多个紧密协作的容器，这些容器共享网络等上下文。扩展一个应用的独立副本通常是增加Pod副本，而不是把所有副本塞进一个Pod。管理长期无状态服务时常用Deployment等工作负载对象管理Pod；Pod本身不等于物理机，也不等于整个集群。理解层级：集群包含节点，节点上运行Pod，Pod内运行容器。\n\n**考前补强**\n\n再分清容器、Pod与服务入口。容器共享宿主内核隔离运行，并不为每个实例启动完整独立内核的虚拟机。Pod可含协同容器，共享网络命名空间；Deployment管理期望副本及滚动更新，Service为变化的后端提供相对稳定访问方式。容器内本地临时文件不等于持久存储，故障重建后数据是否保留要看卷与存储配置。readiness关注是否接流量，liveness用于检测是否应重启，不能机械互换。",
+      "pitfall": "一个Pod不必只有一个容器；docker ps不显示已退出容器不代表容器不存在。",
+      "sourceIds": [
+        "tai-s01",
+        "tai-s08",
+        "tai-s09",
+        "tai-src-k8s-service",
+        "tai-src-k8s-probes"
+      ],
+      "priority": "P1",
+      "evidence": "回忆涉及主题；细项为教学展开"
+    },
+    {
+      "id": "tai-06",
+      "title": "Spark：转换、行动与分布式数据",
+      "category": "回忆涉及 · 数据与网络",
+      "summary": "回忆出现Spark与HBase，先分清计算引擎和存储系统。",
+      "keyPoints": [
+        "RDD是分布式数据集合抽象；map/filter等转换通常惰性执行。",
+        "count/collect等行动操作触发计算；collect会把结果带回驱动端。",
+        "Spark计算与HBase存储不是同一层能力；不要把所有数据都collect到单机。"
+      ],
+      "body": "2024回忆提到Spark和HBase，但没有给出具体题目。复习先掌握角色与执行过程，避免把大数据术语当同义词。\n\nSpark用于分布式数据处理，RDD提供分布式集合抽象。`map`、`filter` 等转换构建新的计算关系，通常是惰性执行；`count`、`collect` 等行动操作需要产出结果，会触发相应计算。`count` 返回数量，`collect` 把所有结果取回驱动进程，因此结果过大可能使驱动端内存不足。\n\n持久化用于在多次使用中复用已计算的数据，但缓存并不意味着内存无限或所有后续操作都不再计算。HBase是分布式存储系统，Spark可以读取包括HBase等在内的外部数据源，二者可以配合，不能简单说HBase就是Spark的另一个名字。题目若给出具体数据规模，优先考虑分区、聚合位置和网络传输，而不是只背“分布式所以一定快”。\n\n**考前补强**\n\n惰性并非永不执行，而是等行动触发后按依赖执行。cache/persist用于复用已计算分区，不意味着调用时立刻把所有数据载入。按key聚合时，reduceByKey可在适用场景中先做局部合并，往往比把全部值groupByKey后再聚合更节约传输，但具体效果取决于算子与数据。把所有结果collect到驱动端可能超过内存，小样本查看和全量收集要分开。",
+      "pitfall": "惰性不是永远不执行；collect也不是适合任意规模数据的默认检查方式。",
+      "sourceIds": [
+        "tai-s01",
+        "tai-s10"
+      ],
+      "priority": "P1",
+      "evidence": "回忆涉及主题；细项为教学展开"
+    },
+    {
+      "id": "tai-07",
+      "title": "网络基础：TCP、分层与消息边界",
+      "category": "回忆涉及 · 数据与网络",
+      "summary": "2024回忆点名TCP/IP结构；先掌握传输语义。",
+      "keyPoints": [
+        "TCP属于传输层，提供可靠有序字节流。",
+        "IP负责网络层寻址与转发；应用协议另行定义业务含义。",
+        "TCP不保留应用消息边界，应用可用长度字段或分隔符定界。"
+      ],
+      "body": "2024回忆表示网络部分涉及TCP/IP结构，但没有公开完整选项。本章用分层和传输语义检测理解，不把它扩写成通信专业整套课程。\n\nIP位于网络层，负责网络寻址与数据包转发。TCP位于传输层，在端点之间提供可靠、有序的字节流；应用层再定义请求、响应或业务消息的具体意义。因此“TCP能保证某项业务一定成功”并不成立：传输成功与业务校验通过是不同层次。\n\nTCP是字节流，不保留应用程序每次写入的消息边界。服务端一次读取可能得到半条消息，也可能包括多条消息，需要应用协议约定长度字段、定长格式或可靠分隔方式来解析。常见三次握手通过SYN、SYN+ACK、ACK建立连接并同步序号状态。识别这些步骤时，避免混入断开连接或应用层登录的语义。\n\n**考前补强**\n\nTCP握手用于同步双方序列号并建立连接状态，三次握手不等于传输层数据“永不丢包”；重传、确认和序列号提供可靠有序字节流，应用仍需处理断连与超时。TCP没有应用消息边界，可用长度字段、分隔符或协议规则分帧。DNS主要做域名相关记录解析；HTTPS是HTTP在安全传输上的使用，证书验证不等于应用本身没有漏洞。IPv4 /26有6个主机位，地址总数64；传统有网络/广播保留地址的普通子网可用62，/31点到点等例外另论。",
+      "pitfall": "可靠字节流不等于自动保留消息边界，也不等于应用业务必然成功。",
+      "sourceIds": [
+        "tai-s01",
+        "tai-s11",
+        "tai-src-cidr",
+        "tai-src-dns",
+        "tai-src-http"
+      ],
+      "priority": "P1",
+      "evidence": "回忆涉及主题；细项为教学展开"
+    },
+    {
+      "id": "tai-18",
+      "title": "KNN、朴素贝叶斯与SVM：对比记忆",
+      "category": "AI核心 · 常用模型",
+      "priority": "P2",
+      "evidence": "AI岗位推断；常用算法补充",
+      "summary": "围绕假设、尺度、参数和边界对比。",
+      "keyPoints": [
+        "KNN依赖距离与邻居数；特征尺度影响结果。",
+        "朴素贝叶斯假设给定类别后的特征条件独立。",
+        "SVM重视间隔；C更大通常更重视误分类惩罚。"
+      ],
+      "body": "K近邻分类通过邻居投票，没有先训练出固定形式的线性决策公式。K较小可贴合局部细节也更易受噪声影响；K较大更平滑但可能忽略小类别。距离取决于尺度，年龄与年收入直接算欧氏距离时，大数值特征可能主导；缩放仍只在训练数据上拟合。\n\n朴素贝叶斯用P(类别)乘各特征条件概率并比较后验分数。“朴素”是给定类别条件下的独立假设，不是所有特征无条件独立，也不代表实际数据一定满足。离散计数中拉普拉斯平滑可避免一个未见事件把整个概率乘积变成0。\n\nSVM通过间隔刻画分类边界，支持向量是对边界关键的训练样本。软间隔C增大，一般更强地惩罚训练违例，可能牺牲大间隔；不能断言测试准确率必然升高。核技巧通过核函数表达某特征空间的内积，不必显式构造该空间所有坐标。RBF核的gamma越大，单个样本影响通常越局部，参数仍需验证。\n\n三者都不是无条件优胜者。KNN注意预测成本、距离和尺度，朴素贝叶斯注意概率假设，SVM注意缩放、C、核和样本规模。考试中遇到“总是最优”“完全不受尺度影响”通常需要核对前提。",
+      "pitfall": "条件独立不是无条件独立；参数变化方向不等于效果必然改善。",
+      "sourceIds": [
+        "tai-src-neighbors",
+        "tai-src-bayes",
+        "tai-src-svm"
+      ]
+    },
+    {
+      "id": "tai-20",
+      "title": "聚类与降维：K-means、DBSCAN和PCA",
+      "category": "AI核心 · 常用模型",
+      "priority": "P2",
+      "evidence": "AI岗位推断；无监督学习补充",
+      "summary": "别把聚类、分类与降维混成同一件事。",
+      "keyPoints": [
+        "K-means需给K，围绕簇中心优化簇内平方距离。",
+        "DBSCAN基于密度，可识别噪声，不预先指定簇数。",
+        "PCA找最大方差投影；方差大不保证最能区分类别。"
+      ],
+      "body": "K-means交替进行样本分配与中心更新，目标是缩小到对应中心的平方欧氏距离之和。标准方法需要预设K，受初始化、尺度和异常点影响；通常更适合相对紧凑的簇。局部最优不等于全局最优，运行一次不能保证最佳。\n\nDBSCAN按邻域密度扩展簇，常用参数是邻域半径eps和最小样本数min_samples，可以将孤立点标为噪声。它不要求预先指定簇数，但对参数和密度差异敏感，不能声称适合所有数据。KNN是邻居分类/回归方法，K-means是聚类，两者名字都含K但任务不同。\n\nPCA寻找方差最大的正交投影方向，用较少维度保留主要变化。通常先中心化；scikit-learn PCA会中心化，但不会自动把每个特征缩放到单位方差。特征量纲差异大时，应判断是否先做训练集标准化。\n\n主成分方差比例如0.60、0.25、0.10、0.05，至少保留85%方差需前2个主成分。降维可能去掉分类有用信息，累计解释方差不是分类准确率，也不是因果解释比例。",
+      "pitfall": "保留85%方差不等于预测准确率85%；PCA不使用标签来保证分类最优。",
+      "sourceIds": [
+        "tai-src-cluster",
+        "tai-src-pca"
+      ]
+    },
+    {
+      "id": "tai-24",
+      "title": "大模型应用：LoRA、解码与RAG评估",
+      "category": "AI应用 · 补充与场景",
+      "priority": "P2",
+      "evidence": "岗位场景推断；不把热点当作必考",
+      "summary": "只抓机制、参数量和故障定位。",
+      "keyPoints": [
+        "LoRA冻结原权重并训练低秩增量；RAG补充外部资料。",
+        "贪心选当前最高概率token；采样允许随机性。",
+        "RAG要分别检查检索命中、生成依据与权限。"
+      ],
+      "body": "全量微调更新选定模型的全部可训练权重；LoRA的经典做法冻结原权重W，以低秩乘积BA表示增量。若W为100×80，秩r=4，A为4×80、B为100×4，则增量参数为4×80+100×4=720，原矩阵有8000个参数。此计算忽略偏置、缩放和其他模块；实际总可训练参数取决于插入位置。\n\n微调适合改变任务行为和表达方式，但不能自动保证事实持续更新。RAG把外部资料检索后加入上下文，适合更新较快、要求引用依据的运维手册。二者可组合，不是互斥选择，也不能因为用了RAG就不需要模型训练数据治理。\n\n贪心解码每步选当前最高概率token，不保证整条序列概率全局最大；采样按概率分布抽取token，有随机性。降低随机性有利于输出稳定，但不能保证答案正确。模型参数量、上下文长度、量化精度和并发请求共同影响部署资源，不能只看一个数字。\n\nRAG排错先分阶段：相关手册未召回，检查切块、索引、查询和检索；手册召回却答非所问，检查上下文、提示与生成；引用过期或越权材料，检查版本、元数据和权限。检索Recall@k用于评估是否召回所需材料，生成答案的事实一致性需另外检查。",
+      "pitfall": "LoRA节省的是特定层的训练参数，不代表所有显存与计算必按同一比例下降。",
+      "sourceIds": [
+        "tai-src-lora",
+        "tai-src-generation",
+        "tai-s18",
+        "tai-s19"
+      ]
+    },
+    {
+      "id": "tai-25",
+      "title": "数据结构与算法：复杂度、查找和遍历",
+      "category": "计算机扩展 · 基础补漏",
+      "priority": "P2",
+      "evidence": "通用计算机推断；未核到对应原题",
+      "summary": "掌握常见操作和适用条件，考前不刷偏难算法。",
+      "keyPoints": [
+        "栈后进先出，队列先进先出；BFS用队列。",
+        "有序数组二分O(log n)；常见快排最坏O(n²)。",
+        "无权图BFS求最少边数；Dijkstra要求非负权。"
+      ],
+      "body": "数组随机访问通常O(1)，中间插入需要移动元素；链表在已知节点位置时局部插入方便，但定位第k个节点通常仍需遍历。栈后进先出，常用于括号匹配与函数调用；队列先进先出，常用于BFS。哈希表平均查找可为O(1)，碰撞与负载影响实际代价，不是无条件最坏O(1)。\n\n二分查找要求可利用有序性，每步缩小约一半，时间O(log n)。双重循环不必然O(n²)：若内循环总次数受到单调双指针约束，需要分析总操作数。常见归并排序时间O(n log n)，数组实现通常需额外空间；快速排序平均O(n log n)、最坏O(n²)。稳定性是相同键元素的相对次序是否保留。\n\n无权图或所有边权相同的图可用BFS求最少边数路径。DFS适合深入遍历，但不保证第一次找到的路径最短。Dijkstra适用于非负权图，不能直接套到任意负权图。邻接表的BFS/DFS常见复杂度为O(V+E)，邻接矩阵扫描则不同。\n\n动态规划先定义状态含义、转移、初始条件和计算顺序；它适合可复用子问题，而不是“所有递归都改数组”。考前优先能手推二分、栈队列和短循环，剩余时间再补复杂题。",
+      "pitfall": "复杂度要说明平均/最坏、数据结构与前提；不能只看到两个for就机械定阶。",
+      "sourceIds": [
+        "tai-src-algorithms"
+      ]
+    },
+    {
+      "id": "tai-26",
+      "title": "操作系统：进程线程、锁与虚拟内存",
+      "category": "计算机扩展 · 基础补漏",
+      "priority": "P2",
+      "evidence": "由Linux回忆主题扩展；未核到细项真题",
+      "summary": "理解共享资源、同步和地址转换。",
+      "keyPoints": [
+        "同进程线程通常共享地址空间，但各有栈和寄存器上下文。",
+        "死锁四条件：互斥、持有并等待、不可剥夺、循环等待。",
+        "缺页不等于非法访问；分页地址含页号与页内偏移。"
+      ],
+      "body": "进程通常具有独立虚拟地址空间，同进程线程共享代码、堆等资源，但各有执行上下文与栈。共享数据带来竞争条件：两个线程同时做读—加一—写回，可能覆盖彼此结果。互斥锁用于保护临界区，信号量可表达资源计数与同步，不应把所有同步机制都视为同一种东西。\n\n死锁常由互斥、持有并等待、不可剥夺、循环等待四条件同时具备引出。统一加锁顺序可以破坏循环等待；不能仅凭“有锁”就说系统一定死锁。忙等持续消耗CPU，与阻塞等待不同；并发描述任务交错推进，并行描述同时执行。\n\n虚拟内存通过页表将虚拟页映射物理页，页内偏移不变。页大小4KiB=4096字节，偏移需要12位。虚拟地址5000对应虚拟页号1、偏移904。TLB缓存地址翻译，TLB未命中后可查页表，不必然发生磁盘访问。\n\n访问合法但尚不在物理内存中的页可触发缺页异常，由系统装入；访问越权或无效地址也可能产生异常，处理结果不同。局部性分时间局部性和空间局部性；工作集超过可用内存导致频繁换页时，性能可能剧烈下降。",
+      "pitfall": "TLB未命中、缺页和越权访问是不同层次；进程/线程资源共享结论是通常模型。",
+      "sourceIds": [
+        "tai-src-os"
+      ]
+    },
+    {
+      "id": "tai-28",
+      "title": "Java并发与服务接口：原子性和幂等",
+      "category": "回忆扩展 · 开发与系统",
+      "priority": "P2",
+      "evidence": "由Java/Spring回忆扩展；细项为推断",
+      "summary": "把语言语义和接口语义分清。",
+      "keyPoints": [
+        "volatile保证相应可见性/有序性，不使i++自动原子。",
+        "HashMap非线程安全，平均常数性能有散列前提。",
+        "幂等指重复相同请求的预期效果，不要求每次响应完全一样。"
+      ],
+      "body": "Java的volatile写与后续相应读建立内存可见关系，但i++是读、计算、写的复合操作，不能仅靠volatile保证并发计数正确。synchronized可用互斥保护临界区并建立相应内存顺序；原子类提供特定原子操作，也不自动把多变量业务变成事务。\n\nHashMap通常允许null键和null值，不提供内建线程安全；在散列分布合理时get/put预期有常数级性能，但不能把碰撞、扩容和最坏情形忽略。多个线程并发修改要选择合适容器或同步。集合选型从是否保序、是否去重、访问模式和并发需求判断，不要只记类名。\n\nSpring通过依赖注入装配对象，组件扫描范围会影响Bean是否被发现。已有回忆只明确主题与注解线索，不能恢复所有原题，因此本章只补通用工程语义。服务注册不等于数据库持久化，配置管理、服务发现与业务处理是不同职责。\n\nHTTP幂等指多个相同请求的预期服务器效果等于一次，并不要求返回内容每次相同。GET/PUT/DELETE在协议语义上幂等，POST并无统一幂等保证。业务中可用请求唯一标识与去重记录控制重复提交，但仍需处理并发和失败恢复。自动重试前先判断幂等性与错误类型。",
+      "pitfall": "volatile、锁、并发容器各有边界；DELETE第二次返回不同状态也未必破坏幂等性。",
+      "sourceIds": [
+        "tai-src-hashmap",
+        "tai-src-volatile",
+        "tai-src-http",
+        "tai-s04"
+      ]
+    },
+    {
+      "id": "tai-29",
+      "title": "大数据存储：HDFS、HBase与Spark串起来",
+      "category": "回忆扩展 · 数据工程",
+      "priority": "P2",
+      "evidence": "HBase/Spark为回忆主题；架构细项扩展",
+      "summary": "区分存储、在线访问和计算框架。",
+      "keyPoints": [
+        "HDFS管理分布式文件；NameNode管元数据，DataNode存块。",
+        "HBase按RowKey组织行，适合特定随机读写模式。",
+        "Spark执行分布式计算；shuffle涉及重新分发数据。"
+      ],
+      "body": "HDFS面向分布式文件存储。NameNode管理文件系统命名空间和块映射等元数据，DataNode保存数据块。副本能提高容错，但副本不是逻辑误删的完整备份策略；数据是否可恢复仍取决于快照、备份与具体故障。\n\nHBase是构建在分布式存储之上的宽列数据库，行按RowKey排序，数据包含列族、限定符、时间版本等概念。列族通常预先定义，列限定符可更灵活。RowKey设计影响访问局部性和热点；连续增长写入可能集中到少数Region，需结合分区设计分析。不能说HBase与传统关系库具有完全相同的JOIN与事务模型。\n\nSpark是计算框架，不等于HDFS或HBase。RDD转换一般惰性，行动触发实际计算。map/filter通常可在分区内处理；按key聚合或重分区可能产生shuffle，带来网络、磁盘和序列化开销。大量数据集中到一个key可能造成数据倾斜，增加节点不一定解决。\n\n构建站点告警分析时，可将历史文件放分布式存储，按需要选择在线查询系统，再用计算框架批量统计。选择应由访问模式、时延与一致性需求决定，不能因为三个名字在回忆中出现就全部堆进一个小任务。",
+      "pitfall": "HDFS是文件系统，HBase是数据库，Spark是计算框架；复制与备份不是同一保证。",
+      "sourceIds": [
+        "tai-src-hbase",
+        "tai-src-hdfs",
+        "tai-s10",
+        "tai-s01"
       ]
     }
   ],
@@ -2642,6 +3341,4774 @@
         "c"
       ],
       "explanation": "高影响场景应让模型判断接受业务核验，并保留追溯和回滚能力。模型告警是风险线索，不能无条件等同已确认事故。"
+    },
+    {
+      "id": "tai-q060",
+      "type": "single",
+      "variant": "原创 · 代码输出",
+      "origin": "original",
+      "lessonIds": [
+        "tai-15"
+      ],
+      "sourceIds": [
+        "tai-src-python",
+        "tai-src-numpy",
+        "tai-src-pandas",
+        "tai-s12"
+      ],
+      "stem": "Python：a=[[1],[2]]; b=a.copy(); b[0].append(9)。a的值是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "[[1],[2]]"
+        },
+        {
+          "id": "b",
+          "text": "[[1,9],[2]]"
+        },
+        {
+          "id": "c",
+          "text": "[[1],[2,9]]"
+        },
+        {
+          "id": "d",
+          "text": "报错"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "浅拷贝建立新外层列表，但两个外层列表仍引用相同的内层列表。对b[0]的原地修改因此也能从a[0]观察到。"
+    },
+    {
+      "id": "tai-q061",
+      "type": "single",
+      "variant": "原创 · 代码输出",
+      "origin": "original",
+      "lessonIds": [
+        "tai-15"
+      ],
+      "sourceIds": [
+        "tai-src-python",
+        "tai-src-numpy",
+        "tai-src-pandas",
+        "tai-s12"
+      ],
+      "stem": "Python：a=[3,1,2]; b=a.sort()。执行后b是什么？",
+      "options": [
+        {
+          "id": "a",
+          "text": "[3,1,2]"
+        },
+        {
+          "id": "b",
+          "text": "None"
+        },
+        {
+          "id": "c",
+          "text": "True"
+        },
+        {
+          "id": "d",
+          "text": "[1,2,3]"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "list.sort()直接修改原列表，返回None；若希望得到新的已排序列表，可用sorted(a)。原地修改和返回值必须分开判断。"
+    },
+    {
+      "id": "tai-q062",
+      "type": "single",
+      "variant": "原创 · 形状计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-15"
+      ],
+      "sourceIds": [
+        "tai-src-python",
+        "tai-src-numpy",
+        "tai-src-pandas",
+        "tai-s12"
+      ],
+      "stem": "NumPy数组形状(3,1)和(1,4)相加，广播结果是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "(3,1)"
+        },
+        {
+          "id": "b",
+          "text": "不兼容"
+        },
+        {
+          "id": "c",
+          "text": "(3,4)"
+        },
+        {
+          "id": "d",
+          "text": "(4,3)"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "从末维对齐，1与4可扩为4，3与1可扩为3，故结果为(3,4)。广播并非要求所有原维度完全相同。"
+    },
+    {
+      "id": "tai-q063",
+      "type": "single",
+      "variant": "原创 · 维度判断",
+      "origin": "original",
+      "lessonIds": [
+        "tai-15"
+      ],
+      "sourceIds": [
+        "tai-src-python",
+        "tai-src-numpy",
+        "tai-src-pandas",
+        "tai-s12"
+      ],
+      "stem": "A为(2,3)，B为(3,4)，矩阵乘法A@B的形状是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "(2,3,4)"
+        },
+        {
+          "id": "b",
+          "text": "(3,3)"
+        },
+        {
+          "id": "c",
+          "text": "(2,4)"
+        },
+        {
+          "id": "d",
+          "text": "(4,2)"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "矩阵乘法要求A列数等于B行数，输出保留A的行数与B的列数。因此内维3消去，输出2×4。"
+    },
+    {
+      "id": "tai-q064",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-15"
+      ],
+      "sourceIds": [
+        "tai-src-python",
+        "tai-src-numpy",
+        "tai-src-pandas",
+        "tai-s12"
+      ],
+      "stem": "以下Python陈述哪些正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "{}是空字典"
+        },
+        {
+          "id": "b",
+          "text": "set()是空集合"
+        },
+        {
+          "id": "c",
+          "text": "b=a一定产生独立副本"
+        },
+        {
+          "id": "d",
+          "text": "元组中的列表对象仍可能被修改"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "字典与集合的空对象语法不同；赋值只是绑定同一对象。元组不可变约束元素绑定，不会递归冻结其内部列表。"
+    },
+    {
+      "id": "tai-q065",
+      "type": "single",
+      "variant": "原创 · 轴计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-15"
+      ],
+      "sourceIds": [
+        "tai-src-python",
+        "tai-src-numpy",
+        "tai-src-pandas",
+        "tai-s12"
+      ],
+      "stem": "X形状(100,8)，每行一个样本。X.mean(axis=0)的含义是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "8个特征各自的均值"
+        },
+        {
+          "id": "b",
+          "text": "所有数求和"
+        },
+        {
+          "id": "c",
+          "text": "每列最大值"
+        },
+        {
+          "id": "d",
+          "text": "100个样本各自的均值"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "axis=0对第0轴即样本轴进行归约，保留8个特征的均值。不能把归约轴和最终保留的轴混淆。"
+    },
+    {
+      "id": "tai-q066",
+      "type": "single",
+      "variant": "原创 · 贝叶斯手算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-16"
+      ],
+      "sourceIds": [
+        "tai-src-probability",
+        "tai-src-algebra",
+        "tai-src-calculus"
+      ],
+      "stem": "火情率1%，检出率90%，非火情误报率5%。告警后真实火情概率约为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "15.38%"
+        },
+        {
+          "id": "b",
+          "text": "1%"
+        },
+        {
+          "id": "c",
+          "text": "90%"
+        },
+        {
+          "id": "d",
+          "text": "50%"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "以10000次观测计，100次火情产生90次告警，9900次非火情产生495次告警。后验概率90/(90+495)约15.38%。"
+    },
+    {
+      "id": "tai-q067",
+      "type": "single",
+      "variant": "原创 · 方差手算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-16"
+      ],
+      "sourceIds": [
+        "tai-src-probability",
+        "tai-src-algebra",
+        "tai-src-calculus"
+      ],
+      "stem": "X以相同概率取0和1，Var(X)是多少？",
+      "options": [
+        {
+          "id": "a",
+          "text": "0"
+        },
+        {
+          "id": "b",
+          "text": "0.5"
+        },
+        {
+          "id": "c",
+          "text": "0.25"
+        },
+        {
+          "id": "d",
+          "text": "1"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "E(X)=0.5，E(X²)=0.5，方差为0.5−0.5²=0.25。方差是平方差的期望，不是均值本身。"
+    },
+    {
+      "id": "tai-q068",
+      "type": "single",
+      "variant": "原创 · 内积计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-16"
+      ],
+      "sourceIds": [
+        "tai-src-probability",
+        "tai-src-algebra",
+        "tai-src-calculus"
+      ],
+      "stem": "向量[1,2]和[3,4]的内积是多少？",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "14"
+        },
+        {
+          "id": "c",
+          "text": "11"
+        },
+        {
+          "id": "d",
+          "text": "[3,8]"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "内积将对应元素相乘再求和：1×3+2×4=11。[3,8]是逐元素乘结果，尚未完成求和。"
+    },
+    {
+      "id": "tai-q069",
+      "type": "single",
+      "variant": "原创 · 梯度计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-16"
+      ],
+      "sourceIds": [
+        "tai-src-probability",
+        "tai-src-algebra",
+        "tai-src-calculus"
+      ],
+      "stem": "L=(wx−y)²，w=2、x=3、y=1，dL/dw是多少？",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "15"
+        },
+        {
+          "id": "c",
+          "text": "30"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "链式法则给出2(wx−y)x，代入为2×(6−1)×3=30。遗漏外层2或内层导数x都会得到错误结果。"
+    },
+    {
+      "id": "tai-q070",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-16"
+      ],
+      "sourceIds": [
+        "tai-src-probability",
+        "tai-src-algebra",
+        "tai-src-calculus"
+      ],
+      "stem": "下列数学关系哪些正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "任意两个矩阵都可交换相乘"
+        },
+        {
+          "id": "b",
+          "text": "两个正概率互斥事件一定独立"
+        },
+        {
+          "id": "c",
+          "text": "(AB)ᵀ=BᵀAᵀ"
+        },
+        {
+          "id": "d",
+          "text": "非零向量余弦相似度需除以范数之积"
+        }
+      ],
+      "answer": [
+        "c",
+        "d"
+      ],
+      "explanation": "乘积转置需颠倒顺序；余弦要归一化。矩阵乘法通常不交换，正概率互斥事件交集概率为0而概率乘积大于0。"
+    },
+    {
+      "id": "tai-q071",
+      "type": "single",
+      "variant": "原创 · 范数计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-16"
+      ],
+      "sourceIds": [
+        "tai-src-probability",
+        "tai-src-algebra",
+        "tai-src-calculus"
+      ],
+      "stem": "向量[3,4]的L2范数是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "25"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "L2范数等于元素平方和的平方根，即sqrt(9+16)=5。25是范数的平方，7则是该向量的L1范数。"
+    },
+    {
+      "id": "tai-q072",
+      "type": "single",
+      "variant": "原创 · 误差计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-17"
+      ],
+      "sourceIds": [
+        "tai-src-linear",
+        "tai-src-metrics"
+      ],
+      "stem": "预测[2,4]，真实[1,2]，按两样本平均的MSE为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "1.5"
+        },
+        {
+          "id": "b",
+          "text": "2.5"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "3"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "两次误差为1、2，平方后为1、4，平均得到2.5；5是未除样本数的平方和，1.5对应MAE。"
+    },
+    {
+      "id": "tai-q073",
+      "type": "single",
+      "variant": "原创 · 模型输出",
+      "origin": "original",
+      "lessonIds": [
+        "tai-17"
+      ],
+      "sourceIds": [
+        "tai-src-linear",
+        "tai-src-metrics"
+      ],
+      "stem": "逻辑回归z=0时，sigmoid输出多少？",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "0.5"
+        },
+        {
+          "id": "c",
+          "text": "无法定义"
+        },
+        {
+          "id": "d",
+          "text": "0"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "sigmoid(0)=1/(1+e⁰)=1/2。输出是概率形式的数值，最终类别还由阈值和任务定义决定。"
+    },
+    {
+      "id": "tai-q074",
+      "type": "single",
+      "variant": "原创 · 损失比较",
+      "origin": "original",
+      "lessonIds": [
+        "tai-17"
+      ],
+      "sourceIds": [
+        "tai-src-linear",
+        "tai-src-metrics"
+      ],
+      "stem": "真实标签y=1，模型给正类概率从0.6提高到0.9，单样本二元交叉熵怎样变？",
+      "options": [
+        {
+          "id": "a",
+          "text": "不变"
+        },
+        {
+          "id": "b",
+          "text": "必为零"
+        },
+        {
+          "id": "c",
+          "text": "降低"
+        },
+        {
+          "id": "d",
+          "text": "升高"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "当y=1时交叉熵为−ln p，p增大则损失降低；只要p未达到1，数学上仍不是零。"
+    },
+    {
+      "id": "tai-q075",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-17"
+      ],
+      "sourceIds": [
+        "tai-src-linear",
+        "tai-src-metrics"
+      ],
+      "stem": "关于正则化哪些正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "正则过强可能欠拟合"
+        },
+        {
+          "id": "b",
+          "text": "L1倾向于稀疏系数"
+        },
+        {
+          "id": "c",
+          "text": "L2通常惩罚较大权重"
+        },
+        {
+          "id": "d",
+          "text": "正则越强泛化必然越好"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "L1和L2施加不同形式的复杂度惩罚，但正则强度仍需验证。过强会限制拟合能力，不能保证泛化单调改善。"
+    },
+    {
+      "id": "tai-q076",
+      "type": "single",
+      "variant": "原创 · 参数方向",
+      "origin": "original",
+      "lessonIds": [
+        "tai-17"
+      ],
+      "sourceIds": [
+        "tai-src-linear",
+        "tai-src-metrics"
+      ],
+      "stem": "在scikit-learn LogisticRegression中增大C意味着？",
+      "options": [
+        {
+          "id": "a",
+          "text": "正则更强"
+        },
+        {
+          "id": "b",
+          "text": "正则更弱"
+        },
+        {
+          "id": "c",
+          "text": "类别数必然增加"
+        },
+        {
+          "id": "d",
+          "text": "损失改为MSE"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "该API把C定义为正则强度的倒数，C越大正则越弱。这是具体接口约定，不能凭参数字母推断。"
+    },
+    {
+      "id": "tai-q077",
+      "type": "single",
+      "variant": "原创 · 任务匹配",
+      "origin": "original",
+      "lessonIds": [
+        "tai-17"
+      ],
+      "sourceIds": [
+        "tai-src-linear",
+        "tai-src-metrics"
+      ],
+      "stem": "一张图片可同时含烟、火和人员，允许多标签，哪种输出更合适？",
+      "options": [
+        {
+          "id": "a",
+          "text": "各标签独立sigmoid并分别判断"
+        },
+        {
+          "id": "b",
+          "text": "只能使用线性回归且不能阈值化"
+        },
+        {
+          "id": "c",
+          "text": "不需要标签"
+        },
+        {
+          "id": "d",
+          "text": "所有类别概率必须和为1的单标签softmax"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "多标签允许多个类别同时成立，可以对每个标签分别预测概率。单标签softmax的互斥假设与该任务不一致。"
+    },
+    {
+      "id": "tai-q078",
+      "type": "single",
+      "variant": "原创 · 情境选择",
+      "origin": "original",
+      "lessonIds": [
+        "tai-18"
+      ],
+      "sourceIds": [
+        "tai-src-neighbors",
+        "tai-src-bayes",
+        "tai-src-svm"
+      ],
+      "stem": "KNN用年龄和年收入直接计算欧氏距离，首要检查什么？",
+      "options": [
+        {
+          "id": "a",
+          "text": "删除所有年龄"
+        },
+        {
+          "id": "b",
+          "text": "把测试集一起拟合缩放器"
+        },
+        {
+          "id": "c",
+          "text": "特征量纲与缩放"
+        },
+        {
+          "id": "d",
+          "text": "把K固定为1"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "距离会被数值范围大的特征主导，应按训练数据拟合合理缩放。测试集参与拟合会引入信息泄漏。"
+    },
+    {
+      "id": "tai-q079",
+      "type": "single",
+      "variant": "原创 · 假设辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-18"
+      ],
+      "sourceIds": [
+        "tai-src-neighbors",
+        "tai-src-bayes",
+        "tai-src-svm"
+      ],
+      "stem": "朴素贝叶斯的核心假设是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "数据必须线性可分"
+        },
+        {
+          "id": "b",
+          "text": "所有特征无条件独立"
+        },
+        {
+          "id": "c",
+          "text": "给定类别后特征条件独立"
+        },
+        {
+          "id": "d",
+          "text": "标签完全随机"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "朴素贝叶斯将类条件联合概率分解为各特征条件概率乘积。它不是对所有特征的无条件独立要求。"
+    },
+    {
+      "id": "tai-q080",
+      "type": "single",
+      "variant": "原创 · 平滑作用",
+      "origin": "original",
+      "lessonIds": [
+        "tai-18"
+      ],
+      "sourceIds": [
+        "tai-src-neighbors",
+        "tai-src-bayes",
+        "tai-src-svm"
+      ],
+      "stem": "离散朴素贝叶斯用拉普拉斯平滑主要为了？",
+      "options": [
+        {
+          "id": "a",
+          "text": "强制每类同样多"
+        },
+        {
+          "id": "b",
+          "text": "避免未见计数导致零概率"
+        },
+        {
+          "id": "c",
+          "text": "保证每题100%正确"
+        },
+        {
+          "id": "d",
+          "text": "取消先验概率"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "未出现的特征计数可产生零条件概率，使整项乘积为零。平滑加入伪计数缓解此问题，并不保证预测正确。"
+    },
+    {
+      "id": "tai-q081",
+      "type": "single",
+      "variant": "原创 · 参数辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-18"
+      ],
+      "sourceIds": [
+        "tai-src-neighbors",
+        "tai-src-bayes",
+        "tai-src-svm"
+      ],
+      "stem": "软间隔SVM增大C通常表示？",
+      "options": [
+        {
+          "id": "a",
+          "text": "忽略所有误分类"
+        },
+        {
+          "id": "b",
+          "text": "测试准确率必然上升"
+        },
+        {
+          "id": "c",
+          "text": "等同增加特征维度"
+        },
+        {
+          "id": "d",
+          "text": "更强地惩罚训练违例"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "C控制违例惩罚与间隔之间的权衡。增大C更关注训练违例，但泛化效果不一定随之单调提升。"
+    },
+    {
+      "id": "tai-q082",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-18"
+      ],
+      "sourceIds": [
+        "tai-src-neighbors",
+        "tai-src-bayes",
+        "tai-src-svm"
+      ],
+      "stem": "关于KNN、朴素贝叶斯与SVM：对比记忆，哪些说法正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "核函数可表达特征空间内积"
+        },
+        {
+          "id": "b",
+          "text": "朴素贝叶斯要求所有特征取同一值"
+        },
+        {
+          "id": "c",
+          "text": "KNN的K影响平滑程度"
+        },
+        {
+          "id": "d",
+          "text": "SVM可能需要特征缩放"
+        }
+      ],
+      "answer": [
+        "a",
+        "c",
+        "d"
+      ],
+      "explanation": "KNN、SVM和朴素贝叶斯分别有距离、间隔、概率假设。朴素贝叶斯不要求特征取同一值，而是假设类条件独立。"
+    },
+    {
+      "id": "tai-q083",
+      "type": "single",
+      "variant": "原创 · 选非",
+      "origin": "original",
+      "lessonIds": [
+        "tai-18"
+      ],
+      "sourceIds": [
+        "tai-src-neighbors",
+        "tai-src-bayes",
+        "tai-src-svm"
+      ],
+      "stem": "以下哪项不成立？",
+      "options": [
+        {
+          "id": "a",
+          "text": "增大K保证每个测试样本都更准确"
+        },
+        {
+          "id": "b",
+          "text": "KNN预测需利用已存训练样本"
+        },
+        {
+          "id": "c",
+          "text": "核SVM可形成非线性边界"
+        },
+        {
+          "id": "d",
+          "text": "朴素贝叶斯是监督分类方法之一"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "增大K使结果更平滑，但可能掩盖局部结构或少数类，不能保证逐样本改善。前三项均符合相应方法的常见定义。"
+    },
+    {
+      "id": "tai-q084",
+      "type": "single",
+      "variant": "原创 · 基尼计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-19"
+      ],
+      "sourceIds": [
+        "tai-s14",
+        "tai-src-ensemble"
+      ],
+      "stem": "节点有5个正类、5个负类，基尼不纯度是多少？",
+      "options": [
+        {
+          "id": "a",
+          "text": "0"
+        },
+        {
+          "id": "b",
+          "text": "0.25"
+        },
+        {
+          "id": "c",
+          "text": "0.5"
+        },
+        {
+          "id": "d",
+          "text": "1"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "两类比例都是0.5，G=1−0.5²−0.5²=0.5。纯节点为0，不能把基尼和以2为底的信息熵混用。"
+    },
+    {
+      "id": "tai-q085",
+      "type": "single",
+      "variant": "原创 · 熵计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-19"
+      ],
+      "sourceIds": [
+        "tai-s14",
+        "tai-src-ensemble"
+      ],
+      "stem": "二分类两类各占一半，以2为底的信息熵是多少？",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.5"
+        },
+        {
+          "id": "b",
+          "text": "1"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        },
+        {
+          "id": "d",
+          "text": "0"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "H=−0.5log₂0.5−0.5log₂0.5=1。计算需先确认对数底数，同一个分布的不同底数数值不同。"
+    },
+    {
+      "id": "tai-q086",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-19"
+      ],
+      "sourceIds": [
+        "tai-s14",
+        "tai-src-ensemble"
+      ],
+      "stem": "降低决策树过拟合的合理做法有哪些？",
+      "options": [
+        {
+          "id": "a",
+          "text": "用验证集选复杂度"
+        },
+        {
+          "id": "b",
+          "text": "不断增深直到测试集全对"
+        },
+        {
+          "id": "c",
+          "text": "限制树深度"
+        },
+        {
+          "id": "d",
+          "text": "提高叶节点最小样本数"
+        }
+      ],
+      "answer": [
+        "a",
+        "c",
+        "d"
+      ],
+      "explanation": "限制复杂度并用独立验证集选择可抑制过拟合。反复用测试集选深度会污染最终评估，不是合理做法。"
+    },
+    {
+      "id": "tai-q087",
+      "type": "single",
+      "variant": "原创 · 集成辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-19"
+      ],
+      "sourceIds": [
+        "tai-s14",
+        "tai-src-ensemble"
+      ],
+      "stem": "随机森林相较多次复制同一棵树，关键区别是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "只能有一个叶子"
+        },
+        {
+          "id": "b",
+          "text": "样本/特征随机性带来不同基模型"
+        },
+        {
+          "id": "c",
+          "text": "必然不用任何标签"
+        },
+        {
+          "id": "d",
+          "text": "每棵树必须完全相同"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "集成收益依赖基模型具有一定准确度和差异性。随机森林用样本与特征随机性降低相关性，复制相同模型没有相同效果。"
+    },
+    {
+      "id": "tai-q088",
+      "type": "single",
+      "variant": "原创 · 算法识别",
+      "origin": "original",
+      "lessonIds": [
+        "tai-19"
+      ],
+      "sourceIds": [
+        "tai-s14",
+        "tai-src-ensemble"
+      ],
+      "stem": "顺序增加模型来修正此前不足，最贴近哪类方法？",
+      "options": [
+        {
+          "id": "a",
+          "text": "Boosting"
+        },
+        {
+          "id": "b",
+          "text": "只复制训练集"
+        },
+        {
+          "id": "c",
+          "text": "单次哈希查找"
+        },
+        {
+          "id": "d",
+          "text": "纯随机投票"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "Boosting逐轮增加模型，依据既有模型的误差或损失梯度继续优化。它不同于独立训练后简单平均的典型Bagging。"
+    },
+    {
+      "id": "tai-q089",
+      "type": "single",
+      "variant": "原创 · 增益计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-19"
+      ],
+      "sourceIds": [
+        "tai-s14",
+        "tai-src-ensemble"
+      ],
+      "stem": "父节点熵1，两个子节点样本各半、熵均0.4，信息增益是多少？",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.6"
+        },
+        {
+          "id": "b",
+          "text": "0.8"
+        },
+        {
+          "id": "c",
+          "text": "1.4"
+        },
+        {
+          "id": "d",
+          "text": "0.2"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "子节点加权熵为0.5×0.4+0.5×0.4=0.4，增益1−0.4=0.6。不能直接把两个0.4都从1中减去。"
+    },
+    {
+      "id": "tai-q090",
+      "type": "single",
+      "variant": "原创 · 算法识别",
+      "origin": "original",
+      "lessonIds": [
+        "tai-20"
+      ],
+      "sourceIds": [
+        "tai-src-cluster",
+        "tai-src-pca"
+      ],
+      "stem": "需要预先指定簇数并迭代更新中心的典型方法是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "PCA"
+        },
+        {
+          "id": "b",
+          "text": "逻辑回归"
+        },
+        {
+          "id": "c",
+          "text": "K-means"
+        },
+        {
+          "id": "d",
+          "text": "DBSCAN"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "标准K-means先指定K并进行分配、更新中心。DBSCAN按密度形成簇，PCA做投影，逻辑回归是监督分类模型。"
+    },
+    {
+      "id": "tai-q091",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-20"
+      ],
+      "sourceIds": [
+        "tai-src-cluster",
+        "tai-src-pca"
+      ],
+      "stem": "DBSCAN的常见特点有哪些？",
+      "options": [
+        {
+          "id": "a",
+          "text": "依赖邻域密度"
+        },
+        {
+          "id": "b",
+          "text": "可将点标为噪声"
+        },
+        {
+          "id": "c",
+          "text": "无需预设簇数"
+        },
+        {
+          "id": "d",
+          "text": "结果完全不受参数影响"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "DBSCAN通过密度连接构成簇，并可识别噪声。eps和min_samples会显著影响结果，因此不能称其无参数敏感性。"
+    },
+    {
+      "id": "tai-q092",
+      "type": "single",
+      "variant": "原创 · 方差计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-20"
+      ],
+      "sourceIds": [
+        "tai-src-cluster",
+        "tai-src-pca"
+      ],
+      "stem": "PCA解释方差比为0.60、0.25、0.10、0.05，至少保留85%需几维？",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "累计前两项为0.60+0.25=0.85，已达到至少85%的要求。题目要求的是方差比例，而非分类准确率。"
+    },
+    {
+      "id": "tai-q093",
+      "type": "single",
+      "variant": "原创 · 实现边界",
+      "origin": "original",
+      "lessonIds": [
+        "tai-20"
+      ],
+      "sourceIds": [
+        "tai-src-cluster",
+        "tai-src-pca"
+      ],
+      "stem": "scikit-learn PCA默认对特征做什么？",
+      "options": [
+        {
+          "id": "a",
+          "text": "既不中心化也不缩放"
+        },
+        {
+          "id": "b",
+          "text": "保证所有列方差为1"
+        },
+        {
+          "id": "c",
+          "text": "保证所有样本L2范数为1"
+        },
+        {
+          "id": "d",
+          "text": "中心化但不自动单位方差缩放"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "PCA实现会中心化输入，但不会自动标准化各特征尺度。是否先做StandardScaler应结合量纲和任务判断。"
+    },
+    {
+      "id": "tai-q094",
+      "type": "single",
+      "variant": "原创 · 选非",
+      "origin": "original",
+      "lessonIds": [
+        "tai-20"
+      ],
+      "sourceIds": [
+        "tai-src-cluster",
+        "tai-src-pca"
+      ],
+      "stem": "哪项说法不成立？",
+      "options": [
+        {
+          "id": "a",
+          "text": "DBSCAN通常不预设簇数"
+        },
+        {
+          "id": "b",
+          "text": "PCA保留90%方差就保证90%分类准确率"
+        },
+        {
+          "id": "c",
+          "text": "K-means可能受初始化影响"
+        },
+        {
+          "id": "d",
+          "text": "PCA可能损失分类信息"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "解释方差描述原始数据变化的保留程度，分类准确率还取决于标签信息和模型，不能直接建立相等关系。"
+    },
+    {
+      "id": "tai-q095",
+      "type": "single",
+      "variant": "原创 · 任务分类",
+      "origin": "original",
+      "lessonIds": [
+        "tai-20"
+      ],
+      "sourceIds": [
+        "tai-src-cluster",
+        "tai-src-pca"
+      ],
+      "stem": "没有故障标签，想把站点按用电曲线相似性分组，首先属于什么任务？",
+      "options": [
+        {
+          "id": "a",
+          "text": "编译优化"
+        },
+        {
+          "id": "b",
+          "text": "监督分类"
+        },
+        {
+          "id": "c",
+          "text": "无监督聚类"
+        },
+        {
+          "id": "d",
+          "text": "有标签回归"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "任务没有给定目标标签，而是按特征相似性发现群组，属于聚类。之后可结合业务解释这些群组，但不能提前当作已知故障类别。"
+    },
+    {
+      "id": "tai-q096",
+      "type": "single",
+      "variant": "原创 · 更新计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-21"
+      ],
+      "sourceIds": [
+        "tai-src-optim",
+        "tai-src-dropout",
+        "tai-src-batchnorm",
+        "tai-s15",
+        "tai-s22"
+      ],
+      "stem": "w=2，梯度6，学习率0.1，普通梯度下降一步后w为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "2.6"
+        },
+        {
+          "id": "b",
+          "text": "1.4"
+        },
+        {
+          "id": "c",
+          "text": "0.6"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "梯度下降沿负梯度方向更新：2−0.1×6=1.4。加号对应沿正梯度移动，未乘学习率也不符合题设。"
+    },
+    {
+      "id": "tai-q097",
+      "type": "single",
+      "variant": "原创 · 流程排序",
+      "origin": "original",
+      "lessonIds": [
+        "tai-21"
+      ],
+      "sourceIds": [
+        "tai-src-optim",
+        "tai-src-dropout",
+        "tai-src-batchnorm",
+        "tai-s15",
+        "tai-s22"
+      ],
+      "stem": "普通PyTorch训练中直接更新参数的步骤是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "optimizer.step()"
+        },
+        {
+          "id": "b",
+          "text": "model.eval()"
+        },
+        {
+          "id": "c",
+          "text": "打印loss"
+        },
+        {
+          "id": "d",
+          "text": "loss.backward()"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "backward负责计算并累积梯度，optimizer.step依据梯度与优化器状态更新参数。eval改变部分模块模式，不执行优化。"
+    },
+    {
+      "id": "tai-q098",
+      "type": "single",
+      "variant": "原创 · 代码诊断",
+      "origin": "original",
+      "lessonIds": [
+        "tai-21"
+      ],
+      "sourceIds": [
+        "tai-src-optim",
+        "tai-src-dropout",
+        "tai-src-batchnorm",
+        "tai-s15",
+        "tai-s22"
+      ],
+      "stem": "不是有意做梯度累积却连续backward不清梯度，主要风险是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "数据自动去重"
+        },
+        {
+          "id": "b",
+          "text": "损失函数自动更换"
+        },
+        {
+          "id": "c",
+          "text": "旧梯度叠加进新步骤"
+        },
+        {
+          "id": "d",
+          "text": "参数自动全部置零"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "PyTorch默认累积.grad。若希望每一步独立使用本次批梯度，需要适时清零，否则梯度含先前计算结果。"
+    },
+    {
+      "id": "tai-q099",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-21"
+      ],
+      "sourceIds": [
+        "tai-src-optim",
+        "tai-src-dropout",
+        "tai-src-batchnorm",
+        "tai-s15",
+        "tai-s22"
+      ],
+      "stem": "关于评估阶段，哪些正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "默认BatchNorm评估使用运行统计"
+        },
+        {
+          "id": "b",
+          "text": "model.eval()可关闭标准Dropout的随机置零"
+        },
+        {
+          "id": "c",
+          "text": "no_grad()可关闭当前上下文梯度记录"
+        },
+        {
+          "id": "d",
+          "text": "eval()自动等价于no_grad()"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "eval与梯度记录是两套机制。标准Dropout及默认BatchNorm的行为随模式变化，但eval本身不会禁止autograd。"
+    },
+    {
+      "id": "tai-q100",
+      "type": "single",
+      "variant": "原创 · 激活计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-21"
+      ],
+      "sourceIds": [
+        "tai-src-optim",
+        "tai-src-dropout",
+        "tai-src-batchnorm",
+        "tai-s15",
+        "tai-s22"
+      ],
+      "stem": "ReLU在x=−2处的输出和导数分别为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "−2和1"
+        },
+        {
+          "id": "b",
+          "text": "0和0"
+        },
+        {
+          "id": "c",
+          "text": "0和1"
+        },
+        {
+          "id": "d",
+          "text": "2和−1"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "ReLU负半轴输出为0且导数为0；正半轴输出为输入且导数为1。本题未涉及零点的不可导约定。"
+    },
+    {
+      "id": "tai-q101",
+      "type": "single",
+      "variant": "原创 · 结构辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-21"
+      ],
+      "sourceIds": [
+        "tai-src-optim",
+        "tai-src-dropout",
+        "tai-src-batchnorm",
+        "tai-s15",
+        "tai-s22"
+      ],
+      "stem": "多个全连接层只做仿射变换、不加入非线性激活，整体可表示为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "任意非线性分类器"
+        },
+        {
+          "id": "b",
+          "text": "必然为常数"
+        },
+        {
+          "id": "c",
+          "text": "必然为卷积网络"
+        },
+        {
+          "id": "d",
+          "text": "一个仿射变换"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "仿射变换复合仍是仿射变换。深度本身不能替代非线性激活；表达能力要由结构和非线性共同决定。"
+    },
+    {
+      "id": "tai-q102",
+      "type": "single",
+      "variant": "原创 · 参数量计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-22"
+      ],
+      "sourceIds": [
+        "tai-src-conv",
+        "tai-s16",
+        "tai-s23",
+        "tai-s20"
+      ],
+      "stem": "普通groups=1卷积：3输入通道、16输出通道、3×3核、有偏置，参数量为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "144"
+        },
+        {
+          "id": "b",
+          "text": "4608"
+        },
+        {
+          "id": "c",
+          "text": "432"
+        },
+        {
+          "id": "d",
+          "text": "448"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "每个输出通道有3×3×3=27个权重和1个偏置，共16×28=448。432是忽略偏置的权重数。"
+    },
+    {
+      "id": "tai-q103",
+      "type": "single",
+      "variant": "原创 · 尺寸计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-22"
+      ],
+      "sourceIds": [
+        "tai-src-conv",
+        "tai-s16",
+        "tai-s23",
+        "tai-s20"
+      ],
+      "stem": "输入32、核3、padding=1、stride=2、dilation=1，输出单边长度为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "32"
+        },
+        {
+          "id": "b",
+          "text": "15"
+        },
+        {
+          "id": "c",
+          "text": "16"
+        },
+        {
+          "id": "d",
+          "text": "17"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "代入floor((32+2−3)/2)+1=floor(31/2)+1=16。必须向下取整，不能直接将小数四舍五入。"
+    },
+    {
+      "id": "tai-q104",
+      "type": "single",
+      "variant": "原创 · 池化计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-22"
+      ],
+      "sourceIds": [
+        "tai-src-conv",
+        "tai-s16",
+        "tai-s23",
+        "tai-s20"
+      ],
+      "stem": "2×2窗口[[1,3],[2,4]]的最大池化结果是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2.5"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "最大池化取窗口内最大值4，2.5是平均值，10是总和。题目在考聚合规则而非卷积加权求和。"
+    },
+    {
+      "id": "tai-q105",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-22"
+      ],
+      "sourceIds": [
+        "tai-src-conv",
+        "tai-s16",
+        "tai-s23",
+        "tai-s20"
+      ],
+      "stem": "关于视觉计算：卷积参数、池化、检测与分割，哪些说法正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "输入图像变大可能增加计算量"
+        },
+        {
+          "id": "b",
+          "text": "标准最大池化通常无可学习权重"
+        },
+        {
+          "id": "c",
+          "text": "图像边长翻倍时卷积参数必定翻四倍"
+        },
+        {
+          "id": "d",
+          "text": "普通卷积核在空间位置共享"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "固定通道和卷积核时参数量不随空间面积变化，计算和激活内存则会变化。池化通常不含可训练卷积权重。"
+    },
+    {
+      "id": "tai-q106",
+      "type": "single",
+      "variant": "原创 · 任务匹配",
+      "origin": "original",
+      "lessonIds": [
+        "tai-22"
+      ],
+      "sourceIds": [
+        "tai-src-conv",
+        "tai-s16",
+        "tai-s23",
+        "tai-s20"
+      ],
+      "stem": "要为画面每个像素标注烟雾或背景，最对应什么任务？",
+      "options": [
+        {
+          "id": "a",
+          "text": "文本检索"
+        },
+        {
+          "id": "b",
+          "text": "仅聚类站点ID"
+        },
+        {
+          "id": "c",
+          "text": "语义分割"
+        },
+        {
+          "id": "d",
+          "text": "仅整图分类"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "像素级分类对应语义分割。图像分类只给整图类别，目标检测给框，输出精细程度与题设要求不同。"
+    },
+    {
+      "id": "tai-q107",
+      "type": "single",
+      "variant": "原创 · 选非",
+      "origin": "original",
+      "lessonIds": [
+        "tai-22"
+      ],
+      "sourceIds": [
+        "tai-src-conv",
+        "tai-s16",
+        "tai-s23",
+        "tai-s20"
+      ],
+      "stem": "关于NMS，哪项不正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "可以保证永不漏掉相邻真实目标"
+        },
+        {
+          "id": "b",
+          "text": "通常优先保留高分框"
+        },
+        {
+          "id": "c",
+          "text": "根据重叠程度抑制部分框"
+        },
+        {
+          "id": "d",
+          "text": "阈值需在验证数据上检查"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "NMS是后处理取舍，过度抑制可能删除相邻真实目标。不能由算法存在就推导出零漏检保证。"
+    },
+    {
+      "id": "tai-q108",
+      "type": "single",
+      "variant": "原创 · 形状计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-23"
+      ],
+      "sourceIds": [
+        "tai-src-attention",
+        "tai-s17"
+      ],
+      "stem": "Q为(4,8)，K为(6,8)，V为(6,5)，单头注意力输出形状为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "(4,5)"
+        },
+        {
+          "id": "b",
+          "text": "(6,8)"
+        },
+        {
+          "id": "c",
+          "text": "(4,6)"
+        },
+        {
+          "id": "d",
+          "text": "(8,5)"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "QKᵀ先得到4×6权重矩阵，再乘6×5的V，最终4×5。4×6仅是中间分数或权重的形状。"
+    },
+    {
+      "id": "tai-q109",
+      "type": "single",
+      "variant": "原创 · 权重手算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-23"
+      ],
+      "sourceIds": [
+        "tai-src-attention",
+        "tai-s17"
+      ],
+      "stem": "一个query对两个key的分数相等，V分别为2和6，softmax加权输出为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "2"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "相同分数经过softmax得到相同权重，两个权重各为0.5，输出0.5×2+0.5×6=4。"
+    },
+    {
+      "id": "tai-q110",
+      "type": "single",
+      "variant": "原创 · 掩码辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-23"
+      ],
+      "sourceIds": [
+        "tai-src-attention",
+        "tai-s17"
+      ],
+      "stem": "自回归训练中防止当前位置读取未来token，主要使用？",
+      "options": [
+        {
+          "id": "a",
+          "text": "只删除所有位置编码"
+        },
+        {
+          "id": "b",
+          "text": "只使用padding掩码"
+        },
+        {
+          "id": "c",
+          "text": "因果掩码"
+        },
+        {
+          "id": "d",
+          "text": "仅改变batch大小"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "因果掩码限制未来位置的信息可见性；padding掩码用于屏蔽补齐位置，并不自动实现自回归约束。"
+    },
+    {
+      "id": "tai-q111",
+      "type": "single",
+      "variant": "原创 · 复杂度计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-23"
+      ],
+      "sourceIds": [
+        "tai-src-attention",
+        "tai-s17"
+      ],
+      "stem": "固定隐藏维度，标准密集自注意力长度从100变200，分数矩阵项数约变为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "不变"
+        },
+        {
+          "id": "b",
+          "text": "2倍"
+        },
+        {
+          "id": "c",
+          "text": "4倍"
+        },
+        {
+          "id": "d",
+          "text": "8倍"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "分数矩阵项数为n²，从10000变40000，因此为4倍。这里讨论标准密集注意力，不泛指所有高效变体。"
+    },
+    {
+      "id": "tai-q112",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-23"
+      ],
+      "sourceIds": [
+        "tai-src-attention",
+        "tai-s17"
+      ],
+      "stem": "关于序列与注意力：QKV、掩码和复杂度，哪些说法正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "交叉注意力Q可来自另一序列"
+        },
+        {
+          "id": "b",
+          "text": "自注意力仍需处理位置信息"
+        },
+        {
+          "id": "c",
+          "text": "padding掩码与因果掩码用途不同"
+        },
+        {
+          "id": "d",
+          "text": "多头数越多效果必然越好"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "来源、位置信息与掩码是不同设计维度。多头配置需结合表示维度与任务验证，效果不随头数保证单调提升。"
+    },
+    {
+      "id": "tai-q113",
+      "type": "single",
+      "variant": "原创 · 机制理解",
+      "origin": "original",
+      "lessonIds": [
+        "tai-23"
+      ],
+      "sourceIds": [
+        "tai-src-attention",
+        "tai-s17"
+      ],
+      "stem": "点积除以√dk主要为了解决什么？",
+      "options": [
+        {
+          "id": "a",
+          "text": "保证输出事实准确"
+        },
+        {
+          "id": "b",
+          "text": "将所有权重变成0"
+        },
+        {
+          "id": "c",
+          "text": "取消参数训练"
+        },
+        {
+          "id": "d",
+          "text": "控制点积尺度及softmax饱和倾向"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "维度增大时点积尺度可能增大，缩放有助于控制softmax输入。它不提供事实性保证，也不取消学习过程。"
+    },
+    {
+      "id": "tai-q114",
+      "type": "single",
+      "variant": "原创 · 参数计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-24"
+      ],
+      "sourceIds": [
+        "tai-src-lora",
+        "tai-src-generation",
+        "tai-s18",
+        "tai-s19"
+      ],
+      "stem": "W为100×80，LoRA秩4，仅计算A和B且忽略偏置，新增参数多少？",
+      "options": [
+        {
+          "id": "a",
+          "text": "720"
+        },
+        {
+          "id": "b",
+          "text": "8000"
+        },
+        {
+          "id": "c",
+          "text": "320"
+        },
+        {
+          "id": "d",
+          "text": "400"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "低秩矩阵大小为4×80和100×4，参数之和320+400=720。8000是原始完整矩阵的参数量。"
+    },
+    {
+      "id": "tai-q115",
+      "type": "single",
+      "variant": "原创 · 机制辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-24"
+      ],
+      "sourceIds": [
+        "tai-src-lora",
+        "tai-src-generation",
+        "tai-s18",
+        "tai-s19"
+      ],
+      "stem": "经典LoRA主要怎样适配模型？",
+      "options": [
+        {
+          "id": "a",
+          "text": "只增加检索库文档数量"
+        },
+        {
+          "id": "b",
+          "text": "冻结原权重并训练低秩增量"
+        },
+        {
+          "id": "c",
+          "text": "仅在推理时检索外部文档"
+        },
+        {
+          "id": "d",
+          "text": "为每个样本单独全量微调一份模型"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "LoRA以可训练低秩矩阵表示权重增量，经典方案冻结原权重。它与只在推理时加入外部资料的RAG机制不同。"
+    },
+    {
+      "id": "tai-q116",
+      "type": "single",
+      "variant": "原创 · 故障定位",
+      "origin": "original",
+      "lessonIds": [
+        "tai-24"
+      ],
+      "sourceIds": [
+        "tai-src-lora",
+        "tai-src-generation",
+        "tai-s18",
+        "tai-s19"
+      ],
+      "stem": "RAG始终没有检索到正确手册，首先检查哪一段？",
+      "options": [
+        {
+          "id": "a",
+          "text": "切块、索引与检索"
+        },
+        {
+          "id": "b",
+          "text": "只调生成温度而不检查检索"
+        },
+        {
+          "id": "c",
+          "text": "直接认定模型训练轮数不足"
+        },
+        {
+          "id": "d",
+          "text": "跳过权限检查"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "缺少正确上下文首先是召回链路问题，应检查资料入库与检索。未获得依据时仅修改生成样式不能解决根因。"
+    },
+    {
+      "id": "tai-q117",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-24"
+      ],
+      "sourceIds": [
+        "tai-src-lora",
+        "tai-src-generation",
+        "tai-s18",
+        "tai-s19"
+      ],
+      "stem": "哪些说法合理？",
+      "options": [
+        {
+          "id": "a",
+          "text": "检索命中不保证最终回答忠实"
+        },
+        {
+          "id": "b",
+          "text": "运维资料应标注版本与权限"
+        },
+        {
+          "id": "c",
+          "text": "贪心解码能保证回答事实正确"
+        },
+        {
+          "id": "d",
+          "text": "RAG和微调可以组合"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "检索、生成和权限各有独立风险。贪心只是局部选token策略，不验证事实，更不替代资料治理。"
+    },
+    {
+      "id": "tai-q118",
+      "type": "single",
+      "variant": "原创 · 解码辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-24"
+      ],
+      "sourceIds": [
+        "tai-src-lora",
+        "tai-src-generation",
+        "tai-s18",
+        "tai-s19"
+      ],
+      "stem": "贪心解码的准确定义是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "每次均匀随机选词"
+        },
+        {
+          "id": "b",
+          "text": "更新模型参数直到答案满意"
+        },
+        {
+          "id": "c",
+          "text": "每一步选择当前概率最高token"
+        },
+        {
+          "id": "d",
+          "text": "保证全序列概率全局最大"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "贪心只优化当前步骤，后续分支概率可能使另一条完整序列更优。解码过程本身也不等于参数训练。"
+    },
+    {
+      "id": "tai-q119",
+      "type": "single",
+      "variant": "原创 · 指标边界",
+      "origin": "original",
+      "lessonIds": [
+        "tai-24"
+      ],
+      "sourceIds": [
+        "tai-src-lora",
+        "tai-src-generation",
+        "tai-s18",
+        "tai-s19"
+      ],
+      "stem": "RAG检索Recall@k很高，仍需检查什么？",
+      "options": [
+        {
+          "id": "a",
+          "text": "检索已保证无幻觉"
+        },
+        {
+          "id": "b",
+          "text": "生成答案是否忠于证据"
+        },
+        {
+          "id": "c",
+          "text": "不需检查任何环节"
+        },
+        {
+          "id": "d",
+          "text": "只能增加k不能看答案"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "检索召回衡量相关材料是否进入候选范围，生成阶段仍可能误读、忽略或编造。召回指标不能替代答案事实一致性评估。"
+    },
+    {
+      "id": "tai-q120",
+      "type": "single",
+      "variant": "原创 · 结构选择",
+      "origin": "original",
+      "lessonIds": [
+        "tai-25"
+      ],
+      "sourceIds": [
+        "tai-src-algorithms"
+      ],
+      "stem": "按到达顺序处理待办任务，最直接的结构是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "栈"
+        },
+        {
+          "id": "b",
+          "text": "队列"
+        },
+        {
+          "id": "c",
+          "text": "仅递归调用栈"
+        },
+        {
+          "id": "d",
+          "text": "优先队列（按任务重要性而非到达时间）"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "队列先进先出，适合先到先处理。栈后进先出会优先处理最后加入项，不符合题设的顺序要求。"
+    },
+    {
+      "id": "tai-q121",
+      "type": "single",
+      "variant": "原创 · 复杂度",
+      "origin": "original",
+      "lessonIds": [
+        "tai-25"
+      ],
+      "sourceIds": [
+        "tai-src-algorithms"
+      ],
+      "stem": "对有序随机访问数组二分查找，常见时间复杂度为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "O(log n)"
+        },
+        {
+          "id": "b",
+          "text": "O(n²)"
+        },
+        {
+          "id": "c",
+          "text": "O(2ⁿ)"
+        },
+        {
+          "id": "d",
+          "text": "O(1)"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "每次比较将候选范围缩小约一半，操作次数随log n增长。该结论依赖有序性与快速定位中点的条件。"
+    },
+    {
+      "id": "tai-q122",
+      "type": "single",
+      "variant": "原创 · 最坏情形",
+      "origin": "original",
+      "lessonIds": [
+        "tai-25"
+      ],
+      "sourceIds": [
+        "tai-src-algorithms"
+      ],
+      "stem": "常见快速排序的最坏时间复杂度是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "O(n log n)"
+        },
+        {
+          "id": "b",
+          "text": "O(n²)"
+        },
+        {
+          "id": "c",
+          "text": "O(log n)"
+        },
+        {
+          "id": "d",
+          "text": "O(n)"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "连续极不均衡划分会形成二次级别工作量。平均O(n log n)不能替代最坏复杂度，具体实现可用随机化等缓解。"
+    },
+    {
+      "id": "tai-q123",
+      "type": "single",
+      "variant": "原创 · 图算法",
+      "origin": "original",
+      "lessonIds": [
+        "tai-25"
+      ],
+      "sourceIds": [
+        "tai-src-algorithms"
+      ],
+      "stem": "无权图中求源点到其他点的最少边数路径，首选？",
+      "options": [
+        {
+          "id": "a",
+          "text": "每次贪心选择度数最大的节点"
+        },
+        {
+          "id": "b",
+          "text": "BFS"
+        },
+        {
+          "id": "c",
+          "text": "任意DFS首条路径"
+        },
+        {
+          "id": "d",
+          "text": "对节点编号排序后依次访问"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "BFS按距离层次扩展，无权图中首次到达节点即给出最少边数。DFS深度优先找到的首条路径不一定最短。"
+    },
+    {
+      "id": "tai-q124",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-25"
+      ],
+      "sourceIds": [
+        "tai-src-algorithms"
+      ],
+      "stem": "关于数据结构与算法：复杂度、查找和遍历，哪些说法正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dijkstra经典条件包括非负边权"
+        },
+        {
+          "id": "b",
+          "text": "哈希表平均O(1)不等于无条件最坏O(1)"
+        },
+        {
+          "id": "c",
+          "text": "稳定排序保持同键相对次序"
+        },
+        {
+          "id": "d",
+          "text": "链表第k个节点总能O(1)访问"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "图算法与复杂度都依赖前提；链表一般无法像数组一样直接按下标定位，需要沿链接遍历。"
+    },
+    {
+      "id": "tai-q125",
+      "type": "single",
+      "variant": "原创 · 操作手推",
+      "origin": "original",
+      "lessonIds": [
+        "tai-25"
+      ],
+      "sourceIds": [
+        "tai-src-algorithms"
+      ],
+      "stem": "空栈依次push(1)、push(2)、pop()、push(3)、pop()，两次弹出的是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "2、3"
+        },
+        {
+          "id": "b",
+          "text": "2、1"
+        },
+        {
+          "id": "c",
+          "text": "3、2"
+        },
+        {
+          "id": "d",
+          "text": "1、2"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "栈后进先出，第一次弹出最后压入的2；压入3后，第二次弹出3。栈中此时仍留下最早压入的1。"
+    },
+    {
+      "id": "tai-q126",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-26"
+      ],
+      "sourceIds": [
+        "tai-src-os"
+      ],
+      "stem": "同一进程的多个线程通常如何使用资源？",
+      "options": [
+        {
+          "id": "a",
+          "text": "对共享变量的复合操作天然原子"
+        },
+        {
+          "id": "b",
+          "text": "需处理竞争条件"
+        },
+        {
+          "id": "c",
+          "text": "共享地址空间"
+        },
+        {
+          "id": "d",
+          "text": "各有栈和执行上下文"
+        }
+      ],
+      "answer": [
+        "b",
+        "c",
+        "d"
+      ],
+      "explanation": "线程共享地址空间有利于通信，也引入数据竞争。各自执行上下文并不能使所有复合读写自动原子化。"
+    },
+    {
+      "id": "tai-q127",
+      "type": "single",
+      "variant": "原创 · 死锁条件",
+      "origin": "original",
+      "lessonIds": [
+        "tai-26"
+      ],
+      "sourceIds": [
+        "tai-src-os"
+      ],
+      "stem": "统一规定先取A锁再取B锁，主要试图破坏哪项死锁条件？",
+      "options": [
+        {
+          "id": "a",
+          "text": "所有线程共享地址空间"
+        },
+        {
+          "id": "b",
+          "text": "互斥"
+        },
+        {
+          "id": "c",
+          "text": "循环等待"
+        },
+        {
+          "id": "d",
+          "text": "不可剥夺"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "统一锁顺序使等待依赖无法按相反顺序闭环，从而破坏循环等待。它并不取消锁的互斥性质。"
+    },
+    {
+      "id": "tai-q128",
+      "type": "single",
+      "variant": "原创 · 地址计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-26"
+      ],
+      "sourceIds": [
+        "tai-src-os"
+      ],
+      "stem": "页大小4096字节，虚拟地址5000的页内偏移为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "904"
+        },
+        {
+          "id": "c",
+          "text": "4096"
+        },
+        {
+          "id": "d",
+          "text": "5000"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "页号为floor(5000/4096)=1，页内偏移为5000−4096=904。地址转换改变页号对应关系，不改变偏移。"
+    },
+    {
+      "id": "tai-q129",
+      "type": "single",
+      "variant": "原创 · 位数计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-26"
+      ],
+      "sourceIds": [
+        "tai-src-os"
+      ],
+      "stem": "4KiB页大小需要多少位页内偏移？",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "12"
+        },
+        {
+          "id": "c",
+          "text": "16"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "4KiB=4096=2¹²，故页内位置需要12位表示。KiB按1024字节换算，不是1000字节。"
+    },
+    {
+      "id": "tai-q130",
+      "type": "single",
+      "variant": "原创 · 选非",
+      "origin": "original",
+      "lessonIds": [
+        "tai-26"
+      ],
+      "sourceIds": [
+        "tai-src-os"
+      ],
+      "stem": "哪项说法不正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "TLB每次未命中都必须读磁盘"
+        },
+        {
+          "id": "b",
+          "text": "合法访问也可能缺页"
+        },
+        {
+          "id": "c",
+          "text": "TLB缓存地址翻译"
+        },
+        {
+          "id": "d",
+          "text": "TLB未命中可继续查页表"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "TLB未命中只表示翻译缓存没找到，不代表页不在物理内存。页表可能直接给出有效物理映射，无需读磁盘。"
+    },
+    {
+      "id": "tai-q131",
+      "type": "single",
+      "variant": "原创 · 并发辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-26"
+      ],
+      "sourceIds": [
+        "tai-src-os"
+      ],
+      "stem": "两个线程对共享整数做非原子的读—加一—写回，可能出现？",
+      "options": [
+        {
+          "id": "a",
+          "text": "只影响显示不影响值"
+        },
+        {
+          "id": "b",
+          "text": "丢失更新"
+        },
+        {
+          "id": "c",
+          "text": "必然得到两次增量"
+        },
+        {
+          "id": "d",
+          "text": "自动变成分布式事务"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "两个线程可能读取同一旧值并写回相同新值，从而只保留一次增量。需要正确同步或原子操作保证预期。"
+    },
+    {
+      "id": "tai-q132",
+      "type": "single",
+      "variant": "原创 · 聚合计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-27"
+      ],
+      "sourceIds": [
+        "tai-s07",
+        "tai-s21",
+        "tai-src-transactions",
+        "tai-src-isolation"
+      ],
+      "stem": "表某列为[1,NULL,3]，COUNT(*)和COUNT(该列)分别为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "3和3"
+        },
+        {
+          "id": "b",
+          "text": "3和2"
+        },
+        {
+          "id": "c",
+          "text": "2和2"
+        },
+        {
+          "id": "d",
+          "text": "2和3"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "COUNT(*)计所有三行，COUNT(列)只计非NULL值，故为2。NULL不能被当作数值0来统一处理。"
+    },
+    {
+      "id": "tai-q133",
+      "type": "single",
+      "variant": "原创 · 连接结果",
+      "origin": "original",
+      "lessonIds": [
+        "tai-27"
+      ],
+      "sourceIds": [
+        "tai-s07",
+        "tai-s21",
+        "tai-src-transactions",
+        "tai-src-isolation"
+      ],
+      "stem": "左表两个ID：1、2；右表仅ID=1有一条。LEFT JOIN按ID连接后有几行？",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "0"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "LEFT JOIN保留两个左表行；ID=2没有匹配，右侧字段补NULL。题设每个ID最多一条匹配，没有一对多放大。"
+    },
+    {
+      "id": "tai-q134",
+      "type": "single",
+      "variant": "原创 · 过滤陷阱",
+      "origin": "original",
+      "lessonIds": [
+        "tai-27"
+      ],
+      "sourceIds": [
+        "tai-s07",
+        "tai-s21",
+        "tai-src-transactions",
+        "tai-src-isolation"
+      ],
+      "stem": "上题LEFT JOIN后加WHERE 右表.ID=1，结果有几行？",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "必报错"
+        },
+        {
+          "id": "c",
+          "text": "1"
+        },
+        {
+          "id": "d",
+          "text": "2"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "未匹配行右表ID为NULL，NULL=1不为TRUE，WHERE将其过滤。外连接并不保证后续任何过滤后仍保留所有左行。"
+    },
+    {
+      "id": "tai-q135",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-27"
+      ],
+      "sourceIds": [
+        "tai-s07",
+        "tai-s21",
+        "tai-src-transactions",
+        "tai-src-isolation"
+      ],
+      "stem": "哪些SQL写法或理解正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "= NULL等价于IS NULL"
+        },
+        {
+          "id": "b",
+          "text": "使用IS NULL判断缺失"
+        },
+        {
+          "id": "c",
+          "text": "HAVING可过滤分组聚合结果"
+        },
+        {
+          "id": "d",
+          "text": "COUNT(列)忽略NULL"
+        }
+      ],
+      "answer": [
+        "b",
+        "c",
+        "d"
+      ],
+      "explanation": "NULL需使用专门谓词；聚合结果可在HAVING过滤。普通等号与NULL比较不等价于IS NULL。"
+    },
+    {
+      "id": "tai-q136",
+      "type": "single",
+      "variant": "原创 · 事务定义",
+      "origin": "original",
+      "lessonIds": [
+        "tai-27"
+      ],
+      "sourceIds": [
+        "tai-s07",
+        "tai-s21",
+        "tai-src-transactions",
+        "tai-src-isolation"
+      ],
+      "stem": "读取到了另一个事务尚未提交的数据，称为什么？",
+      "options": [
+        {
+          "id": "a",
+          "text": "脏读"
+        },
+        {
+          "id": "b",
+          "text": "仅称幻读"
+        },
+        {
+          "id": "c",
+          "text": "死锁"
+        },
+        {
+          "id": "d",
+          "text": "索引覆盖"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "脏读针对未提交数据；不可重复读与幻读关注重复读取时值或集合变化，几种现象不能混名。"
+    },
+    {
+      "id": "tai-q137",
+      "type": "single",
+      "variant": "原创 · 实现限定",
+      "origin": "original",
+      "lessonIds": [
+        "tai-27"
+      ],
+      "sourceIds": [
+        "tai-s07",
+        "tai-s21",
+        "tai-src-transactions",
+        "tai-src-isolation"
+      ],
+      "stem": "MySQL InnoDB默认事务隔离级别是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "READ COMMITTED"
+        },
+        {
+          "id": "b",
+          "text": "REPEATABLE READ"
+        },
+        {
+          "id": "c",
+          "text": "SERIALIZABLE"
+        },
+        {
+          "id": "d",
+          "text": "READ UNCOMMITTED"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "InnoDB默认REPEATABLE READ，但管理员可改变配置。题目限定默认值，不能推导所有实际系统都使用该级别。"
+    },
+    {
+      "id": "tai-q138",
+      "type": "boolean",
+      "variant": "原创 · 并发辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-28"
+      ],
+      "sourceIds": [
+        "tai-src-hashmap",
+        "tai-src-volatile",
+        "tai-src-http",
+        "tai-s04"
+      ],
+      "stem": "Java中volatile int i执行i++，能否仅靠volatile保证复合操作原子？",
+      "options": [
+        {
+          "id": "a",
+          "text": "能"
+        },
+        {
+          "id": "b",
+          "text": "不能"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "volatile的可见性和顺序保证不把读—加一—写整体合成原子步骤。并发计数应使用合适的同步或原子操作。"
+    },
+    {
+      "id": "tai-q139",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-28"
+      ],
+      "sourceIds": [
+        "tai-src-hashmap",
+        "tai-src-volatile",
+        "tai-src-http",
+        "tai-s04"
+      ],
+      "stem": "关于HashMap哪些正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "并发修改需要合适同步或容器"
+        },
+        {
+          "id": "b",
+          "text": "通常允许null键"
+        },
+        {
+          "id": "c",
+          "text": "默认线程安全"
+        },
+        {
+          "id": "d",
+          "text": "散列合理时get预期常数级"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "HashMap并非默认线程安全，常数性能也以散列等条件为前提。允许null不表示适合无保护的并发修改。"
+    },
+    {
+      "id": "tai-q140",
+      "type": "single",
+      "variant": "原创 · 协议概念",
+      "origin": "original",
+      "lessonIds": [
+        "tai-28"
+      ],
+      "sourceIds": [
+        "tai-src-hashmap",
+        "tai-src-volatile",
+        "tai-src-http",
+        "tai-s04"
+      ],
+      "stem": "HTTP幂等主要指什么？",
+      "options": [
+        {
+          "id": "a",
+          "text": "重复相同请求的预期服务器效果等于一次"
+        },
+        {
+          "id": "b",
+          "text": "所有响应字节必须一样"
+        },
+        {
+          "id": "c",
+          "text": "每个请求都完全无副作用"
+        },
+        {
+          "id": "d",
+          "text": "所有错误都可无限重试"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "幂等描述请求的预期效果而非响应完全相同。它也不授权无限重试，重试还需考虑错误类型和系统负载。"
+    },
+    {
+      "id": "tai-q141",
+      "type": "single",
+      "variant": "原创 · 选非",
+      "origin": "original",
+      "lessonIds": [
+        "tai-28"
+      ],
+      "sourceIds": [
+        "tai-src-hashmap",
+        "tai-src-volatile",
+        "tai-src-http",
+        "tai-s04"
+      ],
+      "stem": "按HTTP标准语义，哪种方法不具有通用幂等保证？",
+      "options": [
+        {
+          "id": "a",
+          "text": "PUT"
+        },
+        {
+          "id": "b",
+          "text": "DELETE"
+        },
+        {
+          "id": "c",
+          "text": "POST"
+        },
+        {
+          "id": "d",
+          "text": "GET"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "GET、PUT、DELETE的协议语义是幂等的；POST按具体资源处理，不能统一假设幂等。实际实现还需符合协议。"
+    },
+    {
+      "id": "tai-q142",
+      "type": "single",
+      "variant": "原创 · 业务情境",
+      "origin": "original",
+      "lessonIds": [
+        "tai-28"
+      ],
+      "sourceIds": [
+        "tai-src-hashmap",
+        "tai-src-volatile",
+        "tai-src-http",
+        "tai-s04"
+      ],
+      "stem": "支付类接口收到网络超时，直接无条件重试的主要风险是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "自动避免并发"
+        },
+        {
+          "id": "b",
+          "text": "保证只执行一次"
+        },
+        {
+          "id": "c",
+          "text": "产生重复业务操作"
+        },
+        {
+          "id": "d",
+          "text": "一定减少数据库记录"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "超时不表示服务端未执行。缺少幂等或去重设计时重复请求可能再次产生业务效果，需要查询状态并按协议恢复。"
+    },
+    {
+      "id": "tai-q143",
+      "type": "single",
+      "variant": "原创 · 职责区分",
+      "origin": "original",
+      "lessonIds": [
+        "tai-28"
+      ],
+      "sourceIds": [
+        "tai-src-hashmap",
+        "tai-src-volatile",
+        "tai-src-http",
+        "tai-s04"
+      ],
+      "stem": "服务发现机制主要解决哪类问题？",
+      "options": [
+        {
+          "id": "a",
+          "text": "为服务间调用自动实现业务幂等"
+        },
+        {
+          "id": "b",
+          "text": "定位可用服务实例"
+        },
+        {
+          "id": "c",
+          "text": "协调数据库事务提交"
+        },
+        {
+          "id": "d",
+          "text": "自动替代所有权限检查"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "服务发现提供实例注册与定位等能力，不等于事务、鉴权或算法正确性。这些职责需要由不同机制配合完成。"
+    },
+    {
+      "id": "tai-q144",
+      "type": "single",
+      "variant": "原创 · 职责配对",
+      "origin": "original",
+      "lessonIds": [
+        "tai-29"
+      ],
+      "sourceIds": [
+        "tai-src-hbase",
+        "tai-src-hdfs",
+        "tai-s10",
+        "tai-s01"
+      ],
+      "stem": "HDFS中管理命名空间和块映射元数据的组件通常是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "NameNode"
+        },
+        {
+          "id": "b",
+          "text": "DataNode"
+        },
+        {
+          "id": "c",
+          "text": "每个Spark任务"
+        },
+        {
+          "id": "d",
+          "text": "浏览器"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "NameNode承担命名空间和块映射等元数据管理，DataNode保存数据块。控制元数据和实际存储数据块职责不同。"
+    },
+    {
+      "id": "tai-q145",
+      "type": "single",
+      "variant": "原创 · 键设计",
+      "origin": "original",
+      "lessonIds": [
+        "tai-29"
+      ],
+      "sourceIds": [
+        "tai-src-hbase",
+        "tai-src-hdfs",
+        "tai-s10",
+        "tai-s01"
+      ],
+      "stem": "HBase行主要按什么组织和排序？",
+      "options": [
+        {
+          "id": "a",
+          "text": "客户端展示时的自定义排序"
+        },
+        {
+          "id": "b",
+          "text": "SQL外键的声明顺序"
+        },
+        {
+          "id": "c",
+          "text": "SQL查询返回顺序"
+        },
+        {
+          "id": "d",
+          "text": "RowKey"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "HBase行以RowKey组织并排序，键设计影响范围扫描和热点分布。并不是根据界面展示或任意查询顺序排列存储。"
+    },
+    {
+      "id": "tai-q146",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-29"
+      ],
+      "sourceIds": [
+        "tai-src-hbase",
+        "tai-src-hdfs",
+        "tai-s10",
+        "tai-s01"
+      ],
+      "stem": "关于大数据存储：HDFS、HBase与Spark串起来，哪些说法合理？",
+      "options": [
+        {
+          "id": "a",
+          "text": "HBase与关系库JOIN/事务能力完全相同"
+        },
+        {
+          "id": "b",
+          "text": "Spark shuffle可能增加网络开销"
+        },
+        {
+          "id": "c",
+          "text": "HDFS、HBase、Spark职责不同"
+        },
+        {
+          "id": "d",
+          "text": "RowKey设计可能影响热点"
+        }
+      ],
+      "answer": [
+        "b",
+        "c",
+        "d"
+      ],
+      "explanation": "三者分别偏向文件存储、数据库访问与分布式计算。HBase的数据模型和事务边界不能直接等同传统关系数据库。"
+    },
+    {
+      "id": "tai-q147",
+      "type": "single",
+      "variant": "原创 · 性能诊断",
+      "origin": "original",
+      "lessonIds": [
+        "tai-29"
+      ],
+      "sourceIds": [
+        "tai-src-hbase",
+        "tai-src-hdfs",
+        "tai-s10",
+        "tai-s01"
+      ],
+      "stem": "Spark某个key占绝大多数记录，单个任务特别慢，优先考虑？",
+      "options": [
+        {
+          "id": "a",
+          "text": "一定没有shuffle"
+        },
+        {
+          "id": "b",
+          "text": "数据倾斜"
+        },
+        {
+          "id": "c",
+          "text": "仅由driver堆内存较大导致"
+        },
+        {
+          "id": "d",
+          "text": "只增加Executor数量而不看key分布"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "key分布不均可让少数分区承担大量工作，形成长尾。要检查数据分布与分区策略，不能只盲目增加资源。"
+    },
+    {
+      "id": "tai-q148",
+      "type": "boolean",
+      "variant": "原创 · 容错边界",
+      "origin": "original",
+      "lessonIds": [
+        "tai-29"
+      ],
+      "sourceIds": [
+        "tai-src-hbase",
+        "tai-src-hdfs",
+        "tai-s10",
+        "tai-s01"
+      ],
+      "stem": "HDFS有多个副本，是否等于不必考虑误删后的备份恢复？",
+      "options": [
+        {
+          "id": "a",
+          "text": "是"
+        },
+        {
+          "id": "b",
+          "text": "否"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "副本主要应对节点等故障，逻辑删除或错误写入可能影响所有副本。备份、快照与恢复演练解决的是另一类风险。"
+    },
+    {
+      "id": "tai-q149",
+      "type": "single",
+      "variant": "原创 · 框架选择",
+      "origin": "original",
+      "lessonIds": [
+        "tai-29"
+      ],
+      "sourceIds": [
+        "tai-src-hbase",
+        "tai-src-hdfs",
+        "tai-s10",
+        "tai-s01"
+      ],
+      "stem": "需要对大量历史日志做按站点聚合计算，三者中哪个主要承担计算？",
+      "options": [
+        {
+          "id": "a",
+          "text": "HDFS（只使用文件系统存取接口）"
+        },
+        {
+          "id": "b",
+          "text": "NameNode（只查询文件元数据）"
+        },
+        {
+          "id": "c",
+          "text": "HBase（只做单行读写而不执行统计）"
+        },
+        {
+          "id": "d",
+          "text": "Spark"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "Spark提供分布式计算算子与执行机制，HDFS主要存文件，HBase主要提供数据访问。存储组织不能自动替代聚合计算。"
+    },
+    {
+      "id": "tai-q150",
+      "type": "single",
+      "variant": "原创 · 容量计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-30"
+      ],
+      "sourceIds": [
+        "tai-s19",
+        "tai-s20",
+        "tai-src-validation",
+        "tai-src-security",
+        "tai-s13"
+      ],
+      "stem": "20路视频各采样2帧/秒，单实例稳定10帧/秒，忽略全部额外开销，最少实例数？",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        },
+        {
+          "id": "d",
+          "text": "3"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "总负载20×2=40帧/秒，除以每实例10帧/秒得4。题目特意忽略开销，现实部署还需峰值和故障裕量。"
+    },
+    {
+      "id": "tai-q151",
+      "type": "single",
+      "variant": "原创 · 权限判断",
+      "origin": "original",
+      "lessonIds": [
+        "tai-30"
+      ],
+      "sourceIds": [
+        "tai-s19",
+        "tai-s20",
+        "tai-src-validation",
+        "tai-src-security",
+        "tai-s13"
+      ],
+      "stem": "运维RAG涉及不同部门资料，可靠的权限措施应在哪里落实？",
+      "options": [
+        {
+          "id": "a",
+          "text": "只在模型输入中删除文档标题"
+        },
+        {
+          "id": "b",
+          "text": "服务端检索与返回链路"
+        },
+        {
+          "id": "c",
+          "text": "只在提示词写不要泄密"
+        },
+        {
+          "id": "d",
+          "text": "只在前端隐藏无权查看的资料"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "访问权限应由可信服务端机制约束，不能只依赖模型遵守提示词或前端隐藏。检索和返回都需避免越权材料泄露。"
+    },
+    {
+      "id": "tai-q152",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-30"
+      ],
+      "sourceIds": [
+        "tai-s19",
+        "tai-s20",
+        "tai-src-validation",
+        "tai-src-security",
+        "tai-s13"
+      ],
+      "stem": "SQL注入防护哪些做法合理？",
+      "options": [
+        {
+          "id": "a",
+          "text": "数据值用参数化查询"
+        },
+        {
+          "id": "b",
+          "text": "动态表名使用固定映射或白名单"
+        },
+        {
+          "id": "c",
+          "text": "应用数据库账号遵循最小权限"
+        },
+        {
+          "id": "d",
+          "text": "直接拼接用户输入并相信其善意"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "参数化把数据和语法分开，结构位置另用固定映射或白名单，最小权限限制影响范围。直接拼接输入存在注入风险。"
+    },
+    {
+      "id": "tai-q153",
+      "type": "single",
+      "variant": "原创 · 发布决策",
+      "origin": "original",
+      "lessonIds": [
+        "tai-30"
+      ],
+      "sourceIds": [
+        "tai-s19",
+        "tai-s20",
+        "tai-src-validation",
+        "tai-src-security",
+        "tai-s13"
+      ],
+      "stem": "新模型离线分数更高但设备端延迟超标，正确处理是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "忽略延迟直接全量替换"
+        },
+        {
+          "id": "b",
+          "text": "仅报告平均延迟并忽略超时请求"
+        },
+        {
+          "id": "c",
+          "text": "仅提高离线测试集上的分类阈值"
+        },
+        {
+          "id": "d",
+          "text": "继续评估优化后再决定上线"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "模型必须同时满足质量与运行约束。应在目标设备验证优化后的精度、时延和资源，必要时维持旧版本。"
+    },
+    {
+      "id": "tai-q154",
+      "type": "single",
+      "variant": "原创 · 数据划分",
+      "origin": "original",
+      "lessonIds": [
+        "tai-30"
+      ],
+      "sourceIds": [
+        "tai-s19",
+        "tai-s20",
+        "tai-src-validation",
+        "tai-src-security",
+        "tai-s13"
+      ],
+      "stem": "同一火情视频相邻帧随机分进训练与测试，主要风险是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "保证泛化更好"
+        },
+        {
+          "id": "b",
+          "text": "自动消除类别不平衡"
+        },
+        {
+          "id": "c",
+          "text": "近重复数据泄漏导致评估过乐观"
+        },
+        {
+          "id": "d",
+          "text": "使每次评估更严格"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "相邻帧高度相似，训练已见到近重复内容，测试分数可能虚高。应按事件、站点或时间等合适单位隔离。"
+    },
+    {
+      "id": "tai-q155",
+      "type": "multiple",
+      "variant": "原创 · 闭环检查",
+      "origin": "original",
+      "lessonIds": [
+        "tai-30"
+      ],
+      "sourceIds": [
+        "tai-s19",
+        "tai-s20",
+        "tai-src-validation",
+        "tai-src-security",
+        "tai-s13"
+      ],
+      "stem": "哪些信息有助于解释上线后效果变化并回滚？",
+      "options": [
+        {
+          "id": "a",
+          "text": "只保存当天截图不记任何版本"
+        },
+        {
+          "id": "b",
+          "text": "数据版本"
+        },
+        {
+          "id": "c",
+          "text": "模型版本"
+        },
+        {
+          "id": "d",
+          "text": "阈值与评估口径"
+        }
+      ],
+      "answer": [
+        "b",
+        "c",
+        "d"
+      ],
+      "explanation": "变化可能来自数据、模型或决策阈值。记录这三类版本与评估口径，才能对比、复现和回退，不只看截图。"
+    },
+    {
+      "id": "tai-q156",
+      "type": "single",
+      "variant": "原创 · 工程情境",
+      "origin": "original",
+      "lessonIds": [
+        "tai-01"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s03",
+        "tai-src-hashmap"
+      ],
+      "stem": "对象作HashMap键后改变了参与hashCode的字段，可能发生什么？",
+      "options": [
+        {
+          "id": "a",
+          "text": "按预期键查询失败"
+        },
+        {
+          "id": "b",
+          "text": "Map自动重新分桶所有键"
+        },
+        {
+          "id": "c",
+          "text": "键自动变成String"
+        },
+        {
+          "id": "d",
+          "text": "保证任何查询都不受影响"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "对象字段变化可能改变哈希定位，但容器不会因任意字段变化自动重建条目位置，应谨慎使用可变对象作键。"
+    },
+    {
+      "id": "tai-q157",
+      "type": "single",
+      "variant": "原创 · 契约选非",
+      "origin": "original",
+      "lessonIds": [
+        "tai-01"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s03",
+        "tai-src-hashmap"
+      ],
+      "stem": "关于Java相等关系，哪项错误？",
+      "options": [
+        {
+          "id": "a",
+          "text": "Object默认equals对应对象身份"
+        },
+        {
+          "id": "b",
+          "text": "所有类的equals必然比较全部字段内容"
+        },
+        {
+          "id": "c",
+          "text": "相等对象应有相等hashCode"
+        },
+        {
+          "id": "d",
+          "text": "String可按内容实现equals"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "equals语义由类的实现决定，Object默认依据身份，不能把String的内容比较规则推广到所有类。"
+    },
+    {
+      "id": "tai-q158",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-02"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s04",
+        "tai-s05"
+      ],
+      "stem": "@SpringBootApplication组合了哪些核心注解？",
+      "options": [
+        {
+          "id": "a",
+          "text": "@ComponentScan"
+        },
+        {
+          "id": "b",
+          "text": "@Override"
+        },
+        {
+          "id": "c",
+          "text": "@SpringBootConfiguration"
+        },
+        {
+          "id": "d",
+          "text": "@EnableAutoConfiguration"
+        }
+      ],
+      "answer": [
+        "a",
+        "c",
+        "d"
+      ],
+      "explanation": "官方说明其组合配置、自动配置和组件扫描能力。Override是Java方法重写标记，不属于该组合。"
+    },
+    {
+      "id": "tai-q159",
+      "type": "single",
+      "variant": "原创 · 排错情境",
+      "origin": "original",
+      "lessonIds": [
+        "tai-02"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s04",
+        "tai-s05"
+      ],
+      "stem": "一个组件类没有被Spring发现，优先检查什么？",
+      "options": [
+        {
+          "id": "a",
+          "text": "直接禁用组件扫描并依赖自动发现"
+        },
+        {
+          "id": "b",
+          "text": "组件标注与扫描范围"
+        },
+        {
+          "id": "c",
+          "text": "只增大线程池而不检查Bean配置"
+        },
+        {
+          "id": "d",
+          "text": "把对象改成static字段以代替容器注册"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "组件是否注册受标注、扫描路径及显式配置等影响。增加硬件并不改变容器发现Bean的规则。"
+    },
+    {
+      "id": "tai-q160",
+      "type": "single",
+      "variant": "原创 · 重定向辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-03"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s06",
+        "tai-src-chmod"
+      ],
+      "stem": "Bash命令command >out 2>&1的常见效果是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "标准输出和标准错误都写入out"
+        },
+        {
+          "id": "b",
+          "text": "仅标准错误进入out"
+        },
+        {
+          "id": "c",
+          "text": "两个流都保持原处"
+        },
+        {
+          "id": "d",
+          "text": "删除命令"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "先将标准输出重定向到out，再让标准错误复制当前标准输出目标，因此两者进入同一文件；顺序影响结果。"
+    },
+    {
+      "id": "tai-q161",
+      "type": "single",
+      "variant": "原创 · 退出码",
+      "origin": "original",
+      "lessonIds": [
+        "tai-03"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s06",
+        "tai-src-chmod"
+      ],
+      "stem": "Bash未开启pipefail，false | true的管道退出状态通常为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "无法执行管道"
+        },
+        {
+          "id": "d",
+          "text": "0"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "默认取最后一个命令的状态，true成功返回0。开启pipefail时规则不同，诊断管道失败须先确认该选项。"
+    },
+    {
+      "id": "tai-q162",
+      "type": "single",
+      "variant": "原创 · 覆盖判断",
+      "origin": "original",
+      "lessonIds": [
+        "tai-04"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s07",
+        "tai-s21"
+      ],
+      "stem": "查询仅需id与name，某索引可直接提供二者，最贴近哪个概念？",
+      "options": [
+        {
+          "id": "a",
+          "text": "笛卡尔积必然错误"
+        },
+        {
+          "id": "b",
+          "text": "主从复制"
+        },
+        {
+          "id": "c",
+          "text": "覆盖索引"
+        },
+        {
+          "id": "d",
+          "text": "脏读"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "覆盖描述索引已包含查询所需数据，可避免为获取缺失列再访问表记录；它与事务隔离或复制不是同一概念。"
+    },
+    {
+      "id": "tai-q163",
+      "type": "single",
+      "variant": "原创 · 分组理解",
+      "origin": "original",
+      "lessonIds": [
+        "tai-04"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s07",
+        "tai-s21"
+      ],
+      "stem": "按station_id GROUP BY后求COUNT(*)，通常得到？",
+      "options": [
+        {
+          "id": "a",
+          "text": "必定去除所有重复原始行"
+        },
+        {
+          "id": "b",
+          "text": "每个站点分组的行数"
+        },
+        {
+          "id": "c",
+          "text": "永远只有全表一行"
+        },
+        {
+          "id": "d",
+          "text": "每行所在组的排名"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "GROUP BY按指定键分组，COUNT(*)在各组内统计行数。它改变聚合粒度，不等于任意意义上的整表去重。"
+    },
+    {
+      "id": "tai-q164",
+      "type": "single",
+      "variant": "原创 · 资源辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-05"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s08",
+        "tai-s09",
+        "tai-src-k8s-service",
+        "tai-src-k8s-probes"
+      ],
+      "stem": "Pod重建后IP可能变化，需要稳定访问多个后端，通常使用？",
+      "options": [
+        {
+          "id": "a",
+          "text": "Service"
+        },
+        {
+          "id": "b",
+          "text": "把首次发现的Pod IP长期写死"
+        },
+        {
+          "id": "c",
+          "text": "使用单个容器进程PID作为服务地址"
+        },
+        {
+          "id": "d",
+          "text": "把镜像标签当作服务网络地址"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "Service抽象为变化的后端提供访问入口。单个Pod地址生命周期短，不适合作为长期稳定服务发现方式。"
+    },
+    {
+      "id": "tai-q165",
+      "type": "single",
+      "variant": "原创 · 检查目的",
+      "origin": "original",
+      "lessonIds": [
+        "tai-05"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s08",
+        "tai-s09",
+        "tai-src-k8s-service",
+        "tai-src-k8s-probes"
+      ],
+      "stem": "readiness探针主要帮助判断什么？",
+      "options": [
+        {
+          "id": "a",
+          "text": "实例是否必须被重启"
+        },
+        {
+          "id": "b",
+          "text": "镜像是否完成了构建"
+        },
+        {
+          "id": "c",
+          "text": "是否能替代所有监控"
+        },
+        {
+          "id": "d",
+          "text": "实例是否准备好接收流量"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "readiness反映就绪状态，影响是否接收流量；liveness偏向失活检测与重启，两者解决的问题不同。"
+    },
+    {
+      "id": "tai-q166",
+      "type": "single",
+      "variant": "原创 · 内存边界",
+      "origin": "original",
+      "lessonIds": [
+        "tai-06"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s10"
+      ],
+      "stem": "对很大RDD直接collect到driver，主要风险是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "所有shuffle自动消失"
+        },
+        {
+          "id": "b",
+          "text": "永远比任何聚合快"
+        },
+        {
+          "id": "c",
+          "text": "driver内存不足"
+        },
+        {
+          "id": "d",
+          "text": "数据必然自动去重"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "collect会把结果收集到驱动进程，数据过大可能耗尽其内存。分布式处理的数据规模不能直接当作单机可承受规模。"
+    },
+    {
+      "id": "tai-q167",
+      "type": "boolean",
+      "variant": "原创 · 惰性辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-06"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s10"
+      ],
+      "stem": "调用RDD.cache()后，是否必然已完成全部分区计算？",
+      "options": [
+        {
+          "id": "a",
+          "text": "否"
+        },
+        {
+          "id": "b",
+          "text": "是"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "cache标记持久化意图，实际分区通常在后续行动触发计算时缓存。惰性执行与缓存生命周期需结合理解。"
+    },
+    {
+      "id": "tai-q168",
+      "type": "single",
+      "variant": "原创 · 子网计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-07"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s11",
+        "tai-src-cidr",
+        "tai-src-dns",
+        "tai-src-http"
+      ],
+      "stem": "传统IPv4 /26普通子网，排除网络与广播地址后可用主机地址数为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "26"
+        },
+        {
+          "id": "b",
+          "text": "32"
+        },
+        {
+          "id": "c",
+          "text": "62"
+        },
+        {
+          "id": "d",
+          "text": "64"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "32−26=6个主机位，地址总数2⁶=64；题干限定传统保留两地址的普通子网，故可用62。"
+    },
+    {
+      "id": "tai-q169",
+      "type": "boolean",
+      "variant": "原创 · 消息边界",
+      "origin": "original",
+      "lessonIds": [
+        "tai-07"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s11",
+        "tai-src-cidr",
+        "tai-src-dns",
+        "tai-src-http"
+      ],
+      "stem": "TCP一次send是否保证接收方恰好一次recv读到同一消息？",
+      "options": [
+        {
+          "id": "a",
+          "text": "不保证"
+        },
+        {
+          "id": "b",
+          "text": "保证"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "TCP提供字节流而非应用消息边界，接收分块可合并或拆分。应用必须按协议重新组装完整消息。"
+    },
+    {
+      "id": "tai-q170",
+      "type": "single",
+      "variant": "原创 · 验证设计",
+      "origin": "original",
+      "lessonIds": [
+        "tai-08"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s20",
+        "tai-src-validation"
+      ],
+      "stem": "同一站点有大量相似样本，想检验对新站点泛化，优先采用？",
+      "options": [
+        {
+          "id": "a",
+          "text": "先在全量拟合标准化"
+        },
+        {
+          "id": "b",
+          "text": "用测试集选择特征"
+        },
+        {
+          "id": "c",
+          "text": "按站点分组隔离"
+        },
+        {
+          "id": "d",
+          "text": "所有帧完全随机混分"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "新站点泛化需隔离站点相关信息，避免同一站点的相似样本同时进入训练验证。分组方式应与部署目标一致。"
+    },
+    {
+      "id": "tai-q171",
+      "type": "single",
+      "variant": "原创 · 流程辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-08"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s20",
+        "tai-src-validation"
+      ],
+      "stem": "交叉验证时标准化器应怎样拟合？",
+      "options": [
+        {
+          "id": "a",
+          "text": "用标签排序后拟合全部"
+        },
+        {
+          "id": "b",
+          "text": "每折仅在该折训练部分拟合"
+        },
+        {
+          "id": "c",
+          "text": "先对全量拟合一次"
+        },
+        {
+          "id": "d",
+          "text": "每折用验证集拟合"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "预处理也是模型流程的一部分，必须限制在训练折。先对全量拟合会让验证分布信息进入训练。"
+    },
+    {
+      "id": "tai-q172",
+      "type": "single",
+      "variant": "原创 · F1计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-09"
+      ],
+      "sourceIds": [
+        "tai-s13",
+        "tai-s20",
+        "tai-src-metrics"
+      ],
+      "stem": "precision=0.8、recall=0.5，F1约为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.65"
+        },
+        {
+          "id": "b",
+          "text": "0.6154"
+        },
+        {
+          "id": "c",
+          "text": "0.4"
+        },
+        {
+          "id": "d",
+          "text": "0.8"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "F1=2PR/(P+R)=0.8/1.3约0.6154，是调和平均，不是算术平均0.65。"
+    },
+    {
+      "id": "tai-q173",
+      "type": "single",
+      "variant": "原创 · 宏平均",
+      "origin": "original",
+      "lessonIds": [
+        "tai-09"
+      ],
+      "sourceIds": [
+        "tai-s13",
+        "tai-s20",
+        "tai-src-metrics"
+      ],
+      "stem": "两类别F1分别0.9与0.5，未加权Macro-F1为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.5"
+        },
+        {
+          "id": "b",
+          "text": "0.7"
+        },
+        {
+          "id": "c",
+          "text": "无法计算因为缺少样本数"
+        },
+        {
+          "id": "d",
+          "text": "0.9"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "未加权Macro-F1对各类F1等权平均，(0.9+0.5)/2=0.7；Micro或按支持度加权则需要额外计数。"
+    },
+    {
+      "id": "tai-q174",
+      "type": "single",
+      "variant": "原创 · 诊断情境",
+      "origin": "original",
+      "lessonIds": [
+        "tai-10"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s14",
+        "tai-src-linear",
+        "tai-src-validation"
+      ],
+      "stem": "训练误差低、验证误差高，首先应检查哪类问题？",
+      "options": [
+        {
+          "id": "a",
+          "text": "只可能样本数过多"
+        },
+        {
+          "id": "b",
+          "text": "必定代码没运行"
+        },
+        {
+          "id": "c",
+          "text": "过拟合或分布/数据问题"
+        },
+        {
+          "id": "d",
+          "text": "必然欠拟合"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "训练好而验证差常提示过拟合，也可能是分布或数据质量问题。需结合划分和学习曲线判断，不宜凭一个分数绝对断言。"
+    },
+    {
+      "id": "tai-q175",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-10"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s14",
+        "tai-src-linear",
+        "tai-src-validation"
+      ],
+      "stem": "哪些做法可能帮助控制过拟合？",
+      "options": [
+        {
+          "id": "a",
+          "text": "按测试分数无限调参"
+        },
+        {
+          "id": "b",
+          "text": "合理正则化"
+        },
+        {
+          "id": "c",
+          "text": "基于验证集早停"
+        },
+        {
+          "id": "d",
+          "text": "增加有代表性的训练数据"
+        }
+      ],
+      "answer": [
+        "b",
+        "c",
+        "d"
+      ],
+      "explanation": "正则、早停和代表性数据可能改善泛化，但都需验证。反复用测试集调参会污染最终评估。"
+    },
+    {
+      "id": "tai-q176",
+      "type": "single",
+      "variant": "原创 · 参数量",
+      "origin": "original",
+      "lessonIds": [
+        "tai-11"
+      ],
+      "sourceIds": [
+        "tai-s15",
+        "tai-s22",
+        "tai-src-optim"
+      ],
+      "stem": "输入10维、输出3维的全连接层，含偏置，共多少参数？",
+      "options": [
+        {
+          "id": "a",
+          "text": "30"
+        },
+        {
+          "id": "b",
+          "text": "13"
+        },
+        {
+          "id": "c",
+          "text": "33"
+        },
+        {
+          "id": "d",
+          "text": "300"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "权重矩阵有10×3=30个元素，输出3维各有一个偏置，共33。输入批大小不参与这层参数量计算。"
+    },
+    {
+      "id": "tai-q177",
+      "type": "single",
+      "variant": "原创 · 梯度尺度",
+      "origin": "original",
+      "lessonIds": [
+        "tai-11"
+      ],
+      "sourceIds": [
+        "tai-s15",
+        "tai-s22",
+        "tai-src-optim"
+      ],
+      "stem": "同一批样本损失从求和改为求平均，其他条件相同，梯度如何变化？",
+      "options": [
+        {
+          "id": "a",
+          "text": "必然完全相同"
+        },
+        {
+          "id": "b",
+          "text": "乘以批样本数平方"
+        },
+        {
+          "id": "c",
+          "text": "必然为零"
+        },
+        {
+          "id": "d",
+          "text": "除以批样本数"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "求平均相当于总损失除以样本数，线性求导后梯度也除以该数。不能忽略损失归约方式直接比较更新尺度。"
+    },
+    {
+      "id": "tai-q178",
+      "type": "single",
+      "variant": "原创 · IoU计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-12"
+      ],
+      "sourceIds": [
+        "tai-s16",
+        "tai-s19",
+        "tai-s20",
+        "tai-s23",
+        "tai-src-conv"
+      ],
+      "stem": "两个框面积各10，交集面积4，IoU是多少？",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.4"
+        },
+        {
+          "id": "b",
+          "text": "0.5"
+        },
+        {
+          "id": "c",
+          "text": "0.2"
+        },
+        {
+          "id": "d",
+          "text": "0.25"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "并集=10+10−4=16，交并比=4/16=0.25。分母不是两个面积直接相加，也不是单个框面积。"
+    },
+    {
+      "id": "tai-q179",
+      "type": "single",
+      "variant": "原创 · 标注一致性",
+      "origin": "original",
+      "lessonIds": [
+        "tai-12"
+      ],
+      "sourceIds": [
+        "tai-s16",
+        "tai-s19",
+        "tai-s20",
+        "tai-s23",
+        "tai-src-conv"
+      ],
+      "stem": "训练目标检测模型时旋转图像，框标注应怎样处理？",
+      "options": [
+        {
+          "id": "a",
+          "text": "仅修改图片尺寸字段而不变换框坐标"
+        },
+        {
+          "id": "b",
+          "text": "同步按几何变换更新"
+        },
+        {
+          "id": "c",
+          "text": "始终保持原坐标"
+        },
+        {
+          "id": "d",
+          "text": "删除所有类别"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "图像与监督标注必须保持同一几何关系。只变图像不变框会让模型学习错误位置，影响训练质量。"
+    },
+    {
+      "id": "tai-q180",
+      "type": "boolean",
+      "variant": "原创 · 机制比较",
+      "origin": "original",
+      "lessonIds": [
+        "tai-13"
+      ],
+      "sourceIds": [
+        "tai-s17",
+        "tai-s18",
+        "tai-s19",
+        "tai-src-attention",
+        "tai-src-lora"
+      ],
+      "stem": "更新RAG文档索引是否必然需要重新训练生成模型？",
+      "options": [
+        {
+          "id": "a",
+          "text": "需要"
+        },
+        {
+          "id": "b",
+          "text": "不一定"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "检索库与模型参数是不同组件，可以更新文档与索引而不重新训练生成模型；具体系统也可以另行微调。"
+    },
+    {
+      "id": "tai-q181",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-13"
+      ],
+      "sourceIds": [
+        "tai-s17",
+        "tai-s18",
+        "tai-s19",
+        "tai-src-attention",
+        "tai-src-lora"
+      ],
+      "stem": "哪些对应正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "RAG引入检索得到的外部上下文"
+        },
+        {
+          "id": "b",
+          "text": "LoRA是低秩参数适配"
+        },
+        {
+          "id": "c",
+          "text": "RAG保证检索材料一定最新且正确"
+        },
+        {
+          "id": "d",
+          "text": "微调通常更新模型参数"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "前三项是相应机制的基本区别。检索材料的时效和准确性要由数据维护与核验保证，RAG本身不提供自动保证。"
+    },
+    {
+      "id": "tai-q182",
+      "type": "single",
+      "variant": "原创 · 优化辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-14"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s13",
+        "tai-s19",
+        "tai-s20",
+        "tai-src-validation"
+      ],
+      "stem": "用教师模型输出指导较小学生模型训练，称为什么？",
+      "options": [
+        {
+          "id": "a",
+          "text": "直接删除部分网络连接"
+        },
+        {
+          "id": "b",
+          "text": "把权重直接转换成较低位数"
+        },
+        {
+          "id": "c",
+          "text": "知识蒸馏"
+        },
+        {
+          "id": "d",
+          "text": "使用正则惩罚限制所有权重大小"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "蒸馏利用教师提供的软目标或其他知识训练学生。它不同于直接降低数值精度的量化或删除连接的剪枝。"
+    },
+    {
+      "id": "tai-q183",
+      "type": "boolean",
+      "variant": "原创 · 监控边界",
+      "origin": "original",
+      "lessonIds": [
+        "tai-14"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s13",
+        "tai-s19",
+        "tai-s20",
+        "tai-src-validation"
+      ],
+      "stem": "只观察到输入分布变化，能否直接知道线上真实准确率下降多少？",
+      "options": [
+        {
+          "id": "a",
+          "text": "不能，还需标签或合理评估依据"
+        },
+        {
+          "id": "b",
+          "text": "能精确知道"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "输入变化提示潜在漂移，但准确率需要预测与真值对比。没有标签时不能从分布变化直接精确推导性能下降幅度。"
+    }
+  ],
+  "prep": {
+    "examDate": "2026-11-01",
+    "dateBasis": "按2026-11-01考试安排；报考岗位为人工智能，专业测试类别以考试通知为准",
+    "priorityNote": "P1先复习，P2有余力再补；优先级是依据岗位与已有回忆作出的学习安排，非考频统计。",
+    "steps": [
+      {
+        "minutes": 30,
+        "title": "企业文化速记",
+        "detail": "核心价值观、使命愿景、成立上市、业务归属；不追背滚动经营数字。",
+        "href": "culture-tower.html"
+      },
+      {
+        "minutes": 100,
+        "title": "AI核心与手算",
+        "detail": "数据划分、评估指标、概率/矩阵、损失、梯度、卷积与注意力。先做题，卡住再读。",
+        "lessonIds": [
+          "tai-08",
+          "tai-09",
+          "tai-16",
+          "tai-17",
+          "tai-11",
+          "tai-21",
+          "tai-12",
+          "tai-22",
+          "tai-23"
+        ]
+      },
+      {
+        "minutes": 50,
+        "title": "Python与常用模型",
+        "detail": "引用/广播、过拟合、决策树与集成；KNN/SVM、聚类放第二轮。",
+        "lessonIds": [
+          "tai-15",
+          "tai-10",
+          "tai-19"
+        ]
+      },
+      {
+        "minutes": 60,
+        "title": "计算机回忆基础",
+        "detail": "Java、Spring、Linux、SQL、容器、Spark、TCP。AI岗仍保留这段，卷别未明确。",
+        "lessonIds": [
+          "tai-01",
+          "tai-02",
+          "tai-03",
+          "tai-04",
+          "tai-27",
+          "tai-05",
+          "tai-06",
+          "tai-07"
+        ]
+      },
+      {
+        "minutes": 45,
+        "title": "独立完成覆盖摸底",
+        "detail": "每组抽1道，共30道；这是查漏卷，不是铁塔题型比例模拟。",
+        "preset": "coverage"
+      },
+      {
+        "minutes": 45,
+        "title": "只补错题与犹豫题",
+        "detail": "按批改结果回看知识点，再换一道题验证；不要只记选项字母。",
+        "href": "exam.html?scope=tower-ai"
+      },
+      {
+        "minutes": 30,
+        "title": "场景闭环与考前检查",
+        "detail": "告警阈值、数据权限、部署约束；核对通知、设备、计时和回跳规则，留足休息。",
+        "lessonIds": [
+          "tai-14",
+          "tai-30"
+        ]
+      }
+    ]
+  },
+  "practiceSets": [
+    {
+      "id": "coverage",
+      "title": "全章覆盖摸底",
+      "description": "每组1题，覆盖全部30组；题目可打乱，重开可换题。比例为本站诊断设计，不是考试预测。",
+      "lessonIds": [
+        "tai-08",
+        "tai-09",
+        "tai-15",
+        "tai-16",
+        "tai-17",
+        "tai-10",
+        "tai-19",
+        "tai-11",
+        "tai-21",
+        "tai-12",
+        "tai-22",
+        "tai-13",
+        "tai-23",
+        "tai-14",
+        "tai-30",
+        "tai-01",
+        "tai-02",
+        "tai-03",
+        "tai-04",
+        "tai-27",
+        "tai-05",
+        "tai-06",
+        "tai-07",
+        "tai-18",
+        "tai-20",
+        "tai-24",
+        "tai-25",
+        "tai-26",
+        "tai-28",
+        "tai-29"
+      ],
+      "perLesson": 1
+    },
+    {
+      "id": "ai-sprint",
+      "title": "AI核心强化",
+      "description": "数据、数学、编程、模型与部署每组2题；先做再补。",
+      "lessonIds": [
+        "tai-08",
+        "tai-09",
+        "tai-15",
+        "tai-16",
+        "tai-17",
+        "tai-10",
+        "tai-19",
+        "tai-11",
+        "tai-21",
+        "tai-12",
+        "tai-22",
+        "tai-13",
+        "tai-23",
+        "tai-14",
+        "tai-30",
+        "tai-18",
+        "tai-20",
+        "tai-24"
+      ],
+      "perLesson": 2
+    },
+    {
+      "id": "computing-sprint",
+      "title": "计算机回忆主题强化",
+      "description": "原有7组加SQL事务，每组2题；细项是原创扩展，非回忆原题。",
+      "lessonIds": [
+        "tai-01",
+        "tai-02",
+        "tai-03",
+        "tai-04",
+        "tai-05",
+        "tai-06",
+        "tai-07",
+        "tai-27"
+      ],
+      "perLesson": 2
     }
   ]
 }

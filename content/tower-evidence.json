@@ -34,7 +34,7 @@
       "scope": "作者选择计算机类；具体招聘岗位未说明。",
       "detail": "自述40单选、40多选、20判断，提到Java、Docker、K8s、Spark、Linux/Shell、SQL、InnoDB、覆盖索引、HBase、Spring Boot注解、Nacos节点数与TCP/IP结构。",
       "limit": "题量不同于2023通信类回忆，不合并成统一固定模板。多数内容只有主题名；Nacos仅有短片段，没有选项与版本。",
-      "use": "对应本站专业知识前7组；所有补全题目均标为原创变式。"
+      "use": "对应本站标注“回忆涉及”的工程基础各组；所有补全题目均标为原创变式。"
     },
     {
       "id": "tt-e05", "date": "2024-11-21", "kind": "B · AI方向面试分享", "title": "中国铁塔", "publisher": "牛客 · 愿offer多多的小饼干",

@@ -19,6 +19,17 @@ export function makePaper(questions,{limit=0,shuffle=true,random=Math.random}={}
   const selected=limit>0?order.slice(0,limit):order;
   return {questionIds:selected.map(q=>q.id),optionOrder:Object.fromEntries(selected.map(q=>[q.id,shuffle&&q.type!=='boolean'?shuffled(q.options.map(o=>o.id),random):q.options.map(o=>o.id)]))};
 }
+export function makeCoveragePaper(questions,lessonIds,{perLesson=1,shuffle=true,random=Math.random}={}) {
+  if(!lessonIds?.length||new Set(lessonIds).size!==lessonIds.length||!Number.isInteger(perLesson)||perLesson<1)throw new Error('覆盖组卷配置无效。');
+  const selected=[],used=new Set();
+  for(const id of lessonIds){
+    const pool=questions.filter(q=>q.lessonIds.includes(id)&&!used.has(q.id));
+    if(pool.length<perLesson)throw new Error('部分知识点题量不足，未生成缺项试卷。');
+    const chosen=(shuffle?shuffled(pool,random):pool).slice(0,perLesson);
+    for(const q of chosen){selected.push(q);used.add(q.id);}
+  }
+  return makePaper(selected,{shuffle,random});
+}
 export function gradePaper(paper,questions,answers={}) {
   const map=new Map(questions.map(q=>[q.id,q]));
   if(!paper.questionIds?.length)throw new Error('空试卷不能批改。');

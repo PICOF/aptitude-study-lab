@@ -80,12 +80,45 @@
 .tower-evidence-card blockquote { margin:20px 0; padding:14px 18px; border-left:4px solid var(--blue); background:var(--sky); border-radius:0 10px 10px 0; }
 .chapter-body code { overflow-wrap:anywhere; white-space:normal; }
 .tower-scope-note strong { display:block; margin-bottom:6px; }
+.tower-prep { margin:30px 0 44px; padding:28px; border:1px solid #bcd6ed; border-radius:18px; background:#f8fbff; overflow-wrap:anywhere; }
+.tower-prep-heading h2 { margin:14px 0 10px; font-size:26px; }
+.tower-prep-heading p,.tower-coverage p { font-size:14px; line-height:1.9; color:#526c80; }
+.tower-sprint-steps { padding:0; margin:26px 0; list-style:none; }
+.tower-sprint-steps li { display:grid; grid-template-columns:78px minmax(0,1fr); gap:18px; padding:17px 0; border-top:1px solid #dbe6ef; }
+.tower-minutes { color:#2467a1; font-size:14px; padding-top:4px; }
+.tower-sprint-steps h3 { font-size:16px; margin:0 0 5px; }
+.tower-sprint-steps p { margin:0 0 9px; font-size:14px; line-height:1.8; }
+.tower-step-links { display:flex; flex-wrap:wrap; gap:6px 14px; font-size:13px; }
+.tower-step-links a { line-height:1.8; text-decoration:underline; text-underline-offset:3px; }
+.tower-coverage { margin:24px 0; padding:16px; border:1px dashed #b7cbdc; border-radius:10px; background:white; }
+.tower-coverage summary { cursor:pointer; font-weight:600; line-height:1.8; }
+.tower-coverage ul { padding:0; list-style:none; }
+.tower-coverage li { display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; margin:10px 0; font-size:14px; }
+.tower-coverage small { width:100%; padding-left:34px; color:#657b8e; }
+.prep-priority { display:inline-block; border:1px solid #a5c6e3; border-radius:5px; padding:1px 7px; font-size:12px; color:#18578e; background:#eaf4ff; }
+.prep-priority.p2 { border-color:#c8d4ce; color:#486657; background:#f0f6f2; }
+.chapter-evidence { font-size:12px; line-height:1.9; color:#526c80; }
+.exam-presets { margin:0 0 28px; padding:24px; border:1px solid #cfdeeb; border-radius:14px; background:#f8fbff; }
+.exam-presets>h2 { font-size:22px; margin-top:0; }
+.exam-presets p { font-size:13px; line-height:1.85; color:#526c80; }
+.exam-presets-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
+.exam-preset { padding:18px; border:1px solid #d4e0eb; border-radius:12px; background:#fff; display:flex; flex-direction:column; align-items:flex-start; }
+.exam-preset.selected { border-color:#70a5d1; }
+.exam-preset h3 { margin:0; font-size:17px; }
+.exam-preset p { flex:1; }
+.exam-preset .button { min-height:44px; }
 
 @media (max-width: 1000px) {
   .chapter-reference-grid { grid-template-columns: 1fr; }
   .chapter-keypoint-list { grid-template-columns: 1fr; gap: 6px; }
 }
 @media (max-width: 760px) {
+  .tower-prep,.exam-presets { padding:18px 15px; }
+  .tower-prep-heading h2 { font-size:23px; }
+  .tower-sprint-steps li { grid-template-columns:1fr; gap:4px; }
+  .tower-step-links a { padding:6px 0; }
+  .exam-presets-grid { grid-template-columns:1fr; }
+  .tower-coverage small { padding-left:0; }
   .chapter-legend { gap: 10px 18px; font-size: 12px; margin-bottom: 23px; }
   .chapter-topic { margin-bottom: 40px; scroll-margin-top: 0; }
   .chapter-keypoint { padding: 22px 20px; border-radius: 16px; }
