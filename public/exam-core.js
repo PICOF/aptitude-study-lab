@@ -1,3 +1,4 @@
+import {examScopes} from './exam-routes.js';
 // Pure question selection and grading. Option identities never depend on position.
 export function selectQuestions(questions, filters={}, wrongIds=[]) {
   const wrong=new Set(wrongIds);
@@ -37,14 +38,14 @@ export function summarizeLessons(result,questions) {
   }
   return [...stats.values()].sort((a,b)=>a.correct/a.total-b.correct/b.total);
 }
-export function sanitizeState(raw,version) {
+export function sanitizeState(raw,version,compatibleVersions=[]) {
   const empty={version,attempts:{},history:[],wrong:[],read:[]};
-  if(!raw||raw.version!==version)return empty;
+  if(!raw||(raw.version!==version&&!compatibleVersions.includes(raw.version)))return empty;
   const strings=v=>Array.isArray(v)?[...new Set(v.filter(x=>typeof x==='string'))]:[];
   const validDate=n=>Number.isFinite(n)&&n>=0&&n<=8640000000000000;
   const validAttempt=a=>a&&typeof a.id==='string'&&typeof a.scope==='string'&&Array.isArray(a.questionIds)&&a.questionIds.length&&a.questionIds.every(x=>typeof x==='string')&&a.answers&&typeof a.answers==='object'&&!Array.isArray(a.answers)&&a.optionOrder&&typeof a.optionOrder==='object'&&validDate(a.startedAt);
   const normalize=a=>({...a,title:typeof a.title==='string'?a.title:a.scope,position:Number.isInteger(a.position)?Math.max(0,Math.min(a.position,a.questionIds.length-1)):0,marked:strings(a.marked).filter(id=>a.questionIds.includes(id))});
-  const attempts=raw.attempts&&typeof raw.attempts==='object'&&!Array.isArray(raw.attempts)?Object.fromEntries(Object.entries(raw.attempts).filter(([k,a])=>['guoxin','cosco','current'].includes(k)&&validAttempt(a)&&k===a.scope).map(([k,a])=>[k,normalize(a)])):{};
+  const attempts=raw.attempts&&typeof raw.attempts==='object'&&!Array.isArray(raw.attempts)?Object.fromEntries(Object.entries(raw.attempts).filter(([k,a])=>examScopes.includes(k)&&validAttempt(a)&&k===a.scope).map(([k,a])=>[k,normalize(a)])):{};
   const seen=new Set();
   const history=Array.isArray(raw.history)?raw.history.filter(a=>{if(!validAttempt(a)||!validDate(a.finishedAt)||a.finishedAt<a.startedAt||seen.has(a.id))return false;seen.add(a.id);return true;}).slice(0,50).map(normalize):[];
   return {version,attempts,history,wrong:strings(raw.wrong),read:strings(raw.read)};
@@ -55,7 +56,7 @@ export function mergeState(before,local,remote){
   const merged=structuredClone(remote),same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
   const mergeSet=(old,now,latest)=>[...new Set([...latest.filter(id=>!old.includes(id)||now.includes(id)),...now.filter(id=>!old.includes(id))])];
   for(const key of ['read','wrong'])merged[key]=mergeSet(before[key],local[key],remote[key]);
-  for(const scope of ['guoxin','cosco','current']){
+  for(const scope of examScopes){
     const old=before.attempts[scope],now=local.attempts[scope],latest=remote.attempts[scope];
     if(same(old,now))continue;
     if(!now){if(!latest||latest.id===old?.id)delete merged.attempts[scope];continue;}

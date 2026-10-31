@@ -1,3 +1,4 @@
+import {chapterRoute,examScopes} from './exam-routes.js';
 // Study scope changes selection only. Original questions remain the grading source.
 export function resolveFocusLesson(data,id,scope) {
   const original=data.lessons.find(l=>l.id===id);
@@ -33,14 +34,14 @@ export function focusChapterHref(data,id,scope='guoxin',prefix='') {
   const resolved=resolveFocusLesson(data,id);
   if(resolved.status==='retired')return `${prefix}learn/exam-${encodeURIComponent(id)}.html`;
   const target=resolved.lesson,scopeId=target?.scope||scope;
-  const page=scopeId==='current'?'current-affairs.html':`culture-${scopeId}.html`;
+  const page=chapterRoute(scopeId);
   return `${prefix}${page}${target?`#${encodeURIComponent(target.id)}`:''}`;
 }
 
 export function resolveChapterNavigation(data,pathname,hash,prefix='') {
   let id='';try{id=decodeURIComponent(hash.replace(/^#/,''));}catch{}
   const unchanged={action:'none',id};
-  const scope={'culture-guoxin.html':'guoxin','culture-cosco.html':'cosco','current-affairs.html':'current'}[pathname.split('/').pop()];
+  const scope=examScopes.find(s=>chapterRoute(s)===pathname.split('/').pop());
   if(!scope||!id)return unchanged;
   const resolved=resolveFocusLesson(data,id,scope);
   if(resolved.status==='retired')return {action:'redirect',id,href:focusChapterHref(data,id,scope,prefix)};

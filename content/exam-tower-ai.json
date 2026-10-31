@@ -1,0 +1,2647 @@
+{
+  "id": "tower-ai",
+  "title": "中国铁塔 · 人工智能",
+  "subtitle": "先读历年回忆，再按计算机基础与人工智能方向分组复习。",
+  "scopeNote": "计算机部分有2021、2024公开回忆线索；人工智能部分是岗位方向补充，不是已确认考纲。未取得可核验的AI方向完整历年卷。全部可评分题均为原创变式，回忆片段另列并保留缺失信息。",
+  "kind": "professional",
+  "updatedAt": "2026-10-31",
+  "sources": [
+    {
+      "id": "tai-s01",
+      "title": "牛客 · 铁塔笔试（计算机类）",
+      "url": "https://www.nowcoder.com/feed/main/detail/723e3e03a12c47ee8048f91c9c3ea813",
+      "publishedAt": "2024-11-18",
+      "verifiedAt": "2026-10-31",
+      "supports": "2024年作者自述涉及Java、Docker、K8s、Spark、Linux/Shell、SQL、InnoDB、Spring Boot、Nacos和TCP/IP；只支持其所述场次，不是AI方向大纲。",
+      "kind": "考生单人回忆"
+    },
+    {
+      "id": "tai-s02",
+      "title": "牛客 · 重庆铁塔 面经（笔试段）",
+      "url": "https://www.nowcoder.com/feed/main/detail/3211c10ffd064dad8128b89c999c8dbe",
+      "publishedAt": "2024-01-19（已编辑，考试日未说明）",
+      "verifiedAt": "2026-10-31",
+      "supports": "智能化运维管理岗位作者称选择计算机类，列Java、Spring、数据库、Linux、通信；未给具体笔试题干。",
+      "kind": "考生单人回忆"
+    },
+    {
+      "id": "tai-s03",
+      "title": "Java 21 API · Object",
+      "url": "https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html",
+      "publishedAt": "页面未标注；按本次访问版本",
+      "verifiedAt": "2026-10-31",
+      "supports": "核对equals与hashCode契约，作为Java辨析题的答案依据。",
+      "kind": "技术原文"
+    },
+    {
+      "id": "tai-s04",
+      "title": "Spring Boot · @SpringBootApplication",
+      "url": "https://docs.spring.io/spring-boot/reference/using/using-the-springbootapplication-annotation.html",
+      "publishedAt": "页面未标注；按本次访问版本",
+      "verifiedAt": "2026-10-31",
+      "supports": "核对自动配置、组件扫描和配置类三个组合功能；不将现行版本细节反推历史题答案。",
+      "kind": "技术原文"
+    },
+    {
+      "id": "tai-s05",
+      "title": "Nacos · 集群模式部署",
+      "url": "https://nacos.io/docs/latest/manual/admin/deployment/deployment-cluster/",
+      "publishedAt": "页面未标注；按本次访问版本",
+      "verifiedAt": "2026-10-31",
+      "supports": "当前文档要求配置3个或3个以上节点；用来澄清回忆中节点数片段的部署语境，非原卷答案证明。",
+      "kind": "技术原文"
+    },
+    {
+      "id": "tai-s06",
+      "title": "man7 · Bash manual",
+      "url": "https://man7.org/linux/man-pages/man1/bash.1.html",
+      "publishedAt": "页面未标注；按本次访问版本",
+      "verifiedAt": "2026-10-31",
+      "supports": "核对管道、退出状态、变量展开和重定向顺序。",
+      "kind": "技术原文"
+    },
+    {
+      "id": "tai-s07",
+      "title": "MySQL 8.4 · Clustered and Secondary Indexes",
+      "url": "https://docs.oracle.com/cd/E17952_01/mysql-8.4-en/innodb-index-types.html",
+      "publishedAt": "页面未标注；按本次访问版本",
+      "verifiedAt": "2026-10-31",
+      "supports": "核对InnoDB聚簇索引、二级索引中的主键值；讲解覆盖索引时明确查询列与具体索引。",
+      "kind": "技术原文"
+    },
+    {
+      "id": "tai-s08",
+      "title": "Docker CLI · docker container ls",
+      "url": "https://docs.docker.com/reference/cli/docker/container/ls/",
+      "publishedAt": "页面未标注；按本次访问版本",
+      "verifiedAt": "2026-10-31",
+      "supports": "docker ps默认只列运行中容器；-a/--all列出全部状态。",
+      "kind": "技术原文"
+    },
+    {
+      "id": "tai-s09",
+      "title": "Kubernetes · Pods",
+      "url": "https://kubernetes.io/docs/concepts/workloads/pods/",
+      "publishedAt": "页面未标注；按本次访问版本",
+      "verifiedAt": "2026-10-31",
+      "supports": "Pod是最小可部署单元，包含一个或多个容器，容器共享网络等上下文。",
+      "kind": "技术原文"
+    },
+    {
+      "id": "tai-s10",
+      "title": "Apache Spark · RDD Programming Guide",
+      "url": "https://spark.apache.org/docs/latest/rdd-programming-guide.html",
+      "publishedAt": "页面未标注；按本次访问版本",
+      "verifiedAt": "2026-10-31",
+      "supports": "核对RDD、惰性转换、行动操作、持久化与数据分区；练习不依赖某次考试具体版本。",
+      "kind": "技术原文"
+    },
+    {
+      "id": "tai-s11",
+      "title": "RFC 9293 · Transmission Control Protocol",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
+      "publishedAt": "2022-08",
+      "verifiedAt": "2026-10-31",
+      "supports": "TCP可靠有序字节流、连接建立与传输层语义。",
+      "kind": "互联网标准"
+    },
+    {
+      "id": "tai-s12",
+      "title": "scikit-learn · Common pitfalls",
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "publishedAt": "页面未标注；按本次访问版本",
+      "verifiedAt": "2026-10-31",
+      "supports": "预处理、训练测试划分与数据泄漏；技术答案依据，不是铁塔考纲。",
+      "kind": "技术原文"
+    },
+    {
+      "id": "tai-s13",
+      "title": "scikit-learn · Model evaluation",
+      "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "publishedAt": "页面未标注；按本次访问版本",
+      "verifiedAt": "2026-10-31",
+      "supports": "精确率、召回率、F1、混淆矩阵与评分口径。",
+      "kind": "技术原文"
+    },
+    {
+      "id": "tai-s14",
+      "title": "scikit-learn · Decision Trees",
+      "url": "https://scikit-learn.org/stable/modules/tree.html",
+      "publishedAt": "页面未标注；按本次访问版本",
+      "verifiedAt": "2026-10-31",
+      "supports": "决策树分类与回归、复杂度控制、过拟合等基础概念。",
+      "kind": "技术原文"
+    },
+    {
+      "id": "tai-s15",
+      "title": "PyTorch · Automatic differentiation",
+      "url": "https://docs.pytorch.org/tutorials/beginner/basics/autogradqs_tutorial.html",
+      "publishedAt": "页面未标注；按本次访问版本",
+      "verifiedAt": "2026-10-31",
+      "supports": "自动微分、链式法则、梯度累积与停止梯度计算。",
+      "kind": "技术原文"
+    },
+    {
+      "id": "tai-s16",
+      "title": "Dive into Deep Learning · Padding and Stride",
+      "url": "https://d2l.ai/chapter_convolutional-neural-networks/padding-and-strides.html",
+      "publishedAt": "页面未标注；按本次访问版本",
+      "verifiedAt": "2026-10-31",
+      "supports": "二维卷积填充、步长与输出尺寸计算。",
+      "kind": "公开技术教材"
+    },
+    {
+      "id": "tai-s17",
+      "title": "Attention Is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "publishedAt": "2017-06-12（初稿）",
+      "verifiedAt": "2026-10-31",
+      "supports": "Transformer与注意力的原始论文，作为模型结构补充阅读。",
+      "kind": "论文"
+    },
+    {
+      "id": "tai-s18",
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "publishedAt": "2020-05-22（初稿）",
+      "verifiedAt": "2026-10-31",
+      "supports": "检索增强生成原始论文；说明检索与生成结合，不等于保证答案正确。",
+      "kind": "论文"
+    },
+    {
+      "id": "tai-s19",
+      "title": "中国铁塔 · 北大人工智能产教融合创新平台",
+      "url": "https://www.china-tower.com/Index/show/catid/17/id/1572.html",
+      "publishedAt": "2026-02-01",
+      "verifiedAt": "2026-10-31",
+      "supports": "官方介绍中高点位视频图像、大模型、智能体和空间数智化治理，用于说明AI补充内容的业务相关性，不证明这些已考。",
+      "kind": "企业官网"
+    },
+    {
+      "id": "tai-s20",
+      "title": "中国铁塔 · 公司简介（数字塔场景）",
+      "url": "https://www.china-tower.com/Index/lists/catid/14.html",
+      "publishedAt": "页面未标注；按本次访问版本",
+      "verifiedAt": "2026-10-31",
+      "supports": "视频感知、数据处理、边缘计算与森林防火等场景；部署评估为本站工程解释。",
+      "kind": "企业官网"
+    },
+    {
+      "id": "tai-s21",
+      "title": "MySQL 8.4 · Aggregate Functions",
+      "url": "https://docs.oracle.com/cd/E17952_01/mysql-8.4-en/aggregate-functions.html",
+      "publishedAt": "页面未标注；按本次访问版本",
+      "verifiedAt": "2026-10-31",
+      "supports": "核对COUNT(*)、COUNT(列)、NULL与聚合规则。",
+      "kind": "技术原文"
+    },
+    {
+      "id": "tai-s22",
+      "title": "PyTorch · Module.eval",
+      "url": "https://docs.pytorch.org/docs/stable/generated/torch.nn.Module.html",
+      "publishedAt": "页面未标注；按本次访问版本",
+      "verifiedAt": "2026-10-31",
+      "supports": "评估模式影响部分模块行为，与关闭自动求导是独立机制。",
+      "kind": "技术原文"
+    },
+    {
+      "id": "tai-s23",
+      "title": "Torchvision · box_iou",
+      "url": "https://docs.pytorch.org/vision/stable/generated/torchvision.ops.box_iou.html",
+      "publishedAt": "页面未标注；按本次访问版本",
+      "verifiedAt": "2026-10-31",
+      "supports": "核对目标框的交并比IoU定义。",
+      "kind": "技术原文"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "tai-01",
+      "title": "Java：相等、哈希与对象契约",
+      "category": "回忆涉及 · 开发与系统",
+      "summary": "2024计算机类回忆提到Java；此处只练清晰、可核对的基础契约。",
+      "keyPoints": [
+        "引用类型的==比较是否指向同一对象；equals可按类的约定比较内容。",
+        "equals为true，hashCode必须相同；反向不成立。",
+        "重写equals时通常需要同步重写hashCode。"
+      ],
+      "body": "回忆帖只说“偏向Java”，没有提供这组原题。以下是按Java官方API整理的基础变式。\n\n引用类型的 `==` 判断两个引用是否指向同一对象；`equals` 是否按内容比较，取决于类的实现。Object默认equals与对象身份一致，String等类重写了它，不能把“所有对象的equals都比较内容”当通则。\n\n哈希容器的关键契约是：**两个对象若equals为true，hashCode必须相同；hashCode相同，equals不一定为true**，因为可能碰撞。自定义对象参与HashMap或HashSet时，重写equals而不相应重写hashCode，会破坏按逻辑相等识别键的预期。\n\n例如两个学生对象学号相同，你定义它们equals为true，那么哈希值也应按相同的逻辑字段生成。用作键之后改变这些字段，还可能让查找行为变得异常。先理解契约，再记结论。",
+      "pitfall": "“不同对象”不一定“不相等”；哈希碰撞也不等于程序出错。",
+      "sourceIds": [
+        "tai-s01",
+        "tai-s03"
+      ]
+    },
+    {
+      "id": "tai-02",
+      "title": "Spring Boot与Nacos：注解、注册与节点",
+      "category": "回忆涉及 · 开发与系统",
+      "summary": "2021与2024回忆出现Spring；2024有Nacos节点数片段，缺少版本与选项。",
+      "keyPoints": [
+        "@SpringBootApplication组合配置类、自动配置、组件扫描能力。",
+        "Nacos可用于服务发现与配置管理；具体能力按版本核对。",
+        "当前Nacos部署文档要求配置3个或3个以上节点，不把片段简化成无条件的“2/3台即集群”。"
+      ],
+      "body": "2024回忆提到Spring Boot注解多选题，以及“nacos有几个节点就算是集群”的片段。原文没有列完整题干、选项与Nacos版本，不能恢复成唯一可评分的历年题。\n\n先掌握有明确文档依据的组合：`@SpringBootApplication` 包括 `@SpringBootConfiguration`、`@EnableAutoConfiguration`、`@ComponentScan` 对应的功能，即配置类、自动配置、组件扫描。自动配置会根据类路径、配置与已有Bean等条件工作，不是把任意业务逻辑自动写出来。\n\nNacos常用于服务发现和配置管理。针对节点数，本次读取的官方集群部署文档要求在 `cluster.conf` 中配置 **3个或3个以上节点**。这句话讨论该文档的集群部署要求，不是所有分布式系统的定义。本章检测会明确限定“按当前部署文档”，避免把补全条件后的原创题冒充2024原题。",
+      "pitfall": "不要把2026所读文档的版本细节倒推成2024试卷答案；缺选项的回忆片段只保留为线索。",
+      "sourceIds": [
+        "tai-s01",
+        "tai-s04",
+        "tai-s05"
+      ]
+    },
+    {
+      "id": "tai-03",
+      "title": "Linux与Shell：管道、重定向、退出码",
+      "category": "回忆涉及 · 开发与系统",
+      "summary": "2024回忆明确提到Linux指令与Shell编程；练顺序与输出流。",
+      "keyPoints": [
+        "标准输入0、标准输出1、标准错误2。",
+        ">覆盖、>>追加；2>&1让错误输出指向当时的标准输出。",
+        "退出码0通常表示成功；&&表示前一命令成功后再执行。"
+      ],
+      "body": "Linux与Shell在2024计算机类回忆里明确出现，但没有完整原题。备考先区分数据流和控制流。\n\nShell里标准输入、标准输出、标准错误的文件描述符分别是0、1、2。`>` 通常创建或截断目标文件，`>>` 追加。`cmd >out.log 2>&1` 先把标准输出指向文件，再把标准错误复制到同一目的地；顺序换成 `cmd 2>&1 >out.log` 时，标准错误会保留在原标准输出目的地，二者不是普遍等价。\n\n`a | b` 默认把a的标准输出接到b的标准输入；不自动把标准错误也传过去。命令退出状态0通常表示成功，`a && b` 仅在a成功时执行b，`a || b` 则在a失败时执行b。读代码时按从左到右的重定向和短路规则推演，不要只凭符号相似来选。",
+      "pitfall": "重定向有先后顺序；普通管道默认处理stdout，不包含stderr。",
+      "sourceIds": [
+        "tai-s01",
+        "tai-s06"
+      ]
+    },
+    {
+      "id": "tai-04",
+      "title": "SQL与InnoDB：过滤、聚合、索引",
+      "category": "回忆涉及 · 数据与网络",
+      "summary": "回忆点名SQL、InnoDB和覆盖索引；按明确表结构分析，不背含糊的“全局索引”。",
+      "keyPoints": [
+        "WHERE过滤行；HAVING过滤分组结果。",
+        "COUNT(*)计行，COUNT(列)通常不计该列NULL。",
+        "InnoDB二级索引记录含主键值；覆盖索引取决于查询所需列。"
+      ],
+      "body": "2024回忆提到SQL语句、InnoDB细节和覆盖索引，也出现“全局索引”这个词，但没有产品版本或完整语境。本章只整理能够给出明确条件的知识，不把含糊术语直接当成MySQL固定考点。\n\nSQL聚合中，`WHERE` 在分组前筛选行，`HAVING` 用于筛选分组结果。例如查询各地区告警数且只保留数量大于10的地区，可以先按地区 `GROUP BY`，再 `HAVING COUNT(*) > 10`。`COUNT(*)` 统计行数；`COUNT(status)` 不计status为NULL的行。\n\nInnoDB通常以主键组织聚簇索引，二级索引记录还包含主键值。若表主键为id、二级索引为(city)，查询只要city与id时，索引中已含所需列，可具备覆盖条件；若再取不在索引中的description，通常需要回到聚簇索引取行。索引不是越多越好，更新成本、空间和选择性都要考虑。",
+      "pitfall": "WHERE不能直接替代HAVING COUNT(*)；“用了索引”与“覆盖索引”不同。",
+      "sourceIds": [
+        "tai-s01",
+        "tai-s07",
+        "tai-s21"
+      ]
+    },
+    {
+      "id": "tai-05",
+      "title": "Docker与Kubernetes：容器、Pod和副本",
+      "category": "回忆涉及 · 开发与系统",
+      "summary": "2024回忆提到Docker命令与K8s细节；先练常见操作与对象层级。",
+      "keyPoints": [
+        "docker ps默认列运行中容器；docker ps -a列全部状态。",
+        "镜像是创建容器的模板；容器是运行实例。",
+        "Pod是Kubernetes最小可部署单元，可有多个容器。"
+      ],
+      "body": "2024笔试回忆明确提到Docker具体指令、K8s细节。本站围绕稳定概念出题，不声称这些命令就是那次原题。\n\n镜像可以理解为创建容器所需的模板，容器则是由镜像创建的实例。`docker ps` 默认只显示运行中的容器，`docker ps -a` 包含已退出等其他状态；看不到某容器时，先检查是不是漏了 `-a`，不能立即推断容器已经被删除。\n\nKubernetes里，**Pod是最小可部署单元**，一个Pod可以包含一个或多个紧密协作的容器，这些容器共享网络等上下文。扩展一个应用的独立副本通常是增加Pod副本，而不是把所有副本塞进一个Pod。管理长期无状态服务时常用Deployment等工作负载对象管理Pod；Pod本身不等于物理机，也不等于整个集群。理解层级：集群包含节点，节点上运行Pod，Pod内运行容器。",
+      "pitfall": "一个Pod不必只有一个容器；docker ps不显示已退出容器不代表容器不存在。",
+      "sourceIds": [
+        "tai-s01",
+        "tai-s08",
+        "tai-s09"
+      ]
+    },
+    {
+      "id": "tai-06",
+      "title": "Spark：转换、行动与分布式数据",
+      "category": "回忆涉及 · 数据与网络",
+      "summary": "回忆出现Spark与HBase，先分清计算引擎和存储系统。",
+      "keyPoints": [
+        "RDD是分布式数据集合抽象；map/filter等转换通常惰性执行。",
+        "count/collect等行动操作触发计算；collect会把结果带回驱动端。",
+        "Spark计算与HBase存储不是同一层能力；不要把所有数据都collect到单机。"
+      ],
+      "body": "2024回忆提到Spark和HBase，但没有给出具体题目。复习先掌握角色与执行过程，避免把大数据术语当同义词。\n\nSpark用于分布式数据处理，RDD提供分布式集合抽象。`map`、`filter` 等转换构建新的计算关系，通常是惰性执行；`count`、`collect` 等行动操作需要产出结果，会触发相应计算。`count` 返回数量，`collect` 把所有结果取回驱动进程，因此结果过大可能使驱动端内存不足。\n\n持久化用于在多次使用中复用已计算的数据，但缓存并不意味着内存无限或所有后续操作都不再计算。HBase是分布式存储系统，Spark可以读取包括HBase等在内的外部数据源，二者可以配合，不能简单说HBase就是Spark的另一个名字。题目若给出具体数据规模，优先考虑分区、聚合位置和网络传输，而不是只背“分布式所以一定快”。",
+      "pitfall": "惰性不是永远不执行；collect也不是适合任意规模数据的默认检查方式。",
+      "sourceIds": [
+        "tai-s01",
+        "tai-s10"
+      ]
+    },
+    {
+      "id": "tai-07",
+      "title": "网络基础：TCP、分层与消息边界",
+      "category": "回忆涉及 · 数据与网络",
+      "summary": "2024回忆点名TCP/IP结构；先掌握传输语义。",
+      "keyPoints": [
+        "TCP属于传输层，提供可靠有序字节流。",
+        "IP负责网络层寻址与转发；应用协议另行定义业务含义。",
+        "TCP不保留应用消息边界，应用可用长度字段或分隔符定界。"
+      ],
+      "body": "2024回忆表示网络部分涉及TCP/IP结构，但没有公开完整选项。本章用分层和传输语义检测理解，不把它扩写成通信专业整套课程。\n\nIP位于网络层，负责网络寻址与数据包转发。TCP位于传输层，在端点之间提供可靠、有序的字节流；应用层再定义请求、响应或业务消息的具体意义。因此“TCP能保证某项业务一定成功”并不成立：传输成功与业务校验通过是不同层次。\n\nTCP是字节流，不保留应用程序每次写入的消息边界。服务端一次读取可能得到半条消息，也可能包括多条消息，需要应用协议约定长度字段、定长格式或可靠分隔方式来解析。常见三次握手通过SYN、SYN+ACK、ACK建立连接并同步序号状态。识别这些步骤时，避免混入断开连接或应用层登录的语义。",
+      "pitfall": "可靠字节流不等于自动保留消息边界，也不等于应用业务必然成功。",
+      "sourceIds": [
+        "tai-s01",
+        "tai-s11"
+      ]
+    },
+    {
+      "id": "tai-08",
+      "title": "数据划分与泄漏：先分数据，再拟合",
+      "category": "AI补充 · 基础与评估",
+      "summary": "人工智能岗位基础补充；尚无证据表明以下题目曾在铁塔笔试出现。",
+      "keyPoints": [
+        "训练集拟合参数；验证集选模型与阈值；测试集用于最终评估。",
+        "标准化、特征选择等也只能在训练部分拟合。",
+        "时间序列按时间评估；同一实体的近重复样本避免跨训练与测试。"
+      ],
+      "body": "这一组属于AI方向基础补充，依据技术文档编写，不是历年回忆题。它能帮助理解模型效果为什么有时“离线很好、上线变差”。\n\n训练集用于拟合模型参数，验证集用于选择超参数、模型或决策阈值，测试集留到最终评估。若根据测试结果不断修改模型，测试集实际上已经参与调参，分数不再是独立的泛化估计。\n\n数据泄漏不仅是把标签直接放进特征。对全量数据先做标准化或特征筛选，再切训练测试，也可能让测试信息进入训练。正确做法是在训练集或交叉验证的训练折中拟合预处理，再把学到的变换应用于验证和测试。\n\n铁塔视频场景尤其要留意同一摄像头的连续近重复帧：随机拆开可能使测试集过于相似。若目标是未来时段或新站点泛化，应设计时间或站点隔离的划分，与真实使用场景一致。",
+      "pitfall": "验证集可以用于选阈值；测试集不能变成反复试错的调参集。",
+      "sourceIds": [
+        "tai-s12",
+        "tai-s20"
+      ]
+    },
+    {
+      "id": "tai-09",
+      "title": "分类评估：精确率、召回率与F1",
+      "category": "AI补充 · 基础与评估",
+      "summary": "把正类、分母和业务代价说清，避免只看准确率。",
+      "keyPoints": [
+        "Precision=TP/(TP+FP)；Recall=TP/(TP+FN)。",
+        "F1=2PR/(P+R)，是调和平均。",
+        "正类很少时，准确率可能掩盖大量漏报。"
+      ],
+      "body": "先约定正类，例如“确有火情”。TP是真火情且报了火情，FP是没火却告警，FN是有火却漏报，TN是没火且没告警。不要先套公式再猜哪个格子代表什么。\n\n**精确率Precision** 问“报出来的有多少是真的”，分母是TP+FP；**召回率Recall** 问“真实存在的找出了多少”，分母是TP+FN。F1是两者的调和平均：2PR/(P+R)。分母为0时应按评估工具的明确约定处理，不能把没有正例的情况直接视作完美模型。\n\n例如TP=30、FP=10、FN=20，精确率为30/40=75%，召回率为30/50=60%，F1约66.7%。若一万条中只有十条火情，永远预测无火也能有99.9%准确率，却完全找不到火情。阈值选择应结合误报成本、漏报损失和人工复核能力，在固定数据与评分下调低告警阈值通常提高召回，同时可能增加误报。",
+      "pitfall": "精确率的分母是预测正类，召回率的分母是真实正类；F1不是算术平均。",
+      "sourceIds": [
+        "tai-s13",
+        "tai-s20"
+      ]
+    },
+    {
+      "id": "tai-10",
+      "title": "机器学习：任务、树模型与过拟合",
+      "category": "AI补充 · 基础与评估",
+      "summary": "AI基础补充；按学习目标和泛化表现辨析。",
+      "keyPoints": [
+        "分类输出类别，回归预测连续值；聚类通常不使用类别标签训练。",
+        "决策树既可分类也可回归，过深可能过拟合。",
+        "训练误差低而验证误差高时，先考虑泛化与数据分布问题。"
+      ],
+      "body": "模型名称不是任务名称。分类关注类别，例如是否存在烟火；回归预测连续量，例如设备剩余寿命；聚类从样本相似性组织群组，通常没有预先给定的类别标签。不要因为模型叫“逻辑回归”就认为它只能预测连续数值。\n\n决策树通过特征条件不断划分样本，既能做分类也能做回归。树越深、叶子越多，表达能力往往越强，但可能记住训练噪声。限制最大深度、提高叶子最少样本数或剪枝，可以控制复杂度；具体选择要通过验证数据，而不是盲目设得越小越好。\n\n过拟合的典型信号是训练误差已经很低，验证误差仍较高。除了控制模型复杂度，还要检查训练与验证分布是否一致、是否存在标签问题。相反，训练与验证都差可能说明表达能力或特征不足。正则化与更合理的数据能帮助泛化，但不存在“加了正则就一定提升所有数据集分数”的保证。",
+      "pitfall": "决策树不是只能分类；训练集满分不是上线效果的充分证据。",
+      "sourceIds": [
+        "tai-s12",
+        "tai-s14"
+      ]
+    },
+    {
+      "id": "tai-11",
+      "title": "神经网络训练：梯度、更新与评估",
+      "category": "AI补充 · 模型与应用",
+      "summary": "AI基础补充；区分求导、更新参数与推理模式。",
+      "keyPoints": [
+        "反向传播计算梯度；优化器按规则更新参数。",
+        "PyTorch叶子张量梯度默认累积，通常需在新一步前清零。",
+        "停止梯度计算与切换模型训练/评估模式不是同一操作。"
+      ],
+      "body": "训练网络可以按四步理解：前向计算预测、计算损失、反向传播求导、优化器更新参数。反向传播利用链式法则计算梯度，本身不等于完成参数更新。\n\n最简单的梯度下降为 w新=w旧−学习率×梯度。例如w=2，梯度=3，学习率=0.1，更新后是1.7；别把下降方向写成加号。学习率过大可能使优化震荡，过小则可能收敛慢，但效果仍与损失曲面、优化器等有关。\n\nPyTorch的梯度会累积到叶子张量的 `.grad`，通常要在新训练步骤前通过优化器清零。若有意做多批次梯度累积，应明确缩放与更新时机。推理时关闭梯度记录可以减少开销，但这和切换Dropout、BatchNorm等模块的训练/评估行为是两件事；`no_grad` 不自动等于 `eval()`。",
+      "pitfall": "backward求梯度，step更新参数；不清零会累积，eval也不自动关闭全部求导。",
+      "sourceIds": [
+        "tai-s15",
+        "tai-s22"
+      ]
+    },
+    {
+      "id": "tai-12",
+      "title": "计算机视觉：卷积尺寸、IoU与漏检",
+      "category": "AI补充 · 模型与应用",
+      "summary": "与铁塔视频感知场景相关的AI补充，不标为已考。",
+      "keyPoints": [
+        "无空洞卷积：输出=floor((输入+2×padding−kernel)/stride)+1。",
+        "IoU=交集面积/并集面积，不是交集除以两框面积之和。",
+        "分类回答是什么，检测还需定位，分割给更细的像素归属。"
+      ],
+      "body": "铁塔官方介绍了中高点位视频图像算法与森林防火等场景，因此视觉是合理的岗位方向补充，但官网业务不是考试大纲。\n\n二维普通卷积在每个空间维度分别计算输出：**floor((输入尺寸+2p−k)/s)+1**，这里假设空洞率为1，p是每侧对称填充，k是卷积核尺寸，s是步长。例如输入32、核3、填充1、步长2，输出为floor(31/2)+1=16。若输入28、核3、无填充、步长1，输出为26。\n\n目标检测除类别外还输出位置。两个框的IoU为交集面积除以并集面积；并集=框A面积+框B面积−交集。面积分别100、100，交集50时，IoU=50/150=1/3。分类、检测、分割的输出粒度不同，评价也要按任务设计。在烟火场景里，小目标、遮挡和天气变化可能影响漏检，需要分场景评估而不是只报总体准确率。",
+      "pitfall": "卷积公式先确认空洞率与padding定义；IoU分母要减去交集。",
+      "sourceIds": [
+        "tai-s16",
+        "tai-s19",
+        "tai-s20",
+        "tai-s23"
+      ]
+    },
+    {
+      "id": "tai-13",
+      "title": "Transformer与RAG：结构、检索与幻觉",
+      "category": "AI补充 · 模型与应用",
+      "summary": "官方业务提到大模型与智能体；这里给岗位基础解释，不推定历年考过。",
+      "keyPoints": [
+        "注意力根据相关性聚合信息；Transformer需要位置相关信息。",
+        "RAG通常先检索外部资料，再把相关内容交给生成模型。",
+        "RAG不等于微调，也不保证检索结果或最终回答一定正确。"
+      ],
+      "body": "中国铁塔与北京大学合作的官方报道提到经纬大模型、通用铁塔智能体。这能说明大模型与岗位场景的相关性，不能证明笔试一定考Transformer或RAG。\n\nTransformer的关键是注意力机制：利用查询Q与键K的匹配决定如何聚合值V。原始结构还引入位置信息，因为仅看词向量之间的相互匹配不足以表达序列顺序。注意力不是“输出必然真实”的机制，它解决的是信息交互方式。\n\nRAG把检索与生成结合，常见流程是整理资料、建立索引、检索相关片段，再给生成模型作为上下文。它可以补充外部知识，便于追溯来源，但会受检索遗漏、资料过期、上下文干扰与生成错误影响。更新检索库不必然要求重训生成模型；微调则涉及模型参数调整。铁塔运维助手若引用手册，应检查版本、权限、原文依据，并在证据不足时明确不知道。",
+      "pitfall": "检索到资料不等于资料正确；RAG、微调和联网搜索不是完全相同的概念。",
+      "sourceIds": [
+        "tai-s17",
+        "tai-s18",
+        "tai-s19"
+      ]
+    },
+    {
+      "id": "tai-14",
+      "title": "上线评估：边缘推理、漂移与闭环",
+      "category": "AI补充 · 模型与应用",
+      "summary": "用视频告警场景串起数据、模型与部署；这是工程应用补充。",
+      "keyPoints": [
+        "离线分数之外还看时延、吞吐、内存和误报漏报。",
+        "边缘推理可减少部分回传与响应时延，但仍受算力、功耗约束。",
+        "上线后监控数据分布变化，保留人工复核与回滚能力。"
+      ],
+      "body": "边缘推理把部分计算放在更靠近数据产生的位置，可以减少部分视频回传和网络依赖，但不能由此断言所有场景都会更快、更便宜。设备算力、内存、功耗、网络与模型规模共同决定可行性。\n\n选择模型时，应同时检查离线效果和上线约束：相同数据口径下的误报漏报、单次响应时延、并发吞吐、峰值内存，以及断网或设备故障时的处理方式。把模型缩小或量化后，应重新评估精度与关键场景，不能假设性能优化完全没有代价。\n\n上线不是结束。摄像头更换、季节光照变化或场景分布改变，都可能导致效果变化。应记录数据与模型版本，监控告警质量，用经过复核的新样本评估漂移；新模型先小范围验证，必要时能回滚。对于火情或设备故障处置，模型告警应连接人工复核与明确的业务流程，而不是把模型分数直接当作不可质疑的事实。",
+      "pitfall": "准确率高不代表时延满足要求；收到告警也不等于真实事故已被确认。",
+      "sourceIds": [
+        "tai-s12",
+        "tai-s13",
+        "tai-s19",
+        "tai-s20"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "tai-q001",
+      "type": "single",
+      "variant": "原创 · 辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-01"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s03"
+      ],
+      "stem": "对两个Java对象x、y，若x.equals(y)为true，必须满足什么？",
+      "options": [
+        {
+          "id": "a",
+          "text": "x==y一定为true"
+        },
+        {
+          "id": "b",
+          "text": "它们必须是同一个引用变量"
+        },
+        {
+          "id": "c",
+          "text": "它们的地址必然不同"
+        },
+        {
+          "id": "d",
+          "text": "x.hashCode()==y.hashCode()"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "Java的Object契约要求相等对象拥有相同哈希值。equals可以由类按逻辑内容重写，因此并不必然意味着两个引用指向同一个对象。"
+    },
+    {
+      "id": "tai-q002",
+      "type": "single",
+      "variant": "原创 · 反向辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-01"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s03"
+      ],
+      "stem": "两个对象的hashCode相同，能直接推出什么？",
+      "options": [
+        {
+          "id": "a",
+          "text": "两个对象都不能做Map键"
+        },
+        {
+          "id": "b",
+          "text": "equals一定为true"
+        },
+        {
+          "id": "c",
+          "text": "引用地址相同"
+        },
+        {
+          "id": "d",
+          "text": "可能相等，也可能是哈希碰撞"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "哈希值空间有限，不同对象可以碰撞。相等必须同哈希，但同哈希不保证相等，哈希容器仍需进一步判断键的等价关系。"
+    },
+    {
+      "id": "tai-q003",
+      "type": "multiple",
+      "variant": "原创 · 多选",
+      "origin": "original",
+      "lessonIds": [
+        "tai-01"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s03"
+      ],
+      "stem": "哪些说法符合Java对象比较的基本规则？",
+      "options": [
+        {
+          "id": "a",
+          "text": "自定义equals时应维护hashCode契约"
+        },
+        {
+          "id": "b",
+          "text": "String的内容相等判断通常使用equals"
+        },
+        {
+          "id": "c",
+          "text": "引用类型==比较对象身份"
+        },
+        {
+          "id": "d",
+          "text": "所有类的equals都自动比较业务字段"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "引用==比较是否同一对象，equals行为由类定义。业务对象重写equals时必须维护相等对象同哈希的契约，不能假定所有类已实现业务内容比较。"
+    },
+    {
+      "id": "tai-q004",
+      "type": "single",
+      "variant": "原创 · 情境",
+      "origin": "original",
+      "lessonIds": [
+        "tai-01"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s03"
+      ],
+      "stem": "自定义User按id判定equals，却沿用不匹配的hashCode逻辑，最直接的问题是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "可能破坏哈希容器按逻辑相等查找键的预期"
+        },
+        {
+          "id": "b",
+          "text": "Java一定拒绝编译"
+        },
+        {
+          "id": "c",
+          "text": "所有User都变成同一内存对象"
+        },
+        {
+          "id": "d",
+          "text": "数据库会自动回滚"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "这通常不是编译错误，而是对象契约问题：逻辑相等的键可能被分到不同哈希位置，导致插入或查找行为不符合业务预期。"
+    },
+    {
+      "id": "tai-q005",
+      "type": "multiple",
+      "variant": "原创 · 多选",
+      "origin": "original",
+      "lessonIds": [
+        "tai-02"
+      ],
+      "sourceIds": [
+        "tai-s04"
+      ],
+      "stem": "@SpringBootApplication组合的能力包括哪些？",
+      "options": [
+        {
+          "id": "a",
+          "text": "组件扫描"
+        },
+        {
+          "id": "b",
+          "text": "配置类能力"
+        },
+        {
+          "id": "c",
+          "text": "自动生成全部业务需求代码"
+        },
+        {
+          "id": "d",
+          "text": "自动配置"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "Spring Boot文档列出@EnableAutoConfiguration、@ComponentScan和@SpringBootConfiguration三个组合功能；它们并不负责自动实现全部业务需求。"
+    },
+    {
+      "id": "tai-q006",
+      "type": "single",
+      "variant": "原创 · 来源限定",
+      "origin": "original",
+      "lessonIds": [
+        "tai-02"
+      ],
+      "sourceIds": [
+        "tai-s05"
+      ],
+      "stem": "按本次读取的Nacos集群部署文档，cluster.conf应配置多少节点？",
+      "options": [
+        {
+          "id": "a",
+          "text": "固定为10个，不能增加"
+        },
+        {
+          "id": "b",
+          "text": "恰好1个"
+        },
+        {
+          "id": "c",
+          "text": "3个或3个以上"
+        },
+        {
+          "id": "d",
+          "text": "只能是2个"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "该题明确限定当前官方集群部署文档，文档写的是请配置3个或3个以上节点。它是原创的来源限定题，不是完整恢复的历史考题。"
+    },
+    {
+      "id": "tai-q007",
+      "type": "single",
+      "variant": "原创 · 证据辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-02"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s05"
+      ],
+      "stem": "只有“nacos有几个节点就算是集群”一句回忆，最严谨的整理方式是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "默认所有分布式系统都要求相同节点数"
+        },
+        {
+          "id": "b",
+          "text": "删去来源并称官方答案"
+        },
+        {
+          "id": "c",
+          "text": "保留片段并注明版本、选项缺失"
+        },
+        {
+          "id": "d",
+          "text": "自行补四个选项后标为2024原题"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "原文片段缺少版本、完整问法和选项，不能确定当时的唯一答案。可以查技术文档讲解并编写新题，但必须标明题目来源性质。"
+    },
+    {
+      "id": "tai-q008",
+      "type": "single",
+      "variant": "原创 · 概念辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-02"
+      ],
+      "sourceIds": [
+        "tai-s04"
+      ],
+      "stem": "Spring Boot自动配置最准确的理解是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "基于环境与条件提供默认配置"
+        },
+        {
+          "id": "b",
+          "text": "任何类都会无条件成为Bean"
+        },
+        {
+          "id": "c",
+          "text": "启动后不需要任何依赖"
+        },
+        {
+          "id": "d",
+          "text": "会替开发者完成所有数据库设计"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "自动配置是基于类路径、配置与已有Bean等条件提供合理默认值，不能理解成无条件扫描所有类，更不等于生成完整业务实现。"
+    },
+    {
+      "id": "tai-q009",
+      "type": "single",
+      "variant": "原创 · 代码推演",
+      "origin": "original",
+      "lessonIds": [
+        "tai-03"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s06"
+      ],
+      "stem": "要把某命令的标准输出与标准错误一起写入out.log，哪种写法符合Bash规则？",
+      "options": [
+        {
+          "id": "a",
+          "text": "cmd 2>&1 >out.log必然等价"
+        },
+        {
+          "id": "b",
+          "text": "cmd | out.log"
+        },
+        {
+          "id": "c",
+          "text": "cmd 0>&2只写日志"
+        },
+        {
+          "id": "d",
+          "text": "cmd >out.log 2>&1"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "先把标准输出重定向到文件，再让标准错误指向当前标准输出，两路才进入同一文件。反过来时标准错误可能仍指向原终端。"
+    },
+    {
+      "id": "tai-q010",
+      "type": "single",
+      "variant": "原创 · 辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-03"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s06"
+      ],
+      "stem": "Bash中，哪种写法表示前一命令成功后才执行后一命令？",
+      "options": [
+        {
+          "id": "a",
+          "text": "a > b"
+        },
+        {
+          "id": "b",
+          "text": "a && b"
+        },
+        {
+          "id": "c",
+          "text": "a || b"
+        },
+        {
+          "id": "d",
+          "text": "a ; b"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "&&使用退出状态进行短路判断，前项成功即状态为0时才运行后项；分号只是依次执行，||则在前项失败时执行后项。"
+    },
+    {
+      "id": "tai-q011",
+      "type": "multiple",
+      "variant": "原创 · 多选",
+      "origin": "original",
+      "lessonIds": [
+        "tai-03"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s06"
+      ],
+      "stem": "下列哪些说法正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "普通|自动合并所有标准错误"
+        },
+        {
+          "id": "b",
+          "text": "退出状态0通常表示成功"
+        },
+        {
+          "id": "c",
+          "text": "2通常代表标准错误"
+        },
+        {
+          "id": "d",
+          "text": ">>通常追加到文件"
+        }
+      ],
+      "answer": [
+        "b",
+        "c",
+        "d"
+      ],
+      "explanation": "Bash标准文件描述符2是stderr，>>是追加，0退出码通常成功。普通管道连接stdout到下一命令stdin，不自动包含stderr。"
+    },
+    {
+      "id": "tai-q012",
+      "type": "single",
+      "variant": "原创 · 情境",
+      "origin": "original",
+      "lessonIds": [
+        "tai-03"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s06"
+      ],
+      "stem": "任务失败时执行告警命令，应选哪一条Shell结构？",
+      "options": [
+        {
+          "id": "a",
+          "text": "job || alert"
+        },
+        {
+          "id": "b",
+          "text": "job && alert"
+        },
+        {
+          "id": "c",
+          "text": "job > alert"
+        },
+        {
+          "id": "d",
+          "text": "job < alert"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "||在左侧命令返回非0状态时执行右侧命令，适合失败后告警。&&对应成功后执行，重定向符号处理数据流而不是成功失败分支。"
+    },
+    {
+      "id": "tai-q013",
+      "type": "single",
+      "variant": "原创 · SQL辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-04"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s07",
+        "tai-s21"
+      ],
+      "stem": "分组统计各站点告警数后，只保留告警数大于10的组，应把聚合条件写在哪里？",
+      "options": [
+        {
+          "id": "a",
+          "text": "WHERE COUNT(*) > 10"
+        },
+        {
+          "id": "b",
+          "text": "ORDER BY COUNT(*) > 10"
+        },
+        {
+          "id": "c",
+          "text": "LIMIT COUNT(*) > 10"
+        },
+        {
+          "id": "d",
+          "text": "HAVING COUNT(*) > 10"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "HAVING过滤分组后的结果，WHERE用于分组前过滤原始行。ORDER BY决定排序，LIMIT限制返回行数，不等于聚合条件筛选。"
+    },
+    {
+      "id": "tai-q014",
+      "type": "single",
+      "variant": "原创 · 计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-04"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s07",
+        "tai-s21"
+      ],
+      "stem": "一张表有5行，其中status列有2个NULL。COUNT(*)和COUNT(status)分别为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "3和3"
+        },
+        {
+          "id": "b",
+          "text": "5和3"
+        },
+        {
+          "id": "c",
+          "text": "3和5"
+        },
+        {
+          "id": "d",
+          "text": "5和5"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "COUNT(*)统计全部行数，所以是5；COUNT(status)仅计该表达式非NULL的行，因此是3。不要把空字符串与NULL的概念也混在一起。"
+    },
+    {
+      "id": "tai-q015",
+      "type": "single",
+      "variant": "原创 · 情境",
+      "origin": "original",
+      "lessonIds": [
+        "tai-04"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s07",
+        "tai-s21"
+      ],
+      "stem": "InnoDB表主键为id，二级索引为(city)。只查询city、id时，为什么可能形成覆盖索引？",
+      "options": [
+        {
+          "id": "a",
+          "text": "MySQL从不回表"
+        },
+        {
+          "id": "b",
+          "text": "SELECT会自动创建新索引"
+        },
+        {
+          "id": "c",
+          "text": "二级索引记录含city与主键id"
+        },
+        {
+          "id": "d",
+          "text": "所有二级索引都包含整行所有字段"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "InnoDB二级索引包含其索引键和主键值，因此所需列若都在该索引里，可满足覆盖条件。这不意味着二级索引存放全部业务字段。"
+    },
+    {
+      "id": "tai-q016",
+      "type": "multiple",
+      "variant": "原创 · 多选",
+      "origin": "original",
+      "lessonIds": [
+        "tai-04"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s07",
+        "tai-s21"
+      ],
+      "stem": "关于索引，哪些说法正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "索引会占用存储空间"
+        },
+        {
+          "id": "b",
+          "text": "维护索引可能增加写入成本"
+        },
+        {
+          "id": "c",
+          "text": "索引数量越多任何查询都越快"
+        },
+        {
+          "id": "d",
+          "text": "是否覆盖要看本次查询需要哪些列"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "索引有空间和更新维护成本，收益取决于查询与数据分布。覆盖与否取决于本次读取的列，不能仅凭索引存在就判断所有查询都覆盖。"
+    },
+    {
+      "id": "tai-q017",
+      "type": "single",
+      "variant": "原创 · 变式",
+      "origin": "original",
+      "lessonIds": [
+        "tai-04"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s07",
+        "tai-s21"
+      ],
+      "stem": "上一题结构中增加查询非索引列description，通常会发生什么？",
+      "options": [
+        {
+          "id": "a",
+          "text": "city索引自动包含所有description"
+        },
+        {
+          "id": "b",
+          "text": "主键id会自动删除"
+        },
+        {
+          "id": "c",
+          "text": "查询必然变为语法错误"
+        },
+        {
+          "id": "d",
+          "text": "可能需要回聚簇索引读取该列"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "所需字段超出二级索引内容时，通常需要利用主键到聚簇索引取行，这就是常说的回表。增加查询列本身并不是语法错误。"
+    },
+    {
+      "id": "tai-q018",
+      "type": "single",
+      "variant": "原创 · 命令辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-05"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s08",
+        "tai-s09"
+      ],
+      "stem": "想同时查看运行中和已经退出的Docker容器，应使用？",
+      "options": [
+        {
+          "id": "a",
+          "text": "删除容器后再查"
+        },
+        {
+          "id": "b",
+          "text": "docker ps -a"
+        },
+        {
+          "id": "c",
+          "text": "docker ps仅默认参数"
+        },
+        {
+          "id": "d",
+          "text": "只查看镜像列表即可"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "Docker CLI文档说明ps默认仅列运行中的容器，-a或--all才包含全部状态；镜像列表也不能替代容器状态列表。"
+    },
+    {
+      "id": "tai-q019",
+      "type": "single",
+      "variant": "原创 · 正向识记",
+      "origin": "original",
+      "lessonIds": [
+        "tai-05"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s08",
+        "tai-s09"
+      ],
+      "stem": "Kubernetes最小可部署单元是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "物理机机房"
+        },
+        {
+          "id": "b",
+          "text": "一个容器镜像文件"
+        },
+        {
+          "id": "c",
+          "text": "Pod"
+        },
+        {
+          "id": "d",
+          "text": "整个集群"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "Kubernetes文档明确Pod是最小可创建和管理的部署单元。Pod可以包含一个或多个容器，不能直接把它等同于单个镜像。"
+    },
+    {
+      "id": "tai-q020",
+      "type": "multiple",
+      "variant": "原创 · 多选",
+      "origin": "original",
+      "lessonIds": [
+        "tai-05"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s08",
+        "tai-s09"
+      ],
+      "stem": "哪些描述正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pod可以包含多个容器"
+        },
+        {
+          "id": "b",
+          "text": "同Pod的容器共享网络上下文"
+        },
+        {
+          "id": "c",
+          "text": "容器镜像与运行实例是同一概念"
+        },
+        {
+          "id": "d",
+          "text": "增加独立应用副本通常增加Pod副本"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "Pod支持多个紧密协作容器，并共享网络等资源；水平扩展通常增加Pod副本。镜像是模板，运行中的容器是实例，二者不同。"
+    },
+    {
+      "id": "tai-q021",
+      "type": "single",
+      "variant": "原创 · 情境",
+      "origin": "original",
+      "lessonIds": [
+        "tai-05"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s08",
+        "tai-s09"
+      ],
+      "stem": "docker ps没有显示昨晚退出的容器，最合理的第一步是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "立即认定数据已丢失"
+        },
+        {
+          "id": "b",
+          "text": "重建整套Kubernetes集群"
+        },
+        {
+          "id": "c",
+          "text": "认为镜像已经被删除"
+        },
+        {
+          "id": "d",
+          "text": "使用docker ps -a确认其状态"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "默认ps隐藏未运行容器，先用-a检查可以区分已退出与不存在。单凭默认列表没有该项，无法推断数据丢失或镜像删除。"
+    },
+    {
+      "id": "tai-q022",
+      "type": "single",
+      "variant": "原创 · 辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-06"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s10"
+      ],
+      "stem": "Spark中仅定义map与filter转换，一般意味着什么？",
+      "options": [
+        {
+          "id": "a",
+          "text": "不可能再执行计算"
+        },
+        {
+          "id": "b",
+          "text": "先建立计算关系，待行动操作触发相关计算"
+        },
+        {
+          "id": "c",
+          "text": "立刻把全部结果写入本地Excel"
+        },
+        {
+          "id": "d",
+          "text": "每次map都强制拉回驱动端"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "RDD转换通常惰性求值，先描述计算关系，行动操作需要结果时才触发执行。惰性执行不等于不会执行，也不等于自动存到本地文件。"
+    },
+    {
+      "id": "tai-q023",
+      "type": "single",
+      "variant": "原创 · 情境",
+      "origin": "original",
+      "lessonIds": [
+        "tai-06"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s10"
+      ],
+      "stem": "哪一个操作最需要警惕把海量结果带回驱动端造成内存压力？",
+      "options": [
+        {
+          "id": "a",
+          "text": "只声明map转换"
+        },
+        {
+          "id": "b",
+          "text": "读取任务名称"
+        },
+        {
+          "id": "c",
+          "text": "collect"
+        },
+        {
+          "id": "d",
+          "text": "构建filter转换"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "collect把结果收集回驱动端，结果集过大可能导致驱动内存不足。计数或在分布式侧聚合后取少量结果往往更适合大数据检查。"
+    },
+    {
+      "id": "tai-q024",
+      "type": "multiple",
+      "variant": "原创 · 多选",
+      "origin": "original",
+      "lessonIds": [
+        "tai-06"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s10"
+      ],
+      "stem": "以下哪些通常属于Spark行动操作？",
+      "options": [
+        {
+          "id": "a",
+          "text": "count"
+        },
+        {
+          "id": "b",
+          "text": "collect"
+        },
+        {
+          "id": "c",
+          "text": "map"
+        },
+        {
+          "id": "d",
+          "text": "filter"
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "count与collect需要实际输出结果，属于行动操作；map和filter一般构造新的RDD转换关系，通常采用惰性执行。"
+    },
+    {
+      "id": "tai-q025",
+      "type": "single",
+      "variant": "原创 · 角色辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-06"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s10"
+      ],
+      "stem": "Spark与HBase的关系，哪项更准确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "它们是同一个产品的两个名称"
+        },
+        {
+          "id": "b",
+          "text": "HBase只能存一行数据"
+        },
+        {
+          "id": "c",
+          "text": "使用Spark就不能再用数据库"
+        },
+        {
+          "id": "d",
+          "text": "分布式计算可以读取外部存储，两者角色不同"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "Spark编程指南列外部数据源包括HBase等系统；计算引擎与存储系统可以协作。不能因它们都属于大数据生态就混同功能。"
+    },
+    {
+      "id": "tai-q026",
+      "type": "single",
+      "variant": "原创 · 辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-07"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s11"
+      ],
+      "stem": "TCP位于TCP/IP体系的哪一层？",
+      "options": [
+        {
+          "id": "a",
+          "text": "业务展示层"
+        },
+        {
+          "id": "b",
+          "text": "传输层"
+        },
+        {
+          "id": "c",
+          "text": "应用层"
+        },
+        {
+          "id": "d",
+          "text": "物理层"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "TCP提供端到端可靠字节流传输，属于传输层。应用层协议使用传输服务定义业务交互，IP则负责网络层寻址和转发。"
+    },
+    {
+      "id": "tai-q027",
+      "type": "single",
+      "variant": "原创 · 情境",
+      "origin": "original",
+      "lessonIds": [
+        "tai-07"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s11"
+      ],
+      "stem": "一次TCP读取获得两条业务消息拼在一起，是否必然说明TCP损坏？",
+      "options": [
+        {
+          "id": "a",
+          "text": "是，IP地址一定冲突"
+        },
+        {
+          "id": "b",
+          "text": "否，因为TCP完全不保证顺序"
+        },
+        {
+          "id": "c",
+          "text": "否，TCP是字节流，应用需定义消息边界"
+        },
+        {
+          "id": "d",
+          "text": "是，TCP必须逐条保持send边界"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "TCP保证可靠有序字节流，但不保持应用写入边界。接收方应按协议的长度或分隔规则解析，不能把读取次数当业务消息次数。"
+    },
+    {
+      "id": "tai-q028",
+      "type": "single",
+      "variant": "原创 · 顺序辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-07"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s11"
+      ],
+      "stem": "TCP常见连接建立顺序是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "SYN → SYN+ACK → ACK"
+        },
+        {
+          "id": "b",
+          "text": "FIN → FIN → HTTP"
+        },
+        {
+          "id": "c",
+          "text": "ACK → DNS → SQL"
+        },
+        {
+          "id": "d",
+          "text": "GET → POST → DELETE"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "三次握手通常为SYN、SYN+ACK、ACK，用于连接建立与序号同步。其他选项混入关闭或应用层操作，不能替代TCP握手。"
+    },
+    {
+      "id": "tai-q029",
+      "type": "multiple",
+      "variant": "原创 · 多选",
+      "origin": "original",
+      "lessonIds": [
+        "tai-07"
+      ],
+      "sourceIds": [
+        "tai-s01",
+        "tai-s11"
+      ],
+      "stem": "哪些说法正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "业务消息边界通常由应用协议处理"
+        },
+        {
+          "id": "b",
+          "text": "TCP传输成功即可保证数据库业务一定提交"
+        },
+        {
+          "id": "c",
+          "text": "IP与TCP负责的层次不同"
+        },
+        {
+          "id": "d",
+          "text": "TCP提供有序字节流"
+        }
+      ],
+      "answer": [
+        "a",
+        "c",
+        "d"
+      ],
+      "explanation": "TCP、IP与应用业务各有职责。TCP的可靠传输不能代替数据库事务提交或业务校验，应用仍需要自己的错误处理和协议语义。"
+    },
+    {
+      "id": "tai-q030",
+      "type": "single",
+      "variant": "原创 · 流程选择",
+      "origin": "original",
+      "lessonIds": [
+        "tai-08"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s20"
+      ],
+      "stem": "标准化预处理的均值与方差应从哪里拟合？",
+      "options": [
+        {
+          "id": "a",
+          "text": "读取最终答案后拟合"
+        },
+        {
+          "id": "b",
+          "text": "仅训练部分，再应用到验证测试"
+        },
+        {
+          "id": "c",
+          "text": "把所有数据合起来拟合后再切分"
+        },
+        {
+          "id": "d",
+          "text": "只用测试集"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "预处理也是学习过程，应只用训练部分拟合，避免把验证测试的分布信息带入训练。在交叉验证中也要对每个训练折单独处理。"
+    },
+    {
+      "id": "tai-q031",
+      "type": "single",
+      "variant": "原创 · 情境",
+      "origin": "original",
+      "lessonIds": [
+        "tai-08"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s20"
+      ],
+      "stem": "反复查看测试集分数并据此挑选模型，会带来什么问题？",
+      "options": [
+        {
+          "id": "a",
+          "text": "模型从此不需要训练数据"
+        },
+        {
+          "id": "b",
+          "text": "一定降低训练集精度到0"
+        },
+        {
+          "id": "c",
+          "text": "测试集参与选择，评估可能过于乐观"
+        },
+        {
+          "id": "d",
+          "text": "测试集自动变大"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "测试集被反复用于挑选后，不再独立于建模决策，成绩可能乐观偏高。应保留未参与调参的数据评估最终泛化表现。"
+    },
+    {
+      "id": "tai-q032",
+      "type": "multiple",
+      "variant": "原创 · 多选",
+      "origin": "original",
+      "lessonIds": [
+        "tai-08"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s20"
+      ],
+      "stem": "哪些措施有助于避免不合理的数据泄漏？",
+      "options": [
+        {
+          "id": "a",
+          "text": "按真实目标设计时间或站点划分"
+        },
+        {
+          "id": "b",
+          "text": "把同一视频的近重复帧随意分散到训练测试"
+        },
+        {
+          "id": "c",
+          "text": "在训练折内拟合特征选择"
+        },
+        {
+          "id": "d",
+          "text": "把最终测试集留到方案确定后评估"
+        }
+      ],
+      "answer": [
+        "a",
+        "c",
+        "d"
+      ],
+      "explanation": "训练折内预处理、按目标隔离时间或实体、独立测试集都有助于可信评估。近重复帧跨集合会使测试过于容易，掩盖泛化问题。"
+    },
+    {
+      "id": "tai-q033",
+      "type": "single",
+      "variant": "原创 · 应用",
+      "origin": "original",
+      "lessonIds": [
+        "tai-08"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s20"
+      ],
+      "stem": "要选择火情告警阈值，并保留最终测试集独立性，优先用哪部分数据调阈值？",
+      "options": [
+        {
+          "id": "a",
+          "text": "最终测试集反复试到最好"
+        },
+        {
+          "id": "b",
+          "text": "线上真实事故标签作为公开答案"
+        },
+        {
+          "id": "c",
+          "text": "任何集合都一样"
+        },
+        {
+          "id": "d",
+          "text": "验证集"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "阈值也是建模决策，应该在验证数据上根据误报和漏报代价选择，再用独立测试数据评估。不能为了更高测试分反复调阈值。"
+    },
+    {
+      "id": "tai-q034",
+      "type": "single",
+      "variant": "原创 · 计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-09"
+      ],
+      "sourceIds": [
+        "tai-s13",
+        "tai-s20"
+      ],
+      "stem": "正类为真实火情。TP=30、FP=10、FN=20，精确率是多少？",
+      "options": [
+        {
+          "id": "a",
+          "text": "66.7%"
+        },
+        {
+          "id": "b",
+          "text": "75%"
+        },
+        {
+          "id": "c",
+          "text": "60%"
+        },
+        {
+          "id": "d",
+          "text": "50%"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "Precision=TP/(TP+FP)=30/(30+10)=75%。分母是模型报为正类的总数；30/(30+20)=60%是召回率。"
+    },
+    {
+      "id": "tai-q035",
+      "type": "single",
+      "variant": "原创 · 分母变式",
+      "origin": "original",
+      "lessonIds": [
+        "tai-09"
+      ],
+      "sourceIds": [
+        "tai-s13",
+        "tai-s20"
+      ],
+      "stem": "同样TP=30、FP=10、FN=20，召回率是多少？",
+      "options": [
+        {
+          "id": "a",
+          "text": "40%"
+        },
+        {
+          "id": "b",
+          "text": "100%"
+        },
+        {
+          "id": "c",
+          "text": "60%"
+        },
+        {
+          "id": "d",
+          "text": "75%"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "Recall=TP/(TP+FN)=30/(30+20)=60%。召回关注真实火情中被识别出来的比例，因此分母包含漏报FN。"
+    },
+    {
+      "id": "tai-q036",
+      "type": "single",
+      "variant": "原创 · 计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-09"
+      ],
+      "sourceIds": [
+        "tai-s13",
+        "tai-s20"
+      ],
+      "stem": "当Precision=0.75、Recall=0.60时，F1约为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.667"
+        },
+        {
+          "id": "b",
+          "text": "0.675"
+        },
+        {
+          "id": "c",
+          "text": "0.450"
+        },
+        {
+          "id": "d",
+          "text": "1.350"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "F1=2×0.75×0.60/(0.75+0.60)=0.9/1.35≈0.667。0.675是算术平均，不是F1；两者接近时更要看公式。"
+    },
+    {
+      "id": "tai-q037",
+      "type": "multiple",
+      "variant": "原创 · 多选计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-09"
+      ],
+      "sourceIds": [
+        "tai-s13",
+        "tai-s20"
+      ],
+      "stem": "10000个样本只有10个正类，全部预测负类的模型具有哪些表现？",
+      "options": [
+        {
+          "id": "a",
+          "text": "正类召回率0"
+        },
+        {
+          "id": "b",
+          "text": "已能满足发现全部火情的目标"
+        },
+        {
+          "id": "c",
+          "text": "仅凭高准确率无法证明模型有用"
+        },
+        {
+          "id": "d",
+          "text": "准确率99.9%"
+        }
+      ],
+      "answer": [
+        "a",
+        "c",
+        "d"
+      ],
+      "explanation": "该模型答对9990个负类，准确率99.9%，却漏掉全部10个正类，召回为0。极不平衡场景必须结合目标和类别指标判断。"
+    },
+    {
+      "id": "tai-q038",
+      "type": "single",
+      "variant": "原创 · 阈值辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-09"
+      ],
+      "sourceIds": [
+        "tai-s13",
+        "tai-s20"
+      ],
+      "stem": "在同一批样本、同一模型评分下，降低正类判定阈值通常怎样变化？",
+      "options": [
+        {
+          "id": "a",
+          "text": "真实标签会随阈值改变"
+        },
+        {
+          "id": "b",
+          "text": "预测正类集合扩大，召回不降低，但误报可能增多"
+        },
+        {
+          "id": "c",
+          "text": "召回必定下降"
+        },
+        {
+          "id": "d",
+          "text": "所有指标必定同时达到100%"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "阈值降低会包含更多预测正类，在固定标签与评分下已找出的正类不会消失，因此召回不降低；新增预测可能是负类，误报可能增加。"
+    },
+    {
+      "id": "tai-q039",
+      "type": "single",
+      "variant": "原创 · 场景分类",
+      "origin": "original",
+      "lessonIds": [
+        "tai-10"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s14"
+      ],
+      "stem": "预测某电池剩余可用小时数，通常首先建模为哪类任务？",
+      "options": [
+        {
+          "id": "a",
+          "text": "把所有样本划为同一类"
+        },
+        {
+          "id": "b",
+          "text": "字符串排序"
+        },
+        {
+          "id": "c",
+          "text": "回归"
+        },
+        {
+          "id": "d",
+          "text": "仅能聚类"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "目标是连续数值，通常属于回归任务。分类预测离散类别，聚类组织相似样本；具体业务也可离散化，但那是另行设计的目标。"
+    },
+    {
+      "id": "tai-q040",
+      "type": "multiple",
+      "variant": "原创 · 多选",
+      "origin": "original",
+      "lessonIds": [
+        "tai-10"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s14"
+      ],
+      "stem": "决策树可以用于哪些任务？",
+      "options": [
+        {
+          "id": "a",
+          "text": "分类"
+        },
+        {
+          "id": "b",
+          "text": "回归"
+        },
+        {
+          "id": "c",
+          "text": "因为名为树所以不能学习数值目标"
+        },
+        {
+          "id": "d",
+          "text": "只有图像压缩"
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "scikit-learn文档说明决策树支持分类和回归。任务取决于目标变量与相应的训练准则，不由“树”这个名称限制。"
+    },
+    {
+      "id": "tai-q041",
+      "type": "single",
+      "variant": "原创 · 情境",
+      "origin": "original",
+      "lessonIds": [
+        "tai-10"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s14"
+      ],
+      "stem": "训练误差很低、验证误差很高，合理的优先排查是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "直接认定模型已完美泛化"
+        },
+        {
+          "id": "b",
+          "text": "删除全部验证数据"
+        },
+        {
+          "id": "c",
+          "text": "只增加树深度直到训练满分"
+        },
+        {
+          "id": "d",
+          "text": "过拟合、数据分布或标签问题"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "训练与验证差距大提示泛化问题，也可能存在分布差异或标签质量问题。应检查数据与复杂度，不能只继续追求训练分数。"
+    },
+    {
+      "id": "tai-q042",
+      "type": "multiple",
+      "variant": "原创 · 多选辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-10"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s14"
+      ],
+      "stem": "哪些做法可用于控制决策树复杂度？",
+      "options": [
+        {
+          "id": "a",
+          "text": "无上限地增加深度并只看训练精度"
+        },
+        {
+          "id": "b",
+          "text": "限制最大深度"
+        },
+        {
+          "id": "c",
+          "text": "提高叶节点最少样本数"
+        },
+        {
+          "id": "d",
+          "text": "适当剪枝"
+        }
+      ],
+      "answer": [
+        "b",
+        "c",
+        "d"
+      ],
+      "explanation": "最大深度、叶子样本数和剪枝都可限制模型复杂度，是否合适仍需验证。无限增深并只看训练分数会增加过拟合风险。"
+    },
+    {
+      "id": "tai-q043",
+      "type": "single",
+      "variant": "原创 · 计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-11"
+      ],
+      "sourceIds": [
+        "tai-s15",
+        "tai-s22"
+      ],
+      "stem": "简单梯度下降中w=2，梯度为3，学习率0.1，更新一次后w为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.6"
+        },
+        {
+          "id": "b",
+          "text": "3.1"
+        },
+        {
+          "id": "c",
+          "text": "1.7"
+        },
+        {
+          "id": "d",
+          "text": "2.3"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "梯度下降采用w新=w旧−ηg=2−0.1×3=1.7。正梯度表示沿增大w方向损失局部上升，因此下降时要减去梯度项。"
+    },
+    {
+      "id": "tai-q044",
+      "type": "single",
+      "variant": "原创 · 辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-11"
+      ],
+      "sourceIds": [
+        "tai-s15",
+        "tai-s22"
+      ],
+      "stem": "反向传播与优化器更新的关系正确的是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "反向传播计算梯度，优化器按梯度更新参数"
+        },
+        {
+          "id": "b",
+          "text": "backward必然直接把参数改好"
+        },
+        {
+          "id": "c",
+          "text": "优化器无需梯度或任何规则"
+        },
+        {
+          "id": "d",
+          "text": "前向传播等同于参数更新"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "常规训练流程中，backward计算并累计梯度，随后优化器step按自己的更新规则调整参数。二者是不同步骤，不能混为同一动作。"
+    },
+    {
+      "id": "tai-q045",
+      "type": "single",
+      "variant": "原创 · 机制辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-11"
+      ],
+      "sourceIds": [
+        "tai-s15",
+        "tai-s22"
+      ],
+      "stem": "PyTorch连续两次backward之间未清零且计算图使用合法，梯度通常会怎样？",
+      "options": [
+        {
+          "id": "a",
+          "text": "保证自动替换为0"
+        },
+        {
+          "id": "b",
+          "text": "自动变成标签"
+        },
+        {
+          "id": "c",
+          "text": "模型一定切到评估模式"
+        },
+        {
+          "id": "d",
+          "text": "累积到已有梯度上"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "PyTorch叶子张量的grad默认累积；多数常规训练步骤需显式清零。有意做梯度累积时则保留，并正确安排缩放与更新时机。"
+    },
+    {
+      "id": "tai-q046",
+      "type": "multiple",
+      "variant": "原创 · 多选",
+      "origin": "original",
+      "lessonIds": [
+        "tai-11"
+      ],
+      "sourceIds": [
+        "tai-s15",
+        "tai-s22"
+      ],
+      "stem": "关于推理与求导，哪些说法正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "两者解决不同问题，推理时常搭配使用"
+        },
+        {
+          "id": "b",
+          "text": "no_grad用于停止记录梯度计算"
+        },
+        {
+          "id": "c",
+          "text": "eval用于切换部分模块的训练/评估行为"
+        },
+        {
+          "id": "d",
+          "text": "调用eval就必然关闭所有自动求导"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "评估模式改变Dropout、BatchNorm等行为，关闭梯度记录控制自动微分开销；两个机制相互独立，不能把一个当作另一个的替代。"
+    },
+    {
+      "id": "tai-q047",
+      "type": "single",
+      "variant": "原创 · 计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-12"
+      ],
+      "sourceIds": [
+        "tai-s16",
+        "tai-s19",
+        "tai-s20",
+        "tai-s23"
+      ],
+      "stem": "普通卷积空洞率1，输入边长32、核3、每侧填充1、步长2，输出边长为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "17"
+        },
+        {
+          "id": "b",
+          "text": "32"
+        },
+        {
+          "id": "c",
+          "text": "16"
+        },
+        {
+          "id": "d",
+          "text": "15"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "输出=floor((32+2×1−3)/2)+1=floor(31/2)+1=16。该题已限定普通无空洞卷积与每侧填充，避免不同公式口径。"
+    },
+    {
+      "id": "tai-q048",
+      "type": "single",
+      "variant": "原创 · 尺寸变式",
+      "origin": "original",
+      "lessonIds": [
+        "tai-12"
+      ],
+      "sourceIds": [
+        "tai-s16",
+        "tai-s19",
+        "tai-s20",
+        "tai-s23"
+      ],
+      "stem": "输入边长28、核3、无填充、步长1的普通卷积，输出边长为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "26"
+        },
+        {
+          "id": "b",
+          "text": "28"
+        },
+        {
+          "id": "c",
+          "text": "30"
+        },
+        {
+          "id": "d",
+          "text": "25"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "输出=floor((28−3)/1)+1=26。没有填充时边缘位置会减少，不能因为步长为1就认定输入输出同尺寸。"
+    },
+    {
+      "id": "tai-q049",
+      "type": "single",
+      "variant": "原创 · 计算",
+      "origin": "original",
+      "lessonIds": [
+        "tai-12"
+      ],
+      "sourceIds": [
+        "tai-s16",
+        "tai-s19",
+        "tai-s20",
+        "tai-s23"
+      ],
+      "stem": "两个检测框面积各100，交集面积50，IoU为？",
+      "options": [
+        {
+          "id": "a",
+          "text": "1/2"
+        },
+        {
+          "id": "b",
+          "text": "1/4"
+        },
+        {
+          "id": "c",
+          "text": "1"
+        },
+        {
+          "id": "d",
+          "text": "1/3"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "并集面积为100+100−50=150，IoU=50/150=1/3。直接用50/100或50/200会混淆重叠比例与交并比。"
+    },
+    {
+      "id": "tai-q050",
+      "type": "single",
+      "variant": "原创 · 场景",
+      "origin": "original",
+      "lessonIds": [
+        "tai-12"
+      ],
+      "sourceIds": [
+        "tai-s16",
+        "tai-s19",
+        "tai-s20",
+        "tai-s23"
+      ],
+      "stem": "需要在图片中指出疑似烟火的位置框，最直接对应哪类任务？",
+      "options": [
+        {
+          "id": "a",
+          "text": "数据库主键选择"
+        },
+        {
+          "id": "b",
+          "text": "目标检测"
+        },
+        {
+          "id": "c",
+          "text": "仅输出全图单一类别的分类"
+        },
+        {
+          "id": "d",
+          "text": "对日志按时间排序"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "检测在判断类别之外还输出位置，符合定位疑似烟火的要求。全图分类只给类别不能直接提供目标位置框。"
+    },
+    {
+      "id": "tai-q051",
+      "type": "multiple",
+      "variant": "原创 · 多选",
+      "origin": "original",
+      "lessonIds": [
+        "tai-12"
+      ],
+      "sourceIds": [
+        "tai-s16",
+        "tai-s19",
+        "tai-s20",
+        "tai-s23"
+      ],
+      "stem": "评估视频火情模型时，哪些做法合理？",
+      "options": [
+        {
+          "id": "a",
+          "text": "只用白天清晰画面代表所有环境"
+        },
+        {
+          "id": "b",
+          "text": "检查小目标和遮挡场景"
+        },
+        {
+          "id": "c",
+          "text": "分别检查夜间、雨雾等子场景"
+        },
+        {
+          "id": "d",
+          "text": "关注漏报与误报代价"
+        }
+      ],
+      "answer": [
+        "b",
+        "c",
+        "d"
+      ],
+      "explanation": "真实视频环境存在光照、天气、尺度与遮挡差异，分场景评估有助于发现总体指标掩盖的缺陷。只选容易样本无法代表线上表现。"
+    },
+    {
+      "id": "tai-q052",
+      "type": "single",
+      "variant": "原创 · 辨析",
+      "origin": "original",
+      "lessonIds": [
+        "tai-13"
+      ],
+      "sourceIds": [
+        "tai-s17",
+        "tai-s18",
+        "tai-s19"
+      ],
+      "stem": "RAG的核心思路更接近哪一项？",
+      "options": [
+        {
+          "id": "a",
+          "text": "检索相关资料并与生成过程结合"
+        },
+        {
+          "id": "b",
+          "text": "每次回答前都从零预训练模型"
+        },
+        {
+          "id": "c",
+          "text": "完全取消外部资料"
+        },
+        {
+          "id": "d",
+          "text": "把所有问题固定回答成同一句话"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "RAG将检索到的知识与生成模型结合，常见做法是把相关片段作为上下文。它不要求每次从零训练，也不意味着完全不用参数知识。"
+    },
+    {
+      "id": "tai-q053",
+      "type": "multiple",
+      "variant": "原创 · 多选",
+      "origin": "original",
+      "lessonIds": [
+        "tai-13"
+      ],
+      "sourceIds": [
+        "tai-s17",
+        "tai-s18",
+        "tai-s19"
+      ],
+      "stem": "关于RAG，哪些说法正确？",
+      "options": [
+        {
+          "id": "a",
+          "text": "加入检索就保证完全没有幻觉"
+        },
+        {
+          "id": "b",
+          "text": "可为回答提供可追溯资料线索"
+        },
+        {
+          "id": "c",
+          "text": "更新资料库与微调模型参数是不同动作"
+        },
+        {
+          "id": "d",
+          "text": "检索资料过期可能影响回答"
+        }
+      ],
+      "answer": [
+        "b",
+        "c",
+        "d"
+      ],
+      "explanation": "RAG有助于提供外部依据，但检索错误、过期资料与生成错误仍可能发生。资料库更新与模型参数训练属于不同环节。"
+    },
+    {
+      "id": "tai-q054",
+      "type": "single",
+      "variant": "原创 · 概念",
+      "origin": "original",
+      "lessonIds": [
+        "tai-13"
+      ],
+      "sourceIds": [
+        "tai-s17",
+        "tai-s18",
+        "tai-s19"
+      ],
+      "stem": "原始Transformer为什么需要引入位置信息？",
+      "options": [
+        {
+          "id": "a",
+          "text": "用于替代所有训练数据"
+        },
+        {
+          "id": "b",
+          "text": "帮助模型表达序列顺序"
+        },
+        {
+          "id": "c",
+          "text": "保证任何答案均真实"
+        },
+        {
+          "id": "d",
+          "text": "把所有词强制变成同一个向量"
+        }
+      ],
+      "answer": [
+        "b"
+      ],
+      "explanation": "原始Transformer使用位置编码补充顺序信息。位置信息影响序列表示，不能保证事实正确，也不能替代训练所需的数据与学习过程。"
+    },
+    {
+      "id": "tai-q055",
+      "type": "single",
+      "variant": "原创 · 情境",
+      "origin": "original",
+      "lessonIds": [
+        "tai-13"
+      ],
+      "sourceIds": [
+        "tai-s17",
+        "tai-s18",
+        "tai-s19"
+      ],
+      "stem": "运维助手检索到两版互相矛盾的设备手册，合理做法是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "把两版数字取平均作为官方参数"
+        },
+        {
+          "id": "b",
+          "text": "输出更自信就能消除矛盾"
+        },
+        {
+          "id": "c",
+          "text": "核对适用设备与版本，明确引用，必要时转人工"
+        },
+        {
+          "id": "d",
+          "text": "随机选一版并隐藏来源"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "技术资料必须匹配设备型号与版本；来源冲突需要核验和提示。语言上的自信或简单平均不能产生正确参数，高影响操作应保留人工复核。"
+    },
+    {
+      "id": "tai-q056",
+      "type": "single",
+      "variant": "原创 · 情境",
+      "origin": "original",
+      "lessonIds": [
+        "tai-14"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s13",
+        "tai-s19",
+        "tai-s20"
+      ],
+      "stem": "一个模型离线分数很高，但边缘设备推理耗时远超告警要求，说明什么？",
+      "options": [
+        {
+          "id": "a",
+          "text": "需要同时评估效果与部署约束"
+        },
+        {
+          "id": "b",
+          "text": "只要分数高就能直接上线"
+        },
+        {
+          "id": "c",
+          "text": "所有设备都必须换成同一型号"
+        },
+        {
+          "id": "d",
+          "text": "离线评估无需再保留"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "explanation": "落地同时受模型质量、时延、吞吐、内存与设备条件约束。离线指标不能独立证明部署可行，应在目标环境测试并权衡方案。"
+    },
+    {
+      "id": "tai-q057",
+      "type": "single",
+      "variant": "原创 · 流程",
+      "origin": "original",
+      "lessonIds": [
+        "tai-14"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s13",
+        "tai-s19",
+        "tai-s20"
+      ],
+      "stem": "模型量化或压缩后应怎样验证？",
+      "options": [
+        {
+          "id": "a",
+          "text": "只看文件变小就发布"
+        },
+        {
+          "id": "b",
+          "text": "认定误报率自动为0"
+        },
+        {
+          "id": "c",
+          "text": "跳过目标设备测试"
+        },
+        {
+          "id": "d",
+          "text": "重新检查精度、时延与关键场景"
+        }
+      ],
+      "answer": [
+        "d"
+      ],
+      "explanation": "压缩可能改变模型数值和预测表现，需要重新检查准确性、误报漏报及目标设备性能。文件更小只是一个维度，不是全部验收条件。"
+    },
+    {
+      "id": "tai-q058",
+      "type": "multiple",
+      "variant": "原创 · 多选",
+      "origin": "original",
+      "lessonIds": [
+        "tai-14"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s13",
+        "tai-s19",
+        "tai-s20"
+      ],
+      "stem": "哪些变化可能导致上线效果偏移，值得监控？",
+      "options": [
+        {
+          "id": "a",
+          "text": "只要模型参数没变就绝不可能偏移"
+        },
+        {
+          "id": "b",
+          "text": "摄像头型号或角度更换"
+        },
+        {
+          "id": "c",
+          "text": "季节与光照变化"
+        },
+        {
+          "id": "d",
+          "text": "输入场景分布改变"
+        }
+      ],
+      "answer": [
+        "b",
+        "c",
+        "d"
+      ],
+      "explanation": "模型不变而输入分布变化仍可能造成效果下降，摄像头、光照和场景都是常见因素。需要用真实反馈与分场景指标监控。"
+    },
+    {
+      "id": "tai-q059",
+      "type": "single",
+      "variant": "原创 · 情境",
+      "origin": "original",
+      "lessonIds": [
+        "tai-14"
+      ],
+      "sourceIds": [
+        "tai-s12",
+        "tai-s13",
+        "tai-s19",
+        "tai-s20"
+      ],
+      "stem": "针对高影响火情告警，哪种上线策略更合理？",
+      "options": [
+        {
+          "id": "a",
+          "text": "把任何模型告警直接当作已确认火灾"
+        },
+        {
+          "id": "b",
+          "text": "为了降低日志成本删除所有反馈"
+        },
+        {
+          "id": "c",
+          "text": "记录版本、分阶段验证、人工复核并可回滚"
+        },
+        {
+          "id": "d",
+          "text": "一次性替换全部系统且不留记录"
+        }
+      ],
+      "answer": [
+        "c"
+      ],
+      "explanation": "高影响场景应让模型判断接受业务核验，并保留追溯和回滚能力。模型告警是风险线索，不能无条件等同已确认事故。"
+    }
+  ]
+}

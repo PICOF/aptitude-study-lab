@@ -28,6 +28,7 @@ export function renderEvidencePage({esc}={}){
   const scopes=Object.entries(evidence.scopes);
   return `<div class="breadcrumb"><a href="culture.html">企业文化</a><span>/</span>考情证据</div>
     <header class="page-heading"><h1>考过什么，证据到哪。</h1><p class="lead">把考试回忆与官网事实分开看。这里记录公开来源明确说了什么，也保留没有查到的部分。</p><div class="meta"><span>核验 ${esc(evidence.verifiedAt)}</span><span>未核到可确认的具体企业文化题干</span></div></header>
+    <p class="notice">新增：<a href="tower-evidence.html">中国铁塔 · 历年资料与回忆题</a>（独立记录计算机类、人工智能方向面试与企业文化资料边界）。</p>
     <nav class="exam-tabs" aria-label="选择企业考情">${scopes.map(([scope,entry])=>`<a href="#${esc(scope)}">${esc(entry.title)}</a>`).join('')}</nav>
     <div class="notice" data-technical-scope><strong>计算机／人工智能方向</strong><p>${esc(evidence.roleNote)}</p></div>
     <div class="notice"><strong>先看范围，再决定背多少</strong><p>${esc(evidence.dateNote)}</p><p>单人回忆只能支持其描述的场次；培训机构文章只能作线索。本次检索未取得足以确认两家企业具体文化题干的证据，不把模块名称扩写成历年题目。</p></div>

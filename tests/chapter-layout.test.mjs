@@ -26,7 +26,7 @@ for(const bank of banks){
   });
   test(`${bank.title}左侧目录覆盖全部知识点并跳转到本章`,()=>{
     const current=bank.lessons.at(-1),html=renderCurriculum(bank,{prefix:'../',currentLesson:current.id,open:true,esc,icon});
-    const route=bank.id==='current'?'current-affairs.html':`culture-${bank.id}.html`;
+    const route=bank.id==='current'?'current-affairs.html':bank.id==='tower-ai'?'professional-tower-ai.html':`culture-${bank.id}.html`;
     for(const lesson of bank.lessons)assert(html.includes(`href="../${route}#${lesson.id}"`));
     assert.equal((html.match(/data-chapter-link=/g)||[]).length,bank.lessons.length);
     assert(html.includes('aria-current="location"'));

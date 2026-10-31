@@ -17,13 +17,14 @@ test('企业目录只选择企业，知识目录分到企业专属页',()=>{
   }
 });
 
-test('精简仅改变默认范围，旧题面与记录版本保持可用',()=>{
+test('扩展题库允许迁移旧版本，原有精简范围与旧题面保持可用',()=>{
   const data=JSON.parse(files.get('assets/exam-data.json'));
-  assert.equal(data.version,'908424273982');
-  assert.equal(data.questions.length,204);
-  assert.equal(data.lessons.length,68);
-  assert.equal(data.study.lessons.length,29);
-  assert.equal(data.study.questionIds.length,91);
+  assert(data.compatibleVersions.includes('908424273982'));
+  const legacy=['guoxin','cosco','current'];
+  assert.equal(data.questions.filter(q=>legacy.includes(q.scope)).length,204);
+  assert.equal(data.lessons.filter(l=>legacy.includes(l.scope)).length,68);
+  assert.equal(data.study.lessons.filter(l=>legacy.includes(l.scope)).length,29);
+  assert.equal(data.study.questionIds.filter(id=>data.questions.some(q=>q.id===id&&legacy.includes(q.scope))).length,91);
   assert.equal(Object.keys(data.study.explanations).length,28);
   assert(!data.study.explanations['co-q031'].includes('四个领航'));
   assert(!data.study.explanations['gx-q031'].includes('投资观'));

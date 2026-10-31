@@ -6,6 +6,7 @@ export function loadStudyBanks(banks) {
   const focus=JSON.parse(fs.readFileSync('content/exam-focus.json','utf8'));
   return banks.map(bank=>{
     const spec=focus[bank.id];
+    if(!spec)return bank;
     const lessons=spec.lessons||bank.lessons.filter(l=>!spec.excludeLessons.includes(l.id));
     const questionIds=spec.lessons?new Set(lessons.flatMap(l=>l.questionIds)):null;
     const questions=bank.questions.filter(q=>questionIds?questionIds.has(q.id):q.lessonIds.every(id=>lessons.some(l=>l.id===id))).map(q=>{
@@ -24,7 +25,7 @@ export function loadStudyBanks(banks) {
 
 export function studyPayload(banks) {
   const explanations=JSON.parse(fs.readFileSync('content/exam-focus-explanations.json','utf8'));
-  const companyQuestions=banks.filter(b=>b.id!=='current').flatMap(b=>b.questions.map(q=>q.id));
+  const companyQuestions=banks.filter(b=>['guoxin','cosco'].includes(b.id)).flatMap(b=>b.questions.map(q=>q.id));
   if(companyQuestions.some(id=>!explanations[id])||Object.keys(explanations).some(id=>!companyQuestions.includes(id)))throw new Error('Condensed explanations must cover exactly the company study questions');
   return {
     explanations,

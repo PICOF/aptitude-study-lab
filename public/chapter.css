@@ -72,6 +72,15 @@
 .chapter-complete p { margin: 0; color: #5d7183; font-size: 14px; line-height: 1.9; }
 .chapter-complete .button { font-size: 14px; }
 
+.tower-evidence-list { display:grid; gap:18px; }
+.tower-evidence-card { margin:18px 0; overflow-wrap:anywhere; }
+.tower-evidence-list .tower-evidence-card { margin:0; }
+.tower-evidence-card h3 { font-size:20px; margin:14px 0 8px; }
+.tower-evidence-card p { font-size:15px; line-height:1.9; }
+.tower-evidence-card blockquote { margin:20px 0; padding:14px 18px; border-left:4px solid var(--blue); background:var(--sky); border-radius:0 10px 10px 0; }
+.chapter-body code { overflow-wrap:anywhere; white-space:normal; }
+.tower-scope-note strong { display:block; margin-bottom:6px; }
+
 @media (max-width: 1000px) {
   .chapter-reference-grid { grid-template-columns: 1fr; }
   .chapter-keypoint-list { grid-template-columns: 1fr; gap: 6px; }

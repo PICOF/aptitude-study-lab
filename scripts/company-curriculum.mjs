@@ -1,5 +1,6 @@
+import {chapterRoute} from '../public/exam-routes.js';
 export function renderCurriculum(bank,{prefix='',currentLesson='',open=false,esc,icon,label='知识学习'}={}){
-  const route=bank.id==='current'?'current-affairs.html':`culture-${bank.id}.html`;
+  const route=chapterRoute(bank.id);
   const categories=[...new Set(bank.lessons.map(l=>l.category))];
   const selected=bank.lessons.find(l=>l.id===currentLesson);
   return `<details class="company-curriculum ${bank.id==='current'?'current-curriculum':''}" data-company-curriculum="${bank.id}" ${open?'open':''}>
